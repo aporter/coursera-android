@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Permission Example Boom User</string>
+    <string name="dangerous_action_button_string">Detonate</string>
+
+</resources>

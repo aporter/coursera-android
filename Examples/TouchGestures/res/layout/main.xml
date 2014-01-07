@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center" >
+        </FrameLayout>
+    </android.gesture.GestureOverlayView>
+
+</RelativeLayout>

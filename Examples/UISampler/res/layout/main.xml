@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:id="@+id/button" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="10dp"
+		android:background="@drawable/android_button" />
+
+	<EditText android:id="@+id/edittext" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+	<CheckBox android:id="@+id/checkbox" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="check it out" />
+
+	<RadioGroup android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<RadioButton android:id="@+id/radio_red"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Red" />
+		<RadioButton android:id="@+id/radio_blue"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Blue" />
+	</RadioGroup>
+
+	<ToggleButton android:id="@+id/togglebutton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textOn="Vibrate on" android:textOff="Vibrate off" />
+
+	<RatingBar android:id="@+id/ratingbar" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:numStars="5"
+		android:stepSize="1.0" />
+		
+</LinearLayout>

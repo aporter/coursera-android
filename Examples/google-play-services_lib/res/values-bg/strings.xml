@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Изтегляне на услугите за Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Това приложение няма да се изпълнява без услугите за Google Play, които липсват в телефона ви."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Това приложение няма да се изпълнява без услугите за Google Play, които липсват в таблета ви."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Услуги за Google Play: Изтегл."</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Активиране на услугите за Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Това приложение няма да работи, освен ако не активирате услугите за Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Услуги за Google Play: Актив."</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Актуализиране на услугите за Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Това приложение няма да се изпълнява, освен ако не актуализирате услугите за Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Неизвестен проблем с услугите за Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Услуги за Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Услугите за Google Play, на които разчитат някои от приложенията ви, не се поддържат от устройството ви. Моля, свържете се с производителя за помощ."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Актуализиране"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Вход"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Вход с Google"</string>
+</resources>

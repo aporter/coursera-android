@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Google Play pakalpojumu iegūšana"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Lai šī lietotne darbotos, tālrunī ir jāinstalē Google Play pakalpojumi."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Lai šī lietotne darbotos, planšetdatorā ir jāinstalē Google Play pakalpojumi."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Iegūt Google Play pakalpojumus"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Google Play pakalpojumu iespējošana"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Lai šī lietotne darbotos, iespējojiet Google Play pakalpojumus."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Iespējot Google Play pakalpojumus"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play pakalpojumu atjaunināšana"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Lai šī lietotne darbotos, atjauniniet Google Play pakalpojumus."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Nezināma problēma ar Google Play pakalpojumiem."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play pakalpojumi"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Jūsu ierīce neatbalsta Google Play pakalpojumus, kuri nepieciešami dažu jūsu lietojumprogrammu darbībai. Lūdzu, sazinieties ar ražotāju, lai saņemtu palīdzību."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Atjaunināt"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Pierakst."</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Pierakstīties Google"</string>
+</resources>

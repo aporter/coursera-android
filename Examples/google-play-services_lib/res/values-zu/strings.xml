@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Thola amasevisi e-Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Lolu hlelo lokusebenza ngeke lusebenze ngaphandle kwamasevisi e-Google Play, angekho efonini yakho."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Lolu hlelo lokusebenza ngeke lusebenze ngaphandle kwamasevisi e-Google Play, angekho kuthebulethi yakho."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Thola amasevisi e-Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Nika amandla amasevisi e-Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Lolu hlelo lokusebenza ngeke lusebenze ngaphandle nje kokuthi unike amandla amasevisi e-Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Nika amandla amasevisi e-Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Buyekeza amasevisi e-Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Lolu hlelo lokusebenza ngeke lusebenze ngaphandle nje kokuthi ubuyekeze amasevisi e-Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Indaba engaziwa yamasevisi we-Google Play"</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Amasevisi we-Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Amasevisi we-Google Play, okungukuthi ezinye izinhlelo zakho zithembele kuwo, awasekelwe yidivayisi yakho. Sicela uxhumane nomkhiqizi ukuze uthole usizo."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Isibuyekezo"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Ngena ngemvume"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Ngena ngemvume nge-Google"</string>
+</resources>

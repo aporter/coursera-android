@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AlarmCreateActivity!</string>
+    <string name="app_name">AlarmCreate</string>
+    <string name="set_single_alarm">Set Single Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="cancel_repeating_alarm">Cancel Repeating Alarm</string>
+    <string name="set_inexact_repeating_alarm">Set Inexact Repeating Alarm</string>
+</resources>

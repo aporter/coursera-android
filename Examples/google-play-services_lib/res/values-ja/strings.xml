@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Play開発者サービスの入手"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。"</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Play開発者サービスの入手"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Play開発者サービスの有効化"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Play開発者サービスの有効化"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Play開発者サービスの更新"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"このアプリの実行には、Google Play開発者サービスの更新が必要です。"</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Google Play開発者サービスで原因不明の問題が発生しました。"</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play開発者サービス"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。"</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"更新"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"ログイン"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Googleでログイン"</string>
+</resources>

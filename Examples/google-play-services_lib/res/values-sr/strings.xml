@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Преузимање Google Play услуга"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Ова апликација не може да се покрене без Google Play услуга, које недостају на телефону."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Ова апликација не може да се покрене без Google Play услуга, које недостају на таблету."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Преузми Google Play услуге"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Омогућавање Google Play услуга"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Ова апликација неће функционисати ако не омогућите Google Play услуге."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Омогући Google Play услуге"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Ажурирање Google Play услуга"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Ова апликација не може да се покрене ако не ажурирате Google Play услуге."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Непознат проблем са Google Play услугама."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play услуге"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Google Play услуге, које су потребне за функционисање неких од апликација, нису подржане на уређају. Контактирајте произвођача да бисте добили помоћ."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Ажурирај"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Пријави ме"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Пријави ме преко Google-а"</string>
+</resources>

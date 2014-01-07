@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Dapatkan perkhidmatan Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Apl ini tidak akan berfungsi tanpa perkhidmatan Google Play dan apl ini tiada pada telefon anda."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Apl ini tidak akan berfungsi tanpa perkhidmatan Google Play dan apl ini tiada pada tablet anda."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Dapatkan perkhidmatan Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Dayakan perkhidmatan Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Apl ini tidak akan berfungsi kecuali anda mendayakan perkhidmatan Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Dayakan perkhidmatan Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Kemas kini perkhidmatan Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Apl ini tidak akan berfungsi kecuali anda mengemas kini perkhidmatan Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Isu tidak diketahui dengan perkhidmatan Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Perkhidmatan Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Peranti anda tidak menyokong perkhidmatan Google Play, sedangkan sesetengah aplikasi anda memerlukannya. Sila hubungi pengilang untuk bantuan."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Kemas kini"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Log masuk"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Log masuk dengan Google"</string>
+</resources>

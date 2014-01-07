@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Namestite storitve Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Ta aplikacija ne deluje brez storitev Google Play, ki jih ni v telefonu."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Ta aplikacija ne deluje brez storitev Google Play, ki jih ni v tabličnem računalniku."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Namestite storitve Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Omogočite storitve Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Omogočite storitve Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Posodobite storitve Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Ta aplikacija ne deluje, če ne posodobite storitev Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Neznana težava s storitvami Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Storitve Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Vaša naprava na podpira storitev Google Play, ki jih potrebujejo nekatere od vaših aplikacij. Za pomoč se obrnite na izdelovalca."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Posodobi"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Prijava"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Prijavite se v Google"</string>
+</resources>

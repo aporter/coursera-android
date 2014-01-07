@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="Raw X:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/x_value_view"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="Raw Y:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/y_value_view"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="Raw Z:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/z_value_view"
+                android:textSize="24sp" 
+                android:paddingBottom="10dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="LowPass X"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/x_lowpass_view"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="LowPass Y:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/y_lowpass_view"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="LowPass Z:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/z_lowpass_view"
+                android:textSize="24sp" 
+                android:paddingBottom="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="HighPass X"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/x_highpass_view"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="HighPass Y:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/y_highpass_view"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="HighPass Z:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/z_highpass_view"
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

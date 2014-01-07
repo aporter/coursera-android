@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/detail_menu_item_main"
+        android:showAsAction="ifRoom|withText"
+        android:title="QuoteAction">
+    </item>
+    <item
+        android:id="@+id/detail_menu_item_secondary"
+        android:showAsAction="never"
+        android:title="SecondaryQuoteAction">
+    </item>
+</menu>

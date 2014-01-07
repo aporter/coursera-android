@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"קבל את שירותי Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"יישום זה לא יפעל ללא שירותי Google Play, החסרים בטלפון שלך."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"יישום זה לא יפעל ללא שירותי Google Play, החסרים בטאבלט שלך."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"קבל את שירותי Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"הפעלת שירותי Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"יישום זה לא יעבוד אם לא תפעיל את שירותי Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"הפעל את שירותי Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"עדכון שירותי Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"יישום זה לא יפעל אם לא תעדכן את שירותי Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"בעיה לא ידועה בשירותי Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"שירותי Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"שירותי Google Play, שחלק מהיישומים שלך מתבססים עליהם, אינם נתמכים על ידי המכשיר שברשותך. צור קשר עם היצרן לקבלת סיוע."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"עדכן"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"היכנס"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"היכנס באמצעות Google"</string>
+</resources>

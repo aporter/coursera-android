@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Inštalovať služby Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Na spustenie tejto aplikácie sa vyžadujú služby Google Play, ktoré v telefóne nemáte."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Na spustenie tejto aplikácie sa vyžadujú služby Google Play, ktoré v tablete nemáte."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Inštalovať služby Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Povoliť služby Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Táto aplikácia bude fungovať až po povolení služieb Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Povoliť služby Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Aktualizovať služby Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Túto aplikáciu bude možné spustiť až po aktualizácii služieb Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Neznámy problém so službami Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Služby Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Niektoré vaše aplikácie vyžadujú služby Google Play, ktoré vo vašom zariadení nie sú podporované. Ak potrebujete pomoc, kontaktujte výrobcu."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Aktualizovať"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Prihlásiť sa"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Prihlásiť sa do účtu Google"</string>
+</resources>

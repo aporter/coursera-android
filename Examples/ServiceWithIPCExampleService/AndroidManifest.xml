@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="course.examples.Services.KeyService"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <permission android:name="course.examples.Services.KeyService.GEN_ID" >
+    </permission>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon" >
+        <service
+            android:name=".KeyGeneratorImpl"
+            android:exported="true"
+            android:permission="course.examples.Services.KeyService.GEN_ID" >
+            <intent-filter>
+                <action android:name="course.examples.Services.KeyCommon.KeyGenerator" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
