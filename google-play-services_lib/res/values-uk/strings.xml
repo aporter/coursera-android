@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Установити Google Play Послуги"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Ця програма не запуститься без Google Play Послуг, яких немає у вашому телефоні."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Ця програма не запуститься без Google Play Послуг, яких немає на вашому планшетному ПК."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Установити Google Play Послуги"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Увімкнути Google Play Послуги"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Ця програма не працюватиме, поки ви не ввімкнете Google Play Послуги."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Увімкнути Google Play Послуги"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Оновити Google Play Послуги"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Ця програма не запуститься, поки ви не оновите Google Play Послуги."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Google Play Послуги – невідома проблема."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Сервіси Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Ваш пристрій не підтримує Сервіси Google Play, від яких залежить робота деяких програм. Зверніться по допомогу до виробника."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Оновити"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Увійти"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Увійти в обл.запис Google"</string>
+</resources>

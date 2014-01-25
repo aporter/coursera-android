@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Google Play-Dienste installieren"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Telefon nicht installiert sind."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Google Play-Dienste installieren"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Google Play-Dienste aktivieren"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Google Play-Dienste aktivieren"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play-Dienste aktualisieren"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Diese App wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Unbekanntes Problem mit Google Play-Diensten"</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play-Dienste"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Google Play-Dienste, auf denen einige Ihrer Apps basieren, werden von diesem Gerät nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Aktualisieren"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Anmelden"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Über Google anmelden"</string>
+</resources>

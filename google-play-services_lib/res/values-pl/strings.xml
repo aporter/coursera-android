@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Pobierz Usługi Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Ta aplikacja nie będzie działać bez Usług Google Play, których nie masz na telefonie."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Ta aplikacja nie będzie działać bez Usług Google Play, których nie masz na tablecie."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Pobierz Usługi Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Włącz Usługi Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Ta aplikacja nie będzie działać, jeśli nie włączysz Usług Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Włącz Usługi Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Aktualizuj Usługi Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Ta aplikacja nie będzie działać, jeśli nie zaktualizujesz Usług Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Nieznany problem z Usługami Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Usługi Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Usługi Google Play, od których zależy działanie niektórych aplikacji, nie są obsługiwane na Twoim urządzeniu. Skontaktuj się z producentem, by uzyskać pomoc."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Aktualizuj"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Zaloguj się"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Zaloguj się przez Google"</string>
+</resources>
