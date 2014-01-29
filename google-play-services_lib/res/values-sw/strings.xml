@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Pata huduma za Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Programu hii haiwezi kuendeshwa bila huduma za Google Play, ambazo hazipo kwenye simu yako."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Programu hii haiwezi kuendeshwa bila huduma za Google Play, ambazo hazipo kwenye kompyuta yako ndogo."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Pata huduma za Google Play"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Wezesha huduma za Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Programu hii haitafanya kazi mpaka utakapowezesha huduma za Google Play."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Wezesha huduma za Google Play"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Sasisha huduma za Google Play"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Programu hii haiwezi kuendeshwa mpaka utakaposasisha huduma za Google Play."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Suala lisilojulikana na huduma za Google Play."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Huduma za Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Huduma za Google Play, ambazo baadhi ya programu zako zinategemea, si linganifu na kifaa chako. Tafadhali wasiliana na mtengenezaji kwa usaidizi."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Sasisha"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Ingia"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Ingia ukitumia Google"</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCCCC"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/sq1"
+        android:gravity="center"
+        android:text="@string/text_literal"
+        android:textColor="#ff00ff00"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/sq2"
+        android:gravity="center"
+        android:text="@string/text_literal"
+        android:textColor="#FF00FFFF"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:typeface="monospace" 
+                android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/sq3"
+        android:gravity="center"
+        android:text="@string/text_literal"
+        android:textColor="#FFFFFF00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif" 
+                android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/sq4"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/long_text"
+        android:textColor="#FF0000FF"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="sans"
+        
+                android:layout_weight="1"/>
+
+</LinearLayout>

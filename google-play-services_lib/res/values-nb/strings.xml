@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Installer Google Play Tjenester"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Denne appen kan ikke kjøres uten Google Play Tjenester, som ikke er installert på telefonen din."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Denne appen kan ikke kjøres uten Google Play Tjenester, som ikke er installert på nettbrettet ditt."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Installer Google Play Tjenester"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Aktiver Google Play Tjenester"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Denne appen fungerer ikke med mindre du aktiverer Google Play Tjenester."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Aktiver Google Play Tjenester"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Oppdater Google Play Tjenester"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Denne appen kan ikke kjøres før du oppdaterer Google Play Tjenester."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Det oppsto et ukjent problem med Google Play Tjenester."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play-tjenester"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Google Play Tjenester, som noen av appene er avhengige av, støttes ikke av enheten. Ta kontakt med produsenten for å få hjelp."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Oppdater"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Logg på"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Logg inn med Google"</string>
+</resources>

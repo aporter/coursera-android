@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Google Play አገልግሎቶችን አግኝ"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"ይህ መተግበሪያ ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ ስልክዎ ላይ የሉም።"</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"ይህ መተግበሪያ ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ ጡባዊዎ ላይ የሉም።"</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Google Play አገልግሎቶችን አግኝ"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Google Play አገልግሎቶችን አንቃ"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Google Play አገልግሎቶችን እስካላነቁ ድረስ ይህ መተግበሪያ አይሰራም።"</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Google Play አገልግሎቶችን አንቃ"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play አገልግሎቶችን ያዘምኑ"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Google Play አገልግሎቶችን እስኪያዘምኑ ድረስ ይህ መተግበሪያ አይሰራም።"</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"በGoogle Play አገልግሎቶች ላይ ያልታወቀ ችግር።"</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play አገልግሎቶች"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"የGoogle Play አገልግሎቶች፣ አንዳንድ መተግበሪያዎችዎ በእሱ ላይ ጥገኛ የሆኑት፣ በመሣሪያዎ አይደገፍም። እባክዎ ለእርዳታ አምራቹን ያግኙ።"</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"ያዘምኑ"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"ግባ"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"በGoogle ይግቡ"</string>
+</resources>

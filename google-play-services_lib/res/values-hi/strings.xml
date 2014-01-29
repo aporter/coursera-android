@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Google Play सेवाएं पाएं"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"यह एप्लिकेशन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके फ़ोन में नहीं हैं."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"यह एप्लिकेशन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके टेबलेट में नहीं हैं."</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Google Play सेवाएं पाएं"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Google Play सेवाएं सक्षम करें"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"जब तक आप Google Play सेवाएं सक्षम नहीं करते, तब तक यह एप्लिकेशन कार्य नहीं करेगा."</string>
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Google Play सेवाएं सक्षम करें"</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play सेवाएं अपडेट करें"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"जब तक आप Google Play सेवाओं को अपडेट नहीं करते, तब तक यह एप्लिकेशन नहीं चलेगा."</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Google Play सेवाओं के साथ अज्ञात समस्या."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play सेवाएं"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Google Play सेवाएं, जिन पर आपके कुछ एप्लिकेशन निर्भर करते हैं, आपके उपकरण द्वारा समर्थित नहीं हैं. कृपया सहायता के लिए निर्माता से संपर्क करें."</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"अपडेट करें"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"साइन इन करें"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Google से साइन इन करें"</string>
+</resources>
