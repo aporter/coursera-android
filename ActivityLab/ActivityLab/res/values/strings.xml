@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityLab</string>
+    <string name="menu_settings">Settings</string>
+    <string name="onCreate">onCreate() calls: 0</string>
+    <string name="onStart">onStart() calls: 0</string>
+    <string name="onResume">onResume() calls: 0</string>
+    <string name="onRestart">onRestart() calls: 0</string>
+    <string name="button">Start Activity Two</string>
+    <string name="title_activity_activity_two">Activity Two</string>
+    <string name="close">Close Activity</string>
+	
+</resources>
