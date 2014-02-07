@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
-    <!--TODO Remove tools:ignore line after lint issue gets fixed-->
 
     <!-- Title of confirmation dialog informing user that they need to install
         Google Play services (from Play Store) [CHAR LIMIT=40] -->
@@ -59,16 +58,16 @@
     <!-- Long form sign-in button text [CHAR LIMIT=30] -->
     <string name="common_signin_button_text_long">Sign in with Google</string>
 
-  <!-- Auth client code resources (prefix with auth_client --><skip />
-  <!--  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] -->
-  <string name="auth_client_availability_notification_title">Install/Update/Enable Google Play services</string>
+    <!-- Auth client code resources (prefix with auth_client --><skip />
+    <!--  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] -->
+    <string name="auth_client_availability_notification_title">Install/Update/Enable Google Play services</string>
 
-  <!--  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] -->
-  <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <!--  Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] -->
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
 
-  <!--  Requested by string saying which app requested the notification. [CHAR LIMIT=42] -->
-  <string name="auth_client_requested_by_msg">Requested by <xliff:g id="app_name">%1$s</xliff:g></string>
-  <!-- End Auth client resources --><skip />
+    <!--  Requested by string saying which app requested the notification. [CHAR LIMIT=42] -->
+    <string name="auth_client_requested_by_msg">Requested by <xliff:g id="app_name">%1$s</xliff:g></string>
+    <!-- End Auth client resources --><skip />
 
     <!-- Location client code resources (prefix with location_client) -->
 
