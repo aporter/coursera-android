@@ -129,8 +129,8 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Update the appropriate count variable
 		// Update the user interface
-
-
+		++mResume;
+		displayCounts();
 	}
 
 	@Override
@@ -182,7 +182,10 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Save state information with a collection of key-value pairs
 		// 4 lines of code, one for every count variable
-
+		savedInstanceState.putInt(RESTART_KEY, mRestart);
+		savedInstanceState.putInt(RESUME_KEY, mResume);
+		savedInstanceState.putInt(CREATE_KEY, mCreate);
+		savedInstanceState.putInt(START_KEY, mStart);
 
 
 

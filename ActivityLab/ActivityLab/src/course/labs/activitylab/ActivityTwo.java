@@ -65,7 +65,7 @@ public class ActivityTwo extends Activity {
 				// TODO:
 				// This function closes Activity Two
 				// Hint: use Context's finish() method
-				finish();
+				ActivityTwo.this.finish();
 
 
 			
@@ -78,13 +78,16 @@ public class ActivityTwo extends Activity {
 			// TODO:
 			// Restore value of counters from saved state
 			// Only need 4 lines of code, one for every count variable
-
+			mRestart = savedInstanceState.getInt(RESTART_KEY);
+			mCreate = savedInstanceState.getInt(CREATE_KEY);
+			mStart = savedInstanceState.getInt(START_KEY);
+			mResume = savedInstanceState.getInt(RESUME_KEY);
 
 
 		}
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "Entered the OnCreate method");
+		Log.i(TAG, "Entered the onCreate method");
 
 
 		// TODO:
