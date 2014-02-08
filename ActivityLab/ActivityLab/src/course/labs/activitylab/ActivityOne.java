@@ -66,11 +66,12 @@ public class ActivityOne extends Activity {
 				// TODO:
 				// Launch Activity Two
 				// Hint: use Context's startActivity() method
-
+				
 				// Create an intent stating which Activity you would like to start
-
+				Intent activityTwoIntent= new Intent(ActivityOne.this,ActivityTwo.class);
 				
 				// Launch the Activity using the intent
+				startActivity(activityTwoIntent);
 
 			
 			}
@@ -82,16 +83,20 @@ public class ActivityOne extends Activity {
 			// TODO:
 			// Restore value of counters from saved state
 			// Only need 4 lines of code, one for every count variable
-			
-		
+			mRestart = savedInstanceState.getInt(RESTART_KEY);
+			mCreate = savedInstanceState.getInt(CREATE_KEY);
+			mStart = savedInstanceState.getInt(START_KEY);
+			mResume = savedInstanceState.getInt(RESUME_KEY);
 		}
 
 		// TODO: Emit LogCat message
-
+		Log.i(TAG,"Entered the onCreate method");
 
 		// TODO:
 		// Update the appropriate count variable
+		++mCreate;
 		// Update the user interface via the displayCounts() method
+		displayCounts();
 
 
 
@@ -104,12 +109,13 @@ public class ActivityOne extends Activity {
 		super.onStart();
 
 		// TODO: Emit LogCat message
-
+		Log.i(TAG,"Entered the onStart method");
 
 		// TODO:
 		// Update the appropriate count variable
+		++mStart;
 		// Update the user interface
-
+		displayCounts();
 
 	}
 
@@ -118,7 +124,7 @@ public class ActivityOne extends Activity {
 		super.onResume();
 
 		// TODO: Emit LogCat message
-
+		Log.i(TAG, "Entered the onResume method");
 
 		// TODO:
 		// Update the appropriate count variable
@@ -132,6 +138,7 @@ public class ActivityOne extends Activity {
 		super.onPause();
 
 		// TODO: Emit LogCat message
+		Log.i(TAG, "Entered the onPause method");
 
 	}
 
@@ -140,6 +147,7 @@ public class ActivityOne extends Activity {
 		super.onStop();
 
 		// TODO: Emit LogCat message
+		Log.i(TAG, "Entered the onStop method");
 
 	}
 
@@ -148,11 +156,13 @@ public class ActivityOne extends Activity {
 		super.onRestart();
 
 		// TODO: Emit LogCat message
-
+		Log.i(TAG, "Entered the onRestart method");
 
 		// TODO:
 		// Update the appropriate count variable
+		++mRestart;
 		// Update the user interface
+		displayCounts();
 
 
 
@@ -163,7 +173,7 @@ public class ActivityOne extends Activity {
 		super.onDestroy();
 
 		// TODO: Emit LogCat message
-
+		Log.i(TAG,"Entered the onDestroy method");
 
 	}
 
