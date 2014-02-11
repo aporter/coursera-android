@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntentsLab</string>
+    <string name="main_message">Press a button:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_explicit">Explicit Activation</string>
+    <string name="title_main">Activity Loader Activity</string>
+    <string name="explicit_message">You have sent an Explicit Intent!</string>
+    <string name="explicit_activation_button_string">Explicit Activation</string>
+    <string name="implicit_activation_button_string">Implicit Activation</string>
+    <string name="main_button3">Part 2: Permissions</string>
+    <string name="title_permissions">Permissions</string>
+    <string name="perms_button1">Get Bookmarks</string>
+    <string name="perms_button2">Part 3: Customization</string>
+    <string name="place_holder">\n \n Bookmarks Go Here \n \n</string>
+    <string name="title_activity_customization">Customization</string>
+    <string name="cust_button1">Start Dangerous Activity</string>
+    <string name="cust_message">This button will load a Dangerous Level activity</string>
+    <string name="title_activity_my_browser">MyBrowser</string>
+    <string name="no_text_entered">No Text Entered</string>
+    <string name="enter_string">Enter</string>
+    <string name="enter_text_here_string">Enter Text Here</string>
+
+</resources>
