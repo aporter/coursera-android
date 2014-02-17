@@ -12,7 +12,7 @@
         android:label="@string/app_name" 
         android:allowBackup="false">
         <activity
-            android:name="QuoteViewerActivity"
+            android:name="FragmentDynamicLayoutWithActionBar"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
