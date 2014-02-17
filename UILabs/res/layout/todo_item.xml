@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/StatusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/statusCheckBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/done_string" >
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/statusCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:layout_toRightOf="@+id/StatusLabel" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/PriorityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/statusCheckBox"
+        android:layout_alignTop="@+id/StatusLabel"
+        android:layout_toLeftOf="@+id/priorityView"
+        android:text="@string/priority_string" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/priorityView"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/statusCheckBox"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/StatusLabel" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/DateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/statusCheckBox"
+        android:text="@string/date_string" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DateLabel"
+        android:layout_toRightOf="@+id/DateLabel" >
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UILabs</string>
+    <string name="done_string">Done:</string>
+    <string name="priority_string">Priority:</string>
+    <string name="date_string">Date:</string>
+    <string name="add_new_todo_item_string">Add New ToDo Item</string>
+    <string name="title_string">Title</string>
+    <string name="status_string">Status</string>
+    <string name="not_done_string">Not Done</string>
+    <string name="priority_low_string">Low</string>
+    <string name="priority_medium_string">Medium</string>
+    <string name="priority_high_string">High</string>
+    <string name="time_and_date_string">Time and Date</string>
+    <string name="no_date_set_string">0000-00-00</string>
+    <string name="no_time_set_string">00:00:00</string>
+    <string name="choose_date_string">Choose Date</string>
+    <string name="choose_time_string">Choose Time</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="reset_string">Reset</string>
+    <string name="submit_string">Submit</string>
+    <string name="enter_title_string">Enter Title</string>
+
+</resources>
