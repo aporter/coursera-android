@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello Android!</string>
-    <string name="app_name">Hello Android with Login</string>
+    <string name="app_name">HelloAndroidWithLogin</string>
     <string name="username_string">UserName</string>
     <string name="password_string">Password</string>
     <string name="enter_username_hint">Enter username</string>

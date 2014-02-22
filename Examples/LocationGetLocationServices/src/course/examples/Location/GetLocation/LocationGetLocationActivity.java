@@ -7,21 +7,18 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.IntentSender;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.location.LocationClient;
-import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
 
 public class LocationGetLocationActivity extends Activity implements
 		GooglePlayServicesClient.ConnectionCallbacks,
@@ -35,7 +32,6 @@ public class LocationGetLocationActivity extends Activity implements
 	private static final long FASTES_UPDATE_FREQ = 1000 * 2;
 	private static final float MIN_ACCURACY = 25.0f;
 	private static final float MIN_LAST_READ_ACCURACY = 500.0f;
-	private static final float MIN_DISTANCE = 10.0f;
 
 	// Define an object that holds accuracy and frequency parameters
 	LocationRequest mLocationRequest;
