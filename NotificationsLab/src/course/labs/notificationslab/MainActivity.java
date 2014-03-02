@@ -106,8 +106,8 @@ public class MainActivity extends Activity implements SelectionListener {
 					// Check to make sure this is an ordered broadcast
 					// Let sender know that the Intent was received
 					// by setting result code to RESULT_OK
-					if (this.isOrderedBroadcast()) {
-					this.setResultCode(RESULT_OK);
+					if (mRefreshReceiver.isOrderedBroadcast()) {
+					mRefreshReceiver.setResultCode(RESULT_OK);
 					}
 
 				}
@@ -184,7 +184,7 @@ public class MainActivity extends Activity implements SelectionListener {
 		// DATA_REFRESHED_ACTION broadcast
 		
 		if (null != mRefreshReceiver) {
-			IntentFilter intentFilter = new IntentFilter("DATA_REFRESHED_ACTION");
+			IntentFilter intentFilter = new IntentFilter(DATA_REFRESHED_ACTION);
 			//Lallo - Another way to do this:
 			//IntentFilter intentFilter = new IntentFilter();
 			//intentFilter.addAction("DATA_REFRESHED_ACTION");
