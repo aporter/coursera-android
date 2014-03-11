@@ -166,8 +166,9 @@ public class LocationGetLocationActivity extends Activity {
 	}
 
 	// Get the last known location from all providers
-	// return best reading is as accurate as minAccuracy and
-	// was taken no longer then minAge milliseconds ago
+	// return best reading that is as accurate as minAccuracy and
+	// was taken no longer then minAge milliseconds ago. If none,
+	// return null.
 
 	private Location bestLastKnownLocation(float minAccuracy, long minAge) {
 
