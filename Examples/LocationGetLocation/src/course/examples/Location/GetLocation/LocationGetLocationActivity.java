@@ -197,7 +197,7 @@ public class LocationGetLocationActivity extends Activity {
 		}
 
 		// Return best reading or null
-		if (bestAccuracy > minAccuracy || bestTime < minTime) {
+		if (bestAccuracy > minAccuracy || (System.currentTimeMillis() - bestTime) > minTime) {
 			return null;
 		} else {
 			return bestResult;
