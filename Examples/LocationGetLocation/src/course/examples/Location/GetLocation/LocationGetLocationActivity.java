@@ -167,13 +167,13 @@ public class LocationGetLocationActivity extends Activity {
 
 	// Get the last known location from all providers
 	// return best reading is as accurate as minAccuracy and
-	// was taken no longer then minTime milliseconds ago
+	// was taken no longer then minAge milliseconds ago
 
-	private Location bestLastKnownLocation(float minAccuracy, long minTime) {
+	private Location bestLastKnownLocation(float minAccuracy, long minAge) {
 
 		Location bestResult = null;
 		float bestAccuracy = Float.MAX_VALUE;
-		long bestTime = Long.MIN_VALUE;
+		long bestAge = Long.MIN_VALUE;
 
 		List<String> matchingProviders = mLocationManager.getAllProviders();
 
@@ -190,14 +190,14 @@ public class LocationGetLocationActivity extends Activity {
 
 					bestResult = location;
 					bestAccuracy = accuracy;
-					bestTime = time;
+					bestAge = time;
 
 				}
 			}
 		}
 
 		// Return best reading or null
-		if (bestAccuracy > minAccuracy || (System.currentTimeMillis() - bestTime) > minTime) {
+		if (bestAccuracy > minAccuracy || (System.currentTimeMillis() - bestAge) > minAge) {
 			return null;
 		} else {
 			return bestResult;
