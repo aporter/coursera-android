@@ -170,7 +170,7 @@ public class LocationGetLocationActivity extends Activity {
 	// was taken no longer then minAge milliseconds ago. If none,
 	// return null.
 
-	private Location bestLastKnownLocation(float minAccuracy, long minAge) {
+	private Location bestLastKnownLocation(float minAccuracy, long maxAge) {
 
 		Location bestResult = null;
 		float bestAccuracy = Float.MAX_VALUE;
@@ -198,7 +198,7 @@ public class LocationGetLocationActivity extends Activity {
 		}
 
 		// Return best reading or null
-		if (bestAccuracy > minAccuracy || (System.currentTimeMillis() - bestAge) > minAge) {
+		if (bestAccuracy > minAccuracy || (System.currentTimeMillis() - bestAge) > maxAge) {
 			return null;
 		} else {
 			return bestResult;
