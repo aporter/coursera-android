@@ -45,6 +45,7 @@ public class DisplayActivity extends ListActivity implements
 		super.onCreate(savedInstanceState);
 
 		// Get Account information
+		// Must have a Google account set up on your device
 		mAccountList = AccountManager.get(this).getAccountsByType("com.google");
 		mType = mAccountList[0].type;
 		mName = mAccountList[0].name;
