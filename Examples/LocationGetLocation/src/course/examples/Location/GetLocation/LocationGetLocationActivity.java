@@ -125,9 +125,9 @@ public class LocationGetLocationActivity extends Activity {
 		// Determine whether initial reading is
 		// "good enough"
 
-		if (mBestReading.getAccuracy() > MIN_LAST_READ_ACCURACY
-				|| mBestReading.getTime() < System.currentTimeMillis()
-						- TWO_MIN) {
+		if (null == mBestReading 
+		        || mBestReading.getAccuracy() > MIN_LAST_READ_ACCURACY
+			|| mBestReading.getTime() < System.currentTimeMillis() - TWO_MIN) {
 
 			// Register for network location updates
 			mLocationManager.requestLocationUpdates(
