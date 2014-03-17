@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/delete_badges"
+        android:title="@string/delete"/>
+    
+    <item
+		android:id="@+id/print_badges"
+        android:title="@string/print"/>
+    
+    <item
+		android:id="@+id/place_one"
+        android:title="@string/place_one"/>
+    
+    <item
+		android:id="@+id/place_invalid"
+        android:title="@string/place_invalid"/>
+    
+    <item
+		android:id="@+id/place_two"
+        android:title="@string/place_two"/>
+    
+</menu>
