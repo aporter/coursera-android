@@ -49,7 +49,7 @@
 
 ## Week 5
 
-* [AlarmCreateActivity](./AlarmCreateActivity/)
+* [AlarmCreate](./AlarmCreate/)
 * [BcastRecCompBcast](./BcastRecCompBcast/)
 * [BcastRecCompOrdBcast](./BcastRecCompOrdBcast/)
 * [BcastRecCompOrdBcastWithResRec](./BcastRecCompOrdBcastWithResRec/)
@@ -103,7 +103,7 @@
 * [MapEarthQuakeMap](./MapEarthQuakeMap/)
 * [SensorCompass](./SensorCompass/)
 * [SensorFilteredAccelerometer](./SensorFilteredAccelerometer/)
-* [SensorShowValues](./SensorShowValues/)
+* [SensorRawAccelerometer](./SensorRawAccelerometer/)
 
 ## Week 8
 
@@ -124,7 +124,7 @@
 * [HelloAndroidTest](./HelloAndroidTest/)
 * [HelloAndroidWithLogin](./HelloAndroidWithLogin/)
 * [HelloTabWidget](./HelloTabWidget/)
-* [LoggingServiceExample](./LoggingServiceExample/)
+* [LoggingServiceClient](./LoggingServiceClient/)
 * [LoggingServiceWithMessenger](./LoggingServiceWithMessenger/)
 * [LoggingServiceWithMessengerClient](./LoggingServiceWithMessengerClient/)
 * [MusicPlayingServiceExample](./MusicPlayingServiceExample/)
