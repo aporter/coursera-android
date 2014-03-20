@@ -1,0 +1,2 @@
+This has been created by Lallo in order to add this previously empty directory to the index (i.e. to commit res directory).
+http://stackoverflow.com/questions/115983/how-do-i-add-an-empty-directory-to-a-git-repository
