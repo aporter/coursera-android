@@ -5,7 +5,7 @@
     <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="18"/>
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".BubbleActivityCanvas"
+        <activity android:name=".BubbleActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
