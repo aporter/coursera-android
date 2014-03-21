@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">UI ListView</string>
+	<string name="app_name">UIListView</string>
 	<string-array name="colors">
 		<item>red</item>
 		<item>orange</item>
@@ -9,8 +9,8 @@
 		<item>blue</item>
 		<item>indigo</item>
 		<item>violet</item>
-		<item> aqua </item>
-		<item> black</item>
+		<item>aqua</item>
+		<item>black</item>
 		<item>fuchsia</item>
 		<item>gray</item>
 		<item>grey</item>

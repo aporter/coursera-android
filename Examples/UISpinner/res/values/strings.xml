@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">UI Spinner</string>
+    <string name="app_name">UISpinner</string>
     <string-array name="colors">
         <item>red</item>
         <item>orange</item>
