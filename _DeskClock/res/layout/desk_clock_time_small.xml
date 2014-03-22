@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- digital clock & date, together -->
+<com.android.deskclock.DigitalClock xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="top"
+    >
+
+    <com.android.deskclock.ZeroTopPaddingTextView
+        android:id="@+id/timeDisplayHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/time_margin_right"
+        android:singleLine="true"
+        android:ellipsize="none"
+        style="@style/medium_bold"
+        android:textColor="@color/clock_white"/>
+    <com.android.deskclock.ZeroTopPaddingTextView
+        android:id="@+id/timeDisplayMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/medium_light"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:textColor="@color/clock_white" />
+    <com.android.deskclock.ZeroTopPaddingTextView
+        android:id="@+id/am_pm"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/label"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:gravity="top"
+        android:textColor="@color/clock_white"
+        />
+</com.android.deskclock.DigitalClock>

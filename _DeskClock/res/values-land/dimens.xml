@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="time_text_size">153dip</dimen>
+    <dimen name="ampm_text_size">32dip</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+    <dimen name="next_alarm_text_size">15sp</dimen>
+    <dimen name="time_margin_right">8dip</dimen>
+    <dimen name="time_margin_bottom">14dip</dimen>
+    <dimen name="time_margin_top">8dip</dimen>
+    <dimen name="ampm_margin_top">16dip</dimen>
+    <dimen name="font_margin_adjust">8dip</dimen>
+    <dimen name="next_alarm_margin_top">-5dip</dimen>
+
+    <dimen name="dialpad_font_size">24sp</dimen>
+
+    <dimen name="timer_circle_diameter">240dip</dimen>
+    <dimen name="timer_circle_width">400dip</dimen>
+    <dimen name="actionbar_tab_padding">32dip</dimen>
+
+    <!-- Size of margin for circles. -->
+    <dimen name="circle_margin">8dp</dimen>
+    <dimen name="laps_margin">16dp</dimen>
+    <dimen name="analog_clock_margin">200dp</dimen>
+
+    <!-- Extra offset for timer button paddings. Only nonzero for non-tablets. -->
+    <dimen name="timer_button_extra_offset">45dip</dimen>
+
+    <dimen name="glowpadview_margin_bottom">0dip</dimen>
+    <dimen name="glowpadview_margin_right">-64dip</dimen>
+
+    <dimen name="alarm_alert_clock_padding_left">32dp</dimen>
+
+</resources>

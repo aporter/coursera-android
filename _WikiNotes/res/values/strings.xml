@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	* Copyright (C) 2008 Google Inc. 
+	* 
+	* Licensed under the Apache License, Version 2.0 (the "License");
+	* you may not use this file except in compliance with the License.
+	* You may obtain a copy of the License at
+	* 
+	*     http://www.apache.org/licenses/LICENSE-2.0
+	* 
+	* Unless required by applicable law or agreed to in writing, software
+	* distributed under the License is distributed on an "AS IS" BASIS,
+	* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	* See the License for the specific language governing permissions and
+	* limitations under the License.
+-->
+<resources>
+    <string name="app_name">Wiki Notes</string>
+    <string name="wiki_title">Wiki Notes -%s</string>
+    <string name="wiki_editing">Editing Note - %s</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="delete_title">Delete Note?</string>
+    <string name="delete_message">Really delete this page? All information will be lost!</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="search_results">Matching:</string>
+    <string name="recent_changes">Recently Changed Pages</string>
+    <string name="search_body">Search Contents</string>
+    <string name="search_titles">Search Titles</string>
+    <string name="search_title">Search Notes</string>
+    <string name="start_page">Top Note</string>
+    <string name="menu_edit">Edit Note</string>
+    <string name="menu_start">Go To Start Note</string>
+    <string name="menu_recent">List All Notes</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="menu_export">Export Notes</string>
+    <string name="menu_import">Import Notes</string>
+    <string name="about_title">About WikiNotes</string>
+    <string name="about_body">"Thank you for using WikiNotes!\n\nTo get started, edit the Top Note (which appears
+right away when you first start WikiNotes) and add text.  Text that has more than one capital letter -- called
+a WikiWord -- is automatically turned into a link. By touching a WikiWord, you can create a new note with that title,
+or edit an existing note. Use the Menu button to delete and edit existing notes, and to access a list of all your notes.\n\n
+WikiNotes is brought to you by Dick Wall, Dan Morrill, and the Android team at Google.\n\n
+WikiNotes is open-source software, released under the Apache 2.0 Software License.
+For more information, visit us at http://code.google.com/p/apps-for-android/\n"
+    </string>
+    <string name="about_dismiss_button">Done</string>
+    <string name="menu_about">About WikiNotes</string>
+    <string name="export_success_title">Export Succeeded</string>
+    <string name="export_failure_title">Export Failed</string>
+    <string name="export_success">"Successfully exported %1$d notes to removable media (SD card.)\n\nConnect the device to your computer to retrieve the file named:\n%2$s."</string>
+    <string name="export_failure_missing_sd">There is no external storage (SD card) present, or it is not working properly.\n\nIf your device is currently connected to your computer, eject it, disconnect it, and try again.</string>
+    <string name="export_failure_io_error">Something went wrong while writing the file.</string>
+    <string name="export_dismiss_button">Okay</string>    
+    <string name="import_confirm_title">Are you sure?</string>
+    <string name="import_confirm_body">Be careful! Importing notes will destroy all the notes you currently have!\n\n
+If you don\'t want to lose your current notes, please touch \'Cancel\'.\n\n
+If you wish to proceed with the import, be sure that a file named WikiNotes-import.xml is on your removable storage card (SD card) and touch \'Proceed\'.\n</string>
+    <string name="import_confirm_button">Proceed</string>
+    <string name="import_cancel_button">Cancel</string>
+    <string name="import_success">Successfully imported %1$d notes.</string>
+    <string name="import_success_title">Import Succeeded</string>
+    <string name="import_failure_title">Import Failed</string>
+    <string name="import_failure_io">An error occurred while reading the data to import.\n\nPlease check your storage card, and try again.</string>
+    <string name="import_failure_corrupt">The data in the import file doesn\'t seem to be WikiNotes XML.\n\nPlease verify that the file was previously exported from WikiNotes, and try again.</string>
+    <string name="import_failure_nofile">There doesn\'t seem to be a file to import data from.\n\nPlease check your storage card and copy a file previously exported from WikiNotes into the root folder of the card, under the name "WikiNotes-import.xml".</string>
+    <string name="email_leader">Hello! I thought you might be interested in seeing this note I recorded on my Android phone.\n\n%1$s</string>
+    <string name="menu_email">Mail Note</string>
+</resources>

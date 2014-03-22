@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <style name="clock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="DeskClock" parent="android:Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarTabStyle">@style/DeskClockTabStyle</item>
+        <item name="android:actionBarStyle">@style/DeskClockBarStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/DeskClockTabBarStyle</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="DeskClockTabStyle" parent="@android:style/Theme.Holo">
+        <item name="android:paddingLeft">@dimen/actionbar_tab_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_tab_padding</item>
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="DeskClockTabBarStyle" parent="@android:style/Theme.Holo">
+        <item name="android:background">@drawable/header_bg</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:dividerPadding">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="DeskClockBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/header_bg_bar</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:displayOptions"></item>
+    </style>
+
+    <style name="DeskClockDropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/item_background</item>
+    </style>
+
+    <style name="AlarmClockTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+
+    <style name="SettingsTheme" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+
+    <style name="SettingsTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+        <item name="android:background">@drawable/ab_hairline</item>
+
+    </style>
+
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+        <item name="android:textColor">@color/clock_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SetAlarmTheme" parent="android:Theme.Holo.DialogWhenLarge"/>
+
+    <style name="AlarmAlertFullScreenWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <!-- NOTE: This must be a fullscreen theme, or else the fullscreen alarm will
+         be unable to turn the screen on. -->
+    <style name="AlarmAlertFullScreenTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar">
+        <item name="android:windowTitleStyle">@style/AlarmAlertFullScreenWindowTitle</item>
+    </style>
+
+    <style name="ScreensaverActivityTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar" />
+
+    <style name="RoundTouchButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="ButtonStripLeft">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_strip_trans_left</item>
+    </style>
+    <style name="ButtonStripMiddle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_strip_trans_middle</item>
+    </style>
+    <style name="ButtonStripRight">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_strip_trans_right</item>
+    </style>
+
+    <style name="alarm_list_left_column">
+        <item name="android:layout_width">68dip</item>
+        <item name="android:layout_height">68dip</item>
+    </style>
+
+    <style name="small_bold">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="medium_bold">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="widget_medium_bold" parent="medium_bold">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+    </style>
+
+    <style name="small_light">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="medium_light">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="widget_medium_light" parent="medium_light">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">@dimen/label_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="label_not_caps" parent="label">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="header">
+        <item name="android:textSize">@dimen/header_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="header_not_caps" parent ="header">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="big_bold">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="widget_big_bold" parent="big_bold">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+
+    <style name="big_thin">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="widget_big_thin" parent="big_thin">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+
+    <style name="alarm_label">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="alarm_label_not_caps" parent="alarm_label">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="alarm_label_bold">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="body">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="body_not_caps" parent="body">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="body_bold">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="timer_label">
+        <item name="android:textSize">@dimen/timer_label_font_size</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="dialog_button">
+        <item name="android:textSize">@dimen/dialog_button_font_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="bold_button" parent="button">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="dialpad_ampm" parent="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size_ampm</item>
+    </style>
+
+    <style name="city_name">
+        <item name="android:textSize">@dimen/city_name_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="city_time">
+        <item name="android:textSize">@dimen/city_time_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="tablet_dialpad">
+        <item name="android:textSize">@dimen/tablet_dialpad_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="tablet_dialpad_ampm">
+        <item name="android:textSize">@dimen/tablet_dialpad_font_size_ampm</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="TimePickerDialog" parent="android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Status Bar Styles -->
+    <style name="TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+        <style name="TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="ToastBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:alpha">0</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

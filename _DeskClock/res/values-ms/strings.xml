@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6674495003718166674">"Jam"</string>
+    <string name="alarm_list_title" msgid="7589940465292950600">"Penggera"</string>
+    <string name="add_alarm" msgid="5976616107390962899">"Tambah penggera"</string>
+    <string name="menu_desk_clock" msgid="3241995064554071588">"Jam meja"</string>
+    <string name="menu_edit_alarm" msgid="7204602994918829751">"Edit penggera"</string>
+    <string name="delete_alarm" msgid="3457780990646206817">"Padam penggera"</string>
+    <string name="enable_alarm" msgid="1834599140632142536">"Hidupkan penggera"</string>
+    <string name="disable_alarm" msgid="5889378670229554109">"Matikan penggera"</string>
+    <string name="delete_alarm_confirm" msgid="6578572637340860840">"Padamkan penggera ini?"</string>
+    <string name="show_clock" msgid="8358759982675616915">"Tunjukkan jam"</string>
+    <string name="hide_clock" msgid="3217727306480505694">"Sembunyikan jam"</string>
+    <string name="label" msgid="162189613902857319">"Label"</string>
+    <string name="default_label" msgid="5590025289805630372">"Penggera"</string>
+    <string name="set_alarm" msgid="9148359866152726808">"Tetapkan penggera"</string>
+    <string name="alarm_vibrate" msgid="3476686921490362230">"Getar"</string>
+    <string name="alarm_repeat" msgid="7242985466344233206">"Ulang"</string>
+    <string name="alert" msgid="6506982899651975645">"Nada Dering Penggera"</string>
+    <string name="ringtone" msgid="9110746249688559579">"Nada dering"</string>
+    <string name="time" msgid="8067216534232296518">"Masa"</string>
+    <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">"Ketepikan"</string>
+    <string name="alarm_alert_alert_silenced" msgid="2704775170733835993">"Penggera disenyapkan selepas <xliff:g id="MINUTES">%d</xliff:g> minit"</string>
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"Tidur sekejap"</string>
+    <string name="alarm_alert_snooze_set" msgid="656470966696912087">"Tidur sekejap untuk <xliff:g id="MINUTES">%d</xliff:g> minit."</string>
+    <string name="alarm_alert_snooze_until" msgid="6958013659168344550">"Ditunda sehingga <xliff:g id="TIME">%s</xliff:g>"</string>
+  <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Tinggal kurang satu minit"</item>
+    <item msgid="83197792732433351">"<xliff:g id="HOURS">%1$s</xliff:g> yang tinggal"</item>
+    <item msgid="8919698220200894252">"<xliff:g id="MINUTES">%2$s</xliff:g> yang tinggal"</item>
+    <item msgid="8458069283817013813">"<xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> yang tinggal"</item>
+  </string-array>
+  <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Penggera ditetapkan pada kurang dari 1 minit dari sekarang."</item>
+    <item msgid="6002066367368421848">"Penggera ditetapkan pada <xliff:g id="DAYS">%1$s</xliff:g> dari sekarang."</item>
+    <item msgid="8824719306247973774">"Penggera ditetapkan pada <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang."</item>
+    <item msgid="8182406852935468862">"Penggera ditetapkan pada <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang."</item>
+    <item msgid="2532279224777213194">"Penggera ditetapkan pada <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+    <item msgid="5936557894247187717">"Penggera ditetapkan pada <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+    <item msgid="9115697840826129603">"Penggera ditetapkan pada <xliff:g id="HOURS">%2$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+    <item msgid="2332583385137381060">"Penggera ditetapkan untuk <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+  </string-array>
+    <string name="day" msgid="7984755014526510295">"1 hari"</string>
+    <string name="days" msgid="2070509222727852210">"<xliff:g id="DAYS">%s</xliff:g> hari"</string>
+    <string name="hour" msgid="2546819039651509323">"1 jam"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> jam"</string>
+    <string name="minute" msgid="2486157997434653710">"1 minit"</string>
+    <string name="minutes" msgid="6115838729146292526">"<xliff:g id="MINUTES">%s</xliff:g> minit"</string>
+    <string name="every_day" msgid="4100909974923444602">"Setiap hari"</string>
+    <string name="never" msgid="54104287800571769">"Jangan sekali-kali"</string>
+    <string name="day_concat" msgid="971998564991636532">", "</string>
+    <string name="clock_instructions" msgid="2656876819515011590">"Pilih jam"</string>
+    <string name="analog_gadget" msgid="1670505720837152766">"Jam analog"</string>
+    <string name="help" msgid="7786263119482654015">"bantuan"</string>
+    <string name="settings" msgid="5849739030579520686">"Tetapan"</string>
+    <string name="snooze_duration_title" msgid="1097309861110780483">"Tempoh tidur sekejap"</string>
+  <plurals name="snooze_duration">
+    <item quantity="one" msgid="7406963706727564418">"1 minit"</item>
+    <item quantity="other" msgid="568504136093419703">"<xliff:g id="NUMBER">%d</xliff:g> minit"</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="one" msgid="3783171637798575068">"minit"</item>
+    <item quantity="other" msgid="1304056759541595077">"minit"</item>
+  </plurals>
+    <string name="auto_silence_title" msgid="2012754009554434544">"Senyap selepas"</string>
+    <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> minit"</string>
+    <string name="auto_silence_never" msgid="4821982647348750809">"Jangan sekali-kali"</string>
+  <string-array name="auto_silence_entries">
+    <item msgid="3693401222993867634">"5 minit"</item>
+    <item msgid="3663730603519549990">"10 minit"</item>
+    <item msgid="1385481095199681200">"15 minit"</item>
+    <item msgid="420479821767342125">"20 minit"</item>
+    <item msgid="2107936130151066746">"25 minit"</item>
+    <item msgid="7219791437023378544">"30 minit"</item>
+    <item msgid="4278641338024561333">"Jangan sekali-kali"</item>
+  </string-array>
+    <string name="done" msgid="6509722361933858451">"Selesai"</string>
+    <string name="revert" msgid="9100911171235162926">"Berbalik"</string>
+    <string name="delete" msgid="5732434972457000541">"Padam"</string>
+    <string name="alarm_volume_title" msgid="8506245173912428522">"Kelantangan penggera"</string>
+    <string name="silent_alarm_summary" msgid="8605302849408279221">"Senyap"</string>
+    <string name="alarm_notify_text" msgid="4891014685945904766">"Tunda atau tolak penggera."</string>
+    <string name="alarm_notify_snooze_label" msgid="5404083762646377829">"<xliff:g id="LABEL">%s</xliff:g> (ditidurkan sekejap)"</string>
+    <string name="alarm_notify_snooze_text" msgid="4819324081410990368">"Penggera ditetapkan pada <xliff:g id="TIME">%s</xliff:g>. Sentuh untuk membatalkan."</string>
+    <string name="volume_button_setting_title" msgid="6937131248843413357">"Butang kelantangan"</string>
+    <string name="volume_button_dialog_title" msgid="8768042543750036853">"Kesan butang"</string>
+  <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Tidur sekejap"</item>
+    <item msgid="3450979320164769576">"Ketepikan"</item>
+    <item msgid="6302517608411378024">"Jangan berbuat apa-apa"</item>
+  </string-array>
+    <string name="default_ringtone_setting_title" msgid="4549726190682964245">"Tetapkan nada dering lalai"</string>
+    <string name="alarm_button_description" msgid="740283647046258651">"Penggera"</string>
+    <string name="gallery_button_description" msgid="1151743663255257668">"Galeri"</string>
+    <string name="music_button_description" msgid="1626593420810117999">"Muzik"</string>
+    <string name="nightmode_button_description" msgid="990894208217576381">"Malap"</string>
+    <string name="home_button_description" msgid="3383859096809056157">"Pelancar"</string>
+    <string name="desk_clock_button_description" msgid="4207371097361657274">"Paparan jam"</string>
+    <string name="label_description" msgid="8736179296142915727">"Label"</string>
+    <string name="ringtone_description" msgid="7580922112921069925">"Nada dering"</string>
+    <string name="battery_charging_level" msgid="5251483622085889693">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure" msgid="3425804832021006835">"Maklumat cuaca tidak tersedia sekarang."</string>
+    <string name="alarm_klaxon_service_desc" msgid="2147506334302260256">"Perkhidmatan main balik bunyi untuk penggera ditetapkan dalam Jam."</string>
+    <string name="loading_ringtone" msgid="6523322777415268044">"Memuatkan nada dering..."</string>
+    <string name="timer_ring_service_desc" msgid="2620214305660322415">"Perkhidmatan main balik bunyi untuk pemasa ditetapkan dalam Jam."</string>
+    <string name="control_set_alarm" msgid="2194676418924016327">"Tetapkan penggera"</string>
+    <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
+    <skip />
+    <string name="menu_timer" msgid="6459070074762877114">"Pemasa"</string>
+    <string name="menu_clock" msgid="5612760670606829805">"Jam"</string>
+    <string name="menu_stopwatch" msgid="3396117705293574701">"Jam randik"</string>
+    <string name="button_alarms" msgid="8016103479617020265">"Penggera"</string>
+    <string name="button_cities" msgid="4555761857494501363">"Bandar"</string>
+    <string name="button_menu" msgid="6050484561842120282">"Lagi pilihan"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Tetapan"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Bantuan"</string>
+    <string name="menu_item_night_mode" msgid="3486930302245398975">"Mod malam"</string>
+    <string name="sw_resume_button" msgid="2569360966002022248">"Sambung semula"</string>
+    <string name="sw_start_button" msgid="8373422516681242270">"Mula"</string>
+    <string name="sw_stop_button" msgid="8322958613123274451">"Berhenti"</string>
+    <string name="sw_lap_button" msgid="6992264696039004233">"Pusingan"</string>
+    <string name="sw_reset_button" msgid="6616804728322906117">"Tetapkan semula"</string>
+    <string name="sw_share_button" msgid="4478648110382859382">"Kongsi"</string>
+    <string name="hours_label" msgid="3393478155635368097">"j"</string>
+    <string name="minutes_label" msgid="3568098128251438588">"m"</string>
+    <string name="seconds_label" msgid="124655952824003246">"s"</string>
+    <string name="hours_label_description" msgid="8652842524970971830">"jam"</string>
+    <string name="minutes_label_description" msgid="965686733490357796">"minit"</string>
+    <string name="seconds_label_description" msgid="3821620053141299692">"saat"</string>
+    <string name="zero" msgid="7102083421938355017">"0"</string>
+    <string name="sw_share_main" msgid="7703563468204234405">"Masa saya ialah <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="sw_share_laps" msgid="614390674795945007">"Masa pusingan:"</string>
+    <string name="sw_notification_lap_number" msgid="3535420316052647126">"Pusingan <xliff:g id="NUMBER">%d</xliff:g>"</string>
+  <plurals name="Nhours_description">
+    <item quantity="one" msgid="371227238759147245">"1 jam"</item>
+    <item quantity="other" msgid="7018184076091344797">"<xliff:g id="NUMBER">%d</xliff:g> jam"</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <item quantity="one" msgid="1001391305885322059">"1 minit"</item>
+    <item quantity="other" msgid="6948360065351547776">"<xliff:g id="NUMBER">%d</xliff:g> minit"</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <item quantity="one" msgid="6589853086641485725">"1 saat"</item>
+    <item quantity="other" msgid="7583230315175387547">"<xliff:g id="NUMBER">%d</xliff:g> saat"</item>
+  </plurals>
+    <string name="timer_add_timer" msgid="862733633862574752">"Tambah Pemasa"</string>
+    <string name="timer_start" msgid="6158486445614356442">"Bermula"</string>
+    <string name="timer_delete" msgid="8699122001991909302">"Padam"</string>
+    <string name="timer_plus_one" msgid="6631211310420106116">"Tambah 1 Minit"</string>
+    <string name="timer_stop" msgid="3361154678667736722">"Berhenti"</string>
+    <string name="timer_reset" msgid="7848424809190171640">"Tetapkan semula"</string>
+    <string name="timer_cancel" msgid="3572868404230815644">"Batalkan"</string>
+    <string name="timer_times_up" msgid="9190440395938519009">"Masa tamat"</string>
+    <string name="timer_notification_label" msgid="4933184831583137249">"Pemasa"</string>
+  <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Anda memang pantas."</item>
+    <item msgid="6332879039890727169">"Nikmati hasil usaha anda."</item>
+    <item msgid="815382761274660130">"Android memang diketahui cepat, tetapi tidak secepat anda!"</item>
+    <item msgid="7916250650982813737">"Huh."</item>
+    <item msgid="6836603904515182333">"L33t kali."</item>
+    <item msgid="7508085100680861631">"Halaju yang luar biasa."</item>
+    <item msgid="5961245252909589573">"Mari kita buat pelompatan masa lagi."</item>
+    <item msgid="5211891900854545940">"Hanya melompat ke kiri."</item>
+    <item msgid="9071353477103826053">"Anda suka tergesa-gesa."</item>
+    <item msgid="3785193933691117181">"Halaju fotonik."</item>
+  </string-array>
+  <plurals name="timers_num">
+    <item quantity="one" msgid="6764708652976799977">"1 minit"</item>
+    <item quantity="other" msgid="3799129667336330616">"<xliff:g id="NUMBER">%d</xliff:g> pemasa"</item>
+  </plurals>
+    <string name="home_label" msgid="4436139365695453870">"Laman Utama"</string>
+    <string name="cities_activity_title" msgid="8552462751129256730">"Bandar"</string>
+    <string name="alarm_on" msgid="4344630320756422804">"HIDUPKAN"</string>
+    <string name="alarm_off" msgid="6478058633710013612">"MATIKAN"</string>
+    <string name="clock_settings" msgid="8887845806151785393">"JAM"</string>
+    <string name="clock_style" msgid="2265011060429742344">"Gaya"</string>
+  <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Analog"</item>
+    <item msgid="8483930821046925592">"Digital"</item>
+  </string-array>
+    <string name="automatic_home_clock" msgid="6274174710735449252">"Jam rumah automatik"</string>
+    <string name="automatic_home_clock_summary" msgid="6020476321040807273">"Semasa dalam perjalanan di kawasan dengan waktu berbeza, tambahkan jam untuk rumah"</string>
+    <string name="home_time_zone" msgid="9199730676287974501">"Zon waktu rumah"</string>
+    <string name="home_time_zone_title" msgid="807894493443834624">"Zon waktu rumah"</string>
+    <string name="time_picker_cancel" msgid="7437106489606013077">"Batalkan"</string>
+    <string name="time_picker_set" msgid="331153175471468051">"OK"</string>
+    <string name="time_picker_time_seperator" msgid="7484926510054777041">":"</string>
+    <string name="time_picker_ampm_label" msgid="6754113715199751083">"--"</string>
+    <string name="time_picker_00_label" msgid="6001006474735281911">":00"</string>
+    <string name="time_picker_30_label" msgid="1027250857384838129">":30"</string>
+  <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Kepulauan Marshall"</item>
+    <item msgid="4196408495909011020">"Pulau Midway"</item>
+    <item msgid="1414384194857730006">"Hawaii"</item>
+    <item msgid="2687091371581931926">"Alaska"</item>
+    <item msgid="1922100269679049660">"Waktu Pasifik"</item>
+    <item msgid="7156402158716866161">"Tijuana"</item>
+    <item msgid="1144117502254612241">"Arizona"</item>
+    <item msgid="101284182011722637">"Chihuahua"</item>
+    <item msgid="689121094232986897">"Waktu Pergunungan"</item>
+    <item msgid="5445331923942302756">"Amerika Tengah"</item>
+    <item msgid="2749806434052452351">"Waktu Zon Tengah"</item>
+    <item msgid="3997138870229703753">"Kota Mexico"</item>
+    <item msgid="5425567073027744888">"Saskatchewan"</item>
+    <item msgid="2877342865396629368">"Bogota"</item>
+    <item msgid="568682398893899670">"Waktu Timur"</item>
+    <item msgid="668135984541863866">"Venezuela"</item>
+    <item msgid="3737474220861486223">"Waktu Atlantik (Barbados)"</item>
+    <item msgid="6279116051273436870">"Waktu Atlantik (Kanada)"</item>
+    <item msgid="8513382867172014244">"Manaus"</item>
+    <item msgid="7776299003105932407">"Santiago"</item>
+    <item msgid="8636989494746218677">"Newfoundland"</item>
+    <item msgid="4402541016410147505">"Brasilia"</item>
+    <item msgid="2251184440733164084">"Buenos Aires"</item>
+    <item msgid="6202926618569004969">"Greenland"</item>
+    <item msgid="2355275037115290628">"Montevideo"</item>
+    <item msgid="1377549694711708945">"Atlantik Tengah"</item>
+    <item msgid="3457671272126347981">"Azores"</item>
+    <item msgid="3659315141063710840">"Kepulauan Cape Verde"</item>
+    <item msgid="1260941741802367635">"Casablanca"</item>
+    <item msgid="8275203689687954762">"London, Dublin"</item>
+    <item msgid="5970179539479320905">"Amsterdam, Berlin"</item>
+    <item msgid="5396319478750517962">"Belgrade"</item>
+    <item msgid="8688787475056663004">"Brussels"</item>
+    <item msgid="3415827874921681622">"Sarajevo"</item>
+    <item msgid="402008965928320066">"Windhoek"</item>
+    <item msgid="6436942724959275569">"Waktu Afrika Barat"</item>
+    <item msgid="954536568417204026">"Amman, Jordan"</item>
+    <item msgid="8932745482008902551">"Athens, Istanbul"</item>
+    <item msgid="320025725949024510">"Beirut, Lubnan"</item>
+    <item msgid="7242083112551905970">"Kaherah"</item>
+    <item msgid="7241520146011450419">"Helsinki"</item>
+    <item msgid="2717065017510546526">"Baitulmuqaddis"</item>
+    <item msgid="8698556287741466553">"Minsk"</item>
+    <item msgid="1797598357342084506">"Harare"</item>
+    <item msgid="5169119919905066998">"Baghdad"</item>
+    <item msgid="2615788116201065182">"Moscow"</item>
+    <item msgid="9084354867885584646">"Kuwait"</item>
+    <item msgid="1351570519986178268">"Nairobi"</item>
+    <item msgid="7094569580635877460">"Tehran"</item>
+    <item msgid="3953138772617909704">"Baku"</item>
+    <item msgid="2868893113598800752">"Tbilisi"</item>
+    <item msgid="7088581865802476373">"Yerevan"</item>
+    <item msgid="1941122257623887992">"Dubai"</item>
+    <item msgid="9194797225058249720">"Kabul"</item>
+    <item msgid="6486569254364577332">"Islamabad, Karachi"</item>
+    <item msgid="5487724896895412089">"Ural\'sk"</item>
+    <item msgid="364906869710826982">"Yekaterinburg"</item>
+    <item msgid="2106505051751383358">"Kolkata"</item>
+    <item msgid="6851586621581501447">"Sri Lanka"</item>
+    <item msgid="800438544128213134">"Kathmandu"</item>
+    <item msgid="6173621471007643021">"Astana"</item>
+    <item msgid="8645125891971581128">"Yangon"</item>
+    <item msgid="2886407505119737794">"Krasnoyarsk"</item>
+    <item msgid="3408222398188107090">"Bangkok"</item>
+    <item msgid="4441612937172851228">"Beijing"</item>
+    <item msgid="4936715789028996930">"Hong Kong"</item>
+    <item msgid="4261031143777385525">"Irkutsk"</item>
+    <item msgid="3538060959338191835">"Kuala Lumpur"</item>
+    <item msgid="1438847562643099201">"Perth"</item>
+    <item msgid="3063913827688244383">"Taipei"</item>
+    <item msgid="3502757135046564209">"Seoul"</item>
+    <item msgid="6107588684519111669">"Tokyo, Osaka"</item>
+    <item msgid="4350769099755608471">"Yakutsk"</item>
+    <item msgid="2422707004533526462">"Adelaide"</item>
+    <item msgid="1292192084554134339">"Darwin"</item>
+    <item msgid="1320883699470001716">"Brisbane"</item>
+    <item msgid="5137198806146386527">"Hobart"</item>
+    <item msgid="5920063686933941174">"Sydney, Canberra"</item>
+    <item msgid="615906039696009425">"Vladivostok"</item>
+    <item msgid="7738680449356275374">"Guam"</item>
+    <item msgid="2882915026380778227">"Magadan"</item>
+    <item msgid="8255615641810148152">"Auckland"</item>
+    <item msgid="3027153773466391728">"Fiji"</item>
+    <item msgid="5911600083231840181">"Tonga"</item>
+  </string-array>
+    <string name="alarm_settings" msgid="6049627772103646753">"PENGGERA"</string>
+    <string name="see_all" msgid="775983396630163739">"Lihat semua..."</string>
+    <string name="stopwatch_service_desc" msgid="8416624630388063996">"Perkhidmatan jam randik untuk menjalankan pemberitahuan."</string>
+    <string name="swn_stopped" msgid="783124901663086172">"Dihentikan"</string>
+    <string name="description_direction_right" msgid="1615911557926085934">"Luncurkan ke kanan untuk ketepikan"</string>
+    <string name="description_direction_left" msgid="6328816971226781776">"Luncurkan ke kiri untuk menunda"</string>
+    <string name="description_direction_up" msgid="7875287578324520904">"Luncurkan ke atas untuk ketepikan"</string>
+    <string name="description_direction_down" msgid="8240473964024874053">"Luncurkan ke bawah untuk menunda"</string>
+    <string name="timer_stopped" msgid="2730331837832462008">"Pemasa berhenti"</string>
+    <string name="timers_stopped" msgid="2393640808691864520">"<xliff:g id="NUMBER">%d</xliff:g> pemasa berhenti"</string>
+    <string name="all_timers_stopped_notif" msgid="278532320068394600">"Sentuh untuk melihat pemasa anda"</string>
+    <string name="timers_in_use" msgid="5570729467344408506">"<xliff:g id="NUMBER">%d</xliff:g> pemasa"</string>
+    <string name="next_timer_notif" msgid="6136454740115613653">"Pemasa seterusnya: <xliff:g id="TIME_REMAINING">%s</xliff:g>"</string>
+    <string name="screensaver_settings" msgid="7013450738357352801">"Tetapan mimpi"</string>
+    <string name="night_mode_title" msgid="5983813889469616299">"Mod malam"</string>
+    <string name="night_mode_summary" msgid="1017350187324162631">"Paparan sangat malap (untuk bilik gelap)"</string>
+    <string name="expand_alarm" msgid="7392616528943305020">"Kembangkan penggera"</string>
+    <string name="collapse_alarm" msgid="3561772046433483980">"Runtuhkan penggera"</string>
+    <string name="alarm_undo" msgid="5710042601177655254">"buat asal"</string>
+    <string name="alarm_deleted" msgid="5017075127290219443">"Penggera dikesan."</string>
+    <string name="slash" msgid="2077577763821006919">"/"</string>
+    <string name="world_day_of_week_label" msgid="5911196322328341288">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
+    <string name="next_alarm_description" msgid="2650244835760747046">"Penggera seterusnya: <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <string name="label_unlabeled" msgid="4699506713571930740"></string>
+    <string name="alarms_selected" msgid="1075308195332888260">"<xliff:g id="ALARMS">%d</xliff:g> dipilih"</string>
+    <string name="deleted_message" msgid="1220848140260509437">"Dipadamkan"</string>
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="one" msgid="111940612131906802">"Padam penggera yang dipilih?"</item>
+    <item quantity="other" msgid="6918176478191272189">"Padamkan penggera yang dipilih?"</item>
+  </plurals>
+    <string name="timer_delete_confirmation" msgid="2815524107015816453">"Padam pemasa ini?"</string>
+    <string name="city_delete_confirmation" msgid="1783441538785676299">"Alih keluar kota ini?"</string>
+    <string name="widget_loading_ms" msgid="790841709484678848">"Memuatkan"</string>
+    <string name="digital_gadget" msgid="2326954556720571358">"Jam digital"</string>
+</resources>

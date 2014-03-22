@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<com.android.deskclock.CircleButtonsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stopwatch_circle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="?android:attr/actionBarSize" >
+
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/circle_margin"
+        android:layout_marginRight="@dimen/circle_margin"
+        android:layout_weight="1" >
+
+        <com.android.deskclock.timer.CountingTimerView
+            android:id="@+id/stopwatch_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <com.android.deskclock.CircleTimerView
+            android:id="@+id/stopwatch_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/stopwatch_left_button"
+            android:layout_gravity="bottom|left"
+            android:layout_width="56dip"
+            style="@style/button"
+            android:src="@drawable/ic_lap"
+            android:background="@null"
+            android:layout_height="56dip" />
+
+        <TextView
+            android:id="@+id/stopwatch_stop"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="0dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/timer_stop"
+            android:layout_width="wrap_content"
+            style="@style/bold_button"
+            android:contentDescription="@string/timer_stop"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/stopwatch_share_button"
+            android:background="@null"
+            android:layout_width="56dip"
+            android:src="@drawable/ic_share"
+            style="@style/button"
+            android:layout_gravity="bottom|right"
+            android:layout_height="56dip"
+            android:contentDescription="@string/sw_share_button" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/laps_list"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/laps_margin"
+        android:layout_marginRight="@dimen/laps_margin"
+        android:layout_gravity="center"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content" />
+</com.android.deskclock.CircleButtonsLinearLayout>

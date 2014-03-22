@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6674495003718166674">"ሰዓት"</string>
+    <string name="alarm_list_title" msgid="7589940465292950600">"ማንቂያ ደወሎች"</string>
+    <string name="add_alarm" msgid="5976616107390962899">"የማንቂያ ደወልአክል"</string>
+    <string name="menu_desk_clock" msgid="3241995064554071588">"የጠረጴዛ ሰዓት"</string>
+    <string name="menu_edit_alarm" msgid="7204602994918829751">"ማንቂያ ደወል አርትዕ"</string>
+    <string name="delete_alarm" msgid="3457780990646206817">"ማንቂያ ደወል ሰርዝ"</string>
+    <string name="enable_alarm" msgid="1834599140632142536">"የማንቂያ ደወል አብራ"</string>
+    <string name="disable_alarm" msgid="5889378670229554109">"የማንቂያ ደወል አጥፋ"</string>
+    <string name="delete_alarm_confirm" msgid="6578572637340860840">"ይህንን ማንቂያ ሰርዝ?"</string>
+    <string name="show_clock" msgid="8358759982675616915">"ሰዓትአሳይ"</string>
+    <string name="hide_clock" msgid="3217727306480505694">"ሰዓት ደብቅ"</string>
+    <string name="label" msgid="162189613902857319">"መለያ ስም"</string>
+    <string name="default_label" msgid="5590025289805630372">"ማንቂያ"</string>
+    <string name="set_alarm" msgid="9148359866152726808">"የማንቂያ ደወልአዘጋጅ"</string>
+    <string name="alarm_vibrate" msgid="3476686921490362230">"ንዘር"</string>
+    <string name="alarm_repeat" msgid="7242985466344233206">"ድገም"</string>
+    <string name="alert" msgid="6506982899651975645">"የማንቂያ ደውል ቅላጼ"</string>
+    <string name="ringtone" msgid="9110746249688559579">"የደወል ቅላጼ"</string>
+    <string name="time" msgid="8067216534232296518">"ጊዜ"</string>
+    <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">"አጥፋ"</string>
+    <string name="alarm_alert_alert_silenced" msgid="2704775170733835993">"ማንቂያ ከ <xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች በኋላ ፀጥ ብሏል።"</string>
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"አቆይ"</string>
+    <string name="alarm_alert_snooze_set" msgid="656470966696912087">"ለ<xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች አቆይ"</string>
+    <string name="alarm_alert_snooze_until" msgid="6958013659168344550">"እስከ <xliff:g id="TIME">%s</xliff:g> ድረስ በማሸለብ ላይ"</string>
+  <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"ከአንድ ደቂቃ በታች ይቀራል"</item>
+    <item msgid="83197792732433351">"<xliff:g id="HOURS">%1$s</xliff:g> ይቀራል"</item>
+    <item msgid="8919698220200894252">"<xliff:g id="MINUTES">%2$s</xliff:g> ይቀራል"</item>
+    <item msgid="8458069283817013813">"<xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> ይቀራል"</item>
+  </string-array>
+  <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"ማንቂያ ከአሁን ወዲያ ከ1 ደቂቃ በታች  የተዘጋጀ ነው፡፡"</item>
+    <item msgid="6002066367368421848">" ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="DAYS">%1$s</xliff:g> የተዘጋጀ ነው።"</item>
+    <item msgid="8824719306247973774">" ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="HOURS">%2$s</xliff:g> የተዘጋጀ ነው።"</item>
+    <item msgid="8182406852935468862">" ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="DAYS">%1$s</xliff:g> እና <xliff:g id="HOURS">%2$s</xliff:g> የተዘጋጀ ነው።"</item>
+    <item msgid="2532279224777213194">"ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።"</item>
+    <item msgid="5936557894247187717">" ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="DAYS">%1$s</xliff:g> እና <xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።"</item>
+    <item msgid="9115697840826129603">" ማንቂያ ከአሁን ጀምሮ ለ <xliff:g id="HOURS">%2$s</xliff:g> እና <xliff:g id="MINUTES">%3$s</xliff:g> የተዘጋጀ ነው።"</item>
+    <item msgid="2332583385137381060">"ይህ ማንቂያ ከአሁን ጀምሮ ለ<xliff:g id="DAYS">%1$s</xliff:g><xliff:g id="HOURS">%2$s</xliff:g><xliff:g id="MINUTES">%3$s</xliff:g>  የተዘጋጀ ነው።"</item>
+  </string-array>
+    <string name="day" msgid="7984755014526510295">"1"</string>
+    <string name="days" msgid="2070509222727852210">"<xliff:g id="DAYS">%s</xliff:g> ቀን"</string>
+    <string name="hour" msgid="2546819039651509323">"1 ሰዓት"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> ሰዓቶች"</string>
+    <string name="minute" msgid="2486157997434653710">"1"</string>
+    <string name="minutes" msgid="6115838729146292526">"<xliff:g id="MINUTES">%s</xliff:g> ደቂቃዎች"</string>
+    <string name="every_day" msgid="4100909974923444602">"በየቀኑ"</string>
+    <string name="never" msgid="54104287800571769">"በፍፁም"</string>
+    <string name="day_concat" msgid="971998564991636532">", "</string>
+    <string name="clock_instructions" msgid="2656876819515011590">"ሰዓት ምረጥ"</string>
+    <string name="analog_gadget" msgid="1670505720837152766">"አናሎግ ሰዓት"</string>
+    <string name="help" msgid="7786263119482654015">"እገዛ"</string>
+    <string name="settings" msgid="5849739030579520686">"ቅንብሮች"</string>
+    <string name="snooze_duration_title" msgid="1097309861110780483">"የማሸለብ ርዝመት"</string>
+  <plurals name="snooze_duration">
+    <item quantity="one" msgid="7406963706727564418">"1 ደቂቃ"</item>
+    <item quantity="other" msgid="568504136093419703">"<xliff:g id="NUMBER">%d</xliff:g> ደቂቃዎች"</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="one" msgid="3783171637798575068">"ደቂቃ"</item>
+    <item quantity="other" msgid="1304056759541595077">"ደቂቃዎች"</item>
+  </plurals>
+    <string name="auto_silence_title" msgid="2012754009554434544">"ጸጥታ ከዚህ በኋላ፦"</string>
+    <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> ደቂቃዎች"</string>
+    <string name="auto_silence_never" msgid="4821982647348750809">"በጭራሽ"</string>
+  <string-array name="auto_silence_entries">
+    <item msgid="3693401222993867634">"5 ደቂቃዎች"</item>
+    <item msgid="3663730603519549990">"10 ደቂቃዎች"</item>
+    <item msgid="1385481095199681200">"15 ደቂቃዎች"</item>
+    <item msgid="420479821767342125">"20 ደቂቃዎች"</item>
+    <item msgid="2107936130151066746">"25 ደቂቃዎች"</item>
+    <item msgid="7219791437023378544">"30 ደቂቃዎች"</item>
+    <item msgid="4278641338024561333">"በጭራሽ"</item>
+  </string-array>
+    <string name="done" msgid="6509722361933858451">"ተከናውኗል"</string>
+    <string name="revert" msgid="9100911171235162926">"አድህር"</string>
+    <string name="delete" msgid="5732434972457000541">"ሰርዝ"</string>
+    <string name="alarm_volume_title" msgid="8506245173912428522">"የማንቂያ ድምፅ መጠን"</string>
+    <string name="silent_alarm_summary" msgid="8605302849408279221">"ፀጥታ"</string>
+    <string name="alarm_notify_text" msgid="4891014685945904766">"ማንቂያ አሸልብ ወይም ሰርዝ።"</string>
+    <string name="alarm_notify_snooze_label" msgid="5404083762646377829">"<xliff:g id="LABEL">%s</xliff:g>(ቆይቷል)"</string>
+    <string name="alarm_notify_snooze_text" msgid="4819324081410990368">"ማንቂያ ለ<xliff:g id="TIME">%s</xliff:g> ተዘጋጅቷል።ለመተው ምረጥ።"</string>
+    <string name="volume_button_setting_title" msgid="6937131248843413357">"የድምፅ አዝራሮች"</string>
+    <string name="volume_button_dialog_title" msgid="8768042543750036853">"የአዝራር ተጽዕኖ"</string>
+  <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"አሸልብ"</item>
+    <item msgid="3450979320164769576">"አጥፋ"</item>
+    <item msgid="6302517608411378024">"ምንም አትስራ"</item>
+  </string-array>
+    <string name="default_ringtone_setting_title" msgid="4549726190682964245">"ነባሪ የድምፅ ጥሪ አዘጋጅ"</string>
+    <string name="alarm_button_description" msgid="740283647046258651">"ማንቂያ ደወሎች"</string>
+    <string name="gallery_button_description" msgid="1151743663255257668">"የሥነ ጥበብ ማዕከል"</string>
+    <string name="music_button_description" msgid="1626593420810117999">"ሙዚቃ"</string>
+    <string name="nightmode_button_description" msgid="990894208217576381">"ደብዛዛ ብርሃን"</string>
+    <string name="home_button_description" msgid="3383859096809056157">"አስነሺ"</string>
+    <string name="desk_clock_button_description" msgid="4207371097361657274">"ሰዓት ማሳያ"</string>
+    <string name="label_description" msgid="8736179296142915727">"መለያ ስም"</string>
+    <string name="ringtone_description" msgid="7580922112921069925">"የደወል ቅላጼ"</string>
+    <string name="battery_charging_level" msgid="5251483622085889693">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure" msgid="3425804832021006835">"የአየር ጠባይ መረጃ አሁን አይገኝም፡፡"</string>
+    <string name="alarm_klaxon_service_desc" msgid="2147506334302260256">"በጠረጴዛ ሰዓት ለተዘጋጁ ማንቂያ ደውሎች የዳግም አጫዋት አገልግሎት ድምፅ አሰማ።"</string>
+    <string name="loading_ringtone" msgid="6523322777415268044">"የስልክ ጥሪ ድምፅ በመስቀል ላይ...."</string>
+    <string name="timer_ring_service_desc" msgid="2620214305660322415">"ድምጽ መልሶ የማጫወት አገልግሎት በሰዓት ውስጥ ለተዘጋጁ የሰዓት ቆጣሪዎች።"</string>
+    <string name="control_set_alarm" msgid="2194676418924016327">"የማንቂያ ደወልአዘጋጅ"</string>
+    <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
+    <skip />
+    <string name="menu_timer" msgid="6459070074762877114">"ሰዓት ቆጣሪ"</string>
+    <string name="menu_clock" msgid="5612760670606829805">"ሰዓት"</string>
+    <string name="menu_stopwatch" msgid="3396117705293574701">"የሩጫ ሰዓት"</string>
+    <string name="button_alarms" msgid="8016103479617020265">"ማንቂያዎች"</string>
+    <string name="button_cities" msgid="4555761857494501363">"ከተማዎች"</string>
+    <string name="button_menu" msgid="6050484561842120282">"ተጨማሪ አማራጮች"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"ቅንብሮች"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"እገዛ"</string>
+    <string name="menu_item_night_mode" msgid="3486930302245398975">"የማታ ሁነታ"</string>
+    <string name="sw_resume_button" msgid="2569360966002022248">"ከቆመብት ቀጥል"</string>
+    <string name="sw_start_button" msgid="8373422516681242270">"ጀምር"</string>
+    <string name="sw_stop_button" msgid="8322958613123274451">"አቁም"</string>
+    <string name="sw_lap_button" msgid="6992264696039004233">"ዙር"</string>
+    <string name="sw_reset_button" msgid="6616804728322906117">"ዳግም አስጀምር"</string>
+    <string name="sw_share_button" msgid="4478648110382859382">"አጋራ"</string>
+    <string name="hours_label" msgid="3393478155635368097">"h"</string>
+    <string name="minutes_label" msgid="3568098128251438588">"m"</string>
+    <string name="seconds_label" msgid="124655952824003246">"s"</string>
+    <string name="hours_label_description" msgid="8652842524970971830">"ሰዓታት"</string>
+    <string name="minutes_label_description" msgid="965686733490357796">"ደቂቃዎች"</string>
+    <string name="seconds_label_description" msgid="3821620053141299692">"ሰከንዶች"</string>
+    <string name="zero" msgid="7102083421938355017">"0"</string>
+    <string name="sw_share_main" msgid="7703563468204234405">"የእኔ ሰዓት <xliff:g id="TIME">%s</xliff:g> ነው"</string>
+    <string name="sw_share_laps" msgid="614390674795945007">"የዙር ሰዓት፦"</string>
+    <string name="sw_notification_lap_number" msgid="3535420316052647126">"ዙር <xliff:g id="NUMBER">%d</xliff:g>"</string>
+  <plurals name="Nhours_description">
+    <item quantity="one" msgid="371227238759147245">"1 ሰዓት"</item>
+    <item quantity="other" msgid="7018184076091344797">"<xliff:g id="NUMBER">%d</xliff:g> ሰዓታት"</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <item quantity="one" msgid="1001391305885322059">"1 ደቂቃ"</item>
+    <item quantity="other" msgid="6948360065351547776">"<xliff:g id="NUMBER">%d</xliff:g> ደቂቃዎች"</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <item quantity="one" msgid="6589853086641485725">"1 ሰከንድ"</item>
+    <item quantity="other" msgid="7583230315175387547">"<xliff:g id="NUMBER">%d</xliff:g> ሰከንዶች"</item>
+  </plurals>
+    <string name="timer_add_timer" msgid="862733633862574752">"ጊዜ ቆጣሪን አክል"</string>
+    <string name="timer_start" msgid="6158486445614356442">"ጀምር"</string>
+    <string name="timer_delete" msgid="8699122001991909302">"ሰርዝ"</string>
+    <string name="timer_plus_one" msgid="6631211310420106116">"1 ደቂቃ አክል"</string>
+    <string name="timer_stop" msgid="3361154678667736722">"አቁም"</string>
+    <string name="timer_reset" msgid="7848424809190171640">"ዳግም አስጀምር"</string>
+    <string name="timer_cancel" msgid="3572868404230815644">"ሰርዝ"</string>
+    <string name="timer_times_up" msgid="9190440395938519009">"ጊዜው አብቅቷል"</string>
+    <string name="timer_notification_label" msgid="4933184831583137249">"የሰዓት ቆጣሪ"</string>
+  <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"ፈጣን ነዎት።"</item>
+    <item msgid="6332879039890727169">"በልፋትዎ ውጤት ይደሰቱ።"</item>
+    <item msgid="815382761274660130">"Androidዎች ፈጣን በመሆን ይታወቃሉ፣ ግን የእርስዎን ያህል ፈጣን አይደሉም!"</item>
+    <item msgid="7916250650982813737">"ኡፎይ።"</item>
+    <item msgid="6836603904515182333">"L33t ጊዜ።"</item>
+    <item msgid="7508085100680861631">"እንደዚህ ያለ እጅግ በጣም ከፍተኛ ፍጥነት።"</item>
+    <item msgid="5961245252909589573">"የጊዜ ዋርፕ እንድገመው።"</item>
+    <item msgid="5211891900854545940">"ወደ ግራ ዘለል ማለት ብቻ ነው።"</item>
+    <item msgid="9071353477103826053">"የመጣደፍ ተሰጥዖ አለዎት"</item>
+    <item msgid="3785193933691117181">"የብርሃን ፍጥነት።"</item>
+  </string-array>
+  <plurals name="timers_num">
+    <item quantity="one" msgid="6764708652976799977">"1 ደቂቃ"</item>
+    <item quantity="other" msgid="3799129667336330616">"<xliff:g id="NUMBER">%d</xliff:g> ሰዓት ቆጣሪዎች"</item>
+  </plurals>
+    <string name="home_label" msgid="4436139365695453870">"መነሻ"</string>
+    <string name="cities_activity_title" msgid="8552462751129256730">"ከተማዎች"</string>
+    <string name="alarm_on" msgid="4344630320756422804">"በርቷል"</string>
+    <string name="alarm_off" msgid="6478058633710013612">"ጠፍቷል"</string>
+    <string name="clock_settings" msgid="8887845806151785393">"ሰዓት"</string>
+    <string name="clock_style" msgid="2265011060429742344">"ቅጥ"</string>
+  <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"አናሎግ"</item>
+    <item msgid="8483930821046925592">"ዲጂታል"</item>
+  </string-array>
+    <string name="automatic_home_clock" msgid="6274174710735449252">"ራስ-ሰር የቤት ሰዓት"</string>
+    <string name="automatic_home_clock_summary" msgid="6020476321040807273">"ጊዜው የተለየ በሆነበት አካባቢ ውስጥ በሚጓዙበት ጊዜ የቤት ሰዓት ያክሉ"</string>
+    <string name="home_time_zone" msgid="9199730676287974501">"የቤት ሰዓት ሰቅ"</string>
+    <string name="home_time_zone_title" msgid="807894493443834624">"የቤት ሰዓት ሰቅ"</string>
+    <string name="time_picker_cancel" msgid="7437106489606013077">"ሰርዝ"</string>
+    <string name="time_picker_set" msgid="331153175471468051">"እሺ"</string>
+    <string name="time_picker_time_seperator" msgid="7484926510054777041">":"</string>
+    <string name="time_picker_ampm_label" msgid="6754113715199751083">"--"</string>
+    <string name="time_picker_00_label" msgid="6001006474735281911">":00"</string>
+    <string name="time_picker_30_label" msgid="1027250857384838129">":30"</string>
+  <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"የማርሻል ደሴቶች"</item>
+    <item msgid="4196408495909011020">"የሚድዌይ ደሴት"</item>
+    <item msgid="1414384194857730006">"ሀዋይ"</item>
+    <item msgid="2687091371581931926">"አላስካ"</item>
+    <item msgid="1922100269679049660">"ፓሰፊክ ሰዓት"</item>
+    <item msgid="7156402158716866161">"ቲጇና"</item>
+    <item msgid="1144117502254612241">"አሪዞና"</item>
+    <item msgid="101284182011722637">"ቺዋዋ"</item>
+    <item msgid="689121094232986897">"የተራራ ሰዓት"</item>
+    <item msgid="5445331923942302756">"መካከለኛው አሜሪካ"</item>
+    <item msgid="2749806434052452351">"የመካከለኛው ሰዓት"</item>
+    <item msgid="3997138870229703753">"ሜክሲኮ ከተማ"</item>
+    <item msgid="5425567073027744888">"ሳስካታቸዋን"</item>
+    <item msgid="2877342865396629368">"ቦጎታ"</item>
+    <item msgid="568682398893899670">"ምስራቃዊ ሰዓት"</item>
+    <item msgid="668135984541863866">"ቬኔዝዌላ"</item>
+    <item msgid="3737474220861486223">"የአትላንቲክ ሰዓት (ባርባዶስ)"</item>
+    <item msgid="6279116051273436870">"የአትላንቲክ ሰዓት (ካናዳ)"</item>
+    <item msgid="8513382867172014244">"ማናኡስ"</item>
+    <item msgid="7776299003105932407">"ሳንቲያጎ"</item>
+    <item msgid="8636989494746218677">"ኒውፋውንድላንድ"</item>
+    <item msgid="4402541016410147505">"ብራሲሊያ"</item>
+    <item msgid="2251184440733164084">"ቦነስ አይረስ"</item>
+    <item msgid="6202926618569004969">"ግሪንላንድ"</item>
+    <item msgid="2355275037115290628">"ሞንተቪዴዮ"</item>
+    <item msgid="1377549694711708945">"ማዕከላዊ-አትላንቲክ"</item>
+    <item msgid="3457671272126347981">"አዞረስ"</item>
+    <item msgid="3659315141063710840">"ኬፕ ቨርዴ ደሴቶች"</item>
+    <item msgid="1260941741802367635">"ካዛብላንካ"</item>
+    <item msgid="8275203689687954762">"ለንደን፣ ደብሊን"</item>
+    <item msgid="5970179539479320905">"አምስተርዳም፣ በርሊን"</item>
+    <item msgid="5396319478750517962">"ቤልግሬድ"</item>
+    <item msgid="8688787475056663004">"ብራስልስ"</item>
+    <item msgid="3415827874921681622">"ሳራየቮ"</item>
+    <item msgid="402008965928320066">"ዊንድሆዌክ"</item>
+    <item msgid="6436942724959275569">"የምዕራብ አፍሪካ ሰዓት"</item>
+    <item msgid="954536568417204026">"አማን፣ ዮርዳኖስ"</item>
+    <item msgid="8932745482008902551">"አቴንስ፣ ኢስታንቡል"</item>
+    <item msgid="320025725949024510">"ቤሩት፣ ሊባኖስ"</item>
+    <item msgid="7242083112551905970">"ካይሮ"</item>
+    <item msgid="7241520146011450419">"ሄልሲንኪ"</item>
+    <item msgid="2717065017510546526">"እየሩሳሌም"</item>
+    <item msgid="8698556287741466553">"ሚንስክ"</item>
+    <item msgid="1797598357342084506">"ሀራሬ"</item>
+    <item msgid="5169119919905066998">"ባግዳድ"</item>
+    <item msgid="2615788116201065182">"ሞስኮ"</item>
+    <item msgid="9084354867885584646">"ኩዌት"</item>
+    <item msgid="1351570519986178268">"ናይሮቢ"</item>
+    <item msgid="7094569580635877460">"ቴህራን"</item>
+    <item msgid="3953138772617909704">"ባኩ"</item>
+    <item msgid="2868893113598800752">"ትብሊሲ"</item>
+    <item msgid="7088581865802476373">"የረቫን"</item>
+    <item msgid="1941122257623887992">"ዱባይ"</item>
+    <item msgid="9194797225058249720">"ካቡል"</item>
+    <item msgid="6486569254364577332">"ኢስላማባድ፣ ካራቺ"</item>
+    <item msgid="5487724896895412089">"ኡራልስክ"</item>
+    <item msgid="364906869710826982">"የካተሪንበርግ"</item>
+    <item msgid="2106505051751383358">"ኮልካታ"</item>
+    <item msgid="6851586621581501447">"ሽሪላንካ"</item>
+    <item msgid="800438544128213134">"ካትማንዱ"</item>
+    <item msgid="6173621471007643021">"አስታና"</item>
+    <item msgid="8645125891971581128">"ያንጎን"</item>
+    <item msgid="2886407505119737794">"ክራስኖያርስክ"</item>
+    <item msgid="3408222398188107090">"ባንግኮክ"</item>
+    <item msgid="4441612937172851228">"ቤጂንግ"</item>
+    <item msgid="4936715789028996930">"ሆንግ ኮንግ"</item>
+    <item msgid="4261031143777385525">"ኢርኩትስክ"</item>
+    <item msgid="3538060959338191835">"ኳላ ላምፑር"</item>
+    <item msgid="1438847562643099201">"ፐርዝ"</item>
+    <item msgid="3063913827688244383">"ታይፔይ"</item>
+    <item msgid="3502757135046564209">"ሴኦል"</item>
+    <item msgid="6107588684519111669">"ቶኪዮ፣ ኦሳካ"</item>
+    <item msgid="4350769099755608471">"ያኩትስክ"</item>
+    <item msgid="2422707004533526462">"አዴላይድ"</item>
+    <item msgid="1292192084554134339">"ዳርዊን"</item>
+    <item msgid="1320883699470001716">"ብሪስቤን"</item>
+    <item msgid="5137198806146386527">"ሆባርት"</item>
+    <item msgid="5920063686933941174">"ሲድኒ፣ ካንቤራ"</item>
+    <item msgid="615906039696009425">"ቭላዲቮስቶክ"</item>
+    <item msgid="7738680449356275374">"ጉዋም"</item>
+    <item msgid="2882915026380778227">"ማጋዳን"</item>
+    <item msgid="8255615641810148152">"ኦክላንድ"</item>
+    <item msgid="3027153773466391728">"ፊጂ"</item>
+    <item msgid="5911600083231840181">"ቶንጋ"</item>
+  </string-array>
+    <string name="alarm_settings" msgid="6049627772103646753">"ማንቂያ ደወሎች"</string>
+    <string name="see_all" msgid="775983396630163739">"ሁሉንም ይመልከቱ…"</string>
+    <string name="stopwatch_service_desc" msgid="8416624630388063996">"የሩጫ ሰዓት አገልግሎት ማሳወቂያውን ሊያሂድ ነው።"</string>
+    <string name="swn_stopped" msgid="783124901663086172">"ቆሟል"</string>
+    <string name="description_direction_right" msgid="1615911557926085934">"ለማሰናበት ወደ ቀኝ ያንሸራትቱ"</string>
+    <string name="description_direction_left" msgid="6328816971226781776">"ለማሸለብ ወደ ግራ ያንሸራትቱ"</string>
+    <string name="description_direction_up" msgid="7875287578324520904">"ለማሰናበት ወደ ላይ ያንሸራትቱ"</string>
+    <string name="description_direction_down" msgid="8240473964024874053">"ለማሸለብ ወደ ታች ያንሸራትቱ"</string>
+    <string name="timer_stopped" msgid="2730331837832462008">"የሰዓት ቆጣሪ ቆሟል"</string>
+    <string name="timers_stopped" msgid="2393640808691864520">"<xliff:g id="NUMBER">%d</xliff:g> የሰዓት ቆጣሪዎች ቆመዋል"</string>
+    <string name="all_timers_stopped_notif" msgid="278532320068394600">"የሰዓት ቆጣሪዎችዎን ለማየት ይንኩ"</string>
+    <string name="timers_in_use" msgid="5570729467344408506">"<xliff:g id="NUMBER">%d</xliff:g> ሰዓት ቆጣሪዎች"</string>
+    <string name="next_timer_notif" msgid="6136454740115613653">"ቀጣዩ የሰዓት ቆጣሪ፦ <xliff:g id="TIME_REMAINING">%s</xliff:g>"</string>
+    <string name="screensaver_settings" msgid="7013450738357352801">"የህልም ቅንብሮች"</string>
+    <string name="night_mode_title" msgid="5983813889469616299">"የማታ ሁነታ"</string>
+    <string name="night_mode_summary" msgid="1017350187324162631">"ብርሃኑ በጣም የፈዘዘ ማሳያ (ለጨለሙ ክፍሎች)"</string>
+    <string name="expand_alarm" msgid="7392616528943305020">"ማንቂያ ዘርጋ"</string>
+    <string name="collapse_alarm" msgid="3561772046433483980">"ማንቂያ ሰብስብ"</string>
+    <string name="alarm_undo" msgid="5710042601177655254">"ቀልብስ"</string>
+    <string name="alarm_deleted" msgid="5017075127290219443">"ማንቂያ ተሰርዟል።"</string>
+    <string name="slash" msgid="2077577763821006919">"/"</string>
+    <string name="world_day_of_week_label" msgid="5911196322328341288">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
+    <string name="next_alarm_description" msgid="2650244835760747046">"ቀጣዩ ማንቂያ፦ <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <string name="label_unlabeled" msgid="4699506713571930740"></string>
+    <string name="alarms_selected" msgid="1075308195332888260">"<xliff:g id="ALARMS">%d</xliff:g> ተመርጠዋል"</string>
+    <string name="deleted_message" msgid="1220848140260509437">"ተሰርዟል"</string>
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="one" msgid="111940612131906802">"የተመረጠው ማንቂያ ይሰረዝ?"</item>
+    <item quantity="other" msgid="6918176478191272189">"የተመረጡት ማንቂያዎች ይሰረዙ?"</item>
+  </plurals>
+    <string name="timer_delete_confirmation" msgid="2815524107015816453">"ይህ የሰዓት ቆጣሪ ይሰረዝ?"</string>
+    <string name="city_delete_confirmation" msgid="1783441538785676299">"ይህ ከተማ ይወገድ?"</string>
+    <string name="widget_loading_ms" msgid="790841709484678848">"በመጫን ላይ"</string>
+    <string name="digital_gadget" msgid="2326954556720571358">"ዲጂታል ሰዓት"</string>
+</resources>

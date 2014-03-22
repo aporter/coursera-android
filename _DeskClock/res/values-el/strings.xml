@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6674495003718166674">"Ρολόι"</string>
+    <string name="alarm_list_title" msgid="7589940465292950600">"Ειδοποιήσεις"</string>
+    <string name="add_alarm" msgid="5976616107390962899">"Προσθήκη ξυπνητηριού"</string>
+    <string name="menu_desk_clock" msgid="3241995064554071588">"Ρολόι γραφείου"</string>
+    <string name="menu_edit_alarm" msgid="7204602994918829751">"Επεξεργασία ξυπνητηριού"</string>
+    <string name="delete_alarm" msgid="3457780990646206817">"Διαγραφή ξυπνητηριού"</string>
+    <string name="enable_alarm" msgid="1834599140632142536">"Ενεργοποίηση ξυπνητηριού"</string>
+    <string name="disable_alarm" msgid="5889378670229554109">"Απενεργοποίηση ξυπνητηριού"</string>
+    <string name="delete_alarm_confirm" msgid="6578572637340860840">"Διαγραφή αυτού του ξυπνητηριού;"</string>
+    <string name="show_clock" msgid="8358759982675616915">"Εμφάνιση ρολογιού"</string>
+    <string name="hide_clock" msgid="3217727306480505694">"Απόκρυψη ρολογιού"</string>
+    <string name="label" msgid="162189613902857319">"Ετικέτα"</string>
+    <string name="default_label" msgid="5590025289805630372">"Ξυπνητήρι"</string>
+    <string name="set_alarm" msgid="9148359866152726808">"Ορισμός ξυπνητηριού"</string>
+    <string name="alarm_vibrate" msgid="3476686921490362230">"Δόνηση"</string>
+    <string name="alarm_repeat" msgid="7242985466344233206">"Επανάληψη"</string>
+    <string name="alert" msgid="6506982899651975645">"Ήχος κλήσης ξυπνητηριού"</string>
+    <string name="ringtone" msgid="9110746249688559579">"Ήχος κλήσης"</string>
+    <string name="time" msgid="8067216534232296518">"Ώρα"</string>
+    <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">"Παράβλεψη"</string>
+    <string name="alarm_alert_alert_silenced" msgid="2704775170733835993">"Σιγή ξυπνητηριού μετά από <xliff:g id="MINUTES">%d</xliff:g> λεπτά"</string>
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"Αναβολή αφύπνισης"</string>
+    <string name="alarm_alert_snooze_set" msgid="656470966696912087">"Αναβολή αφύπνισης για <xliff:g id="MINUTES">%d</xliff:g> λεπτά."</string>
+    <string name="alarm_alert_snooze_until" msgid="6958013659168344550">"Αναβολή έως τις <xliff:g id="TIME">%s</xliff:g>"</string>
+  <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Απομένει λιγότερο από ένα λεπτό"</item>
+    <item msgid="83197792732433351">"Απομένουν <xliff:g id="HOURS">%1$s</xliff:g>"</item>
+    <item msgid="8919698220200894252">"Απομένουν <xliff:g id="MINUTES">%2$s</xliff:g>"</item>
+    <item msgid="8458069283817013813">"Απομένουν <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g>"</item>
+  </string-array>
+  <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Το ξυπνητήρι έχει οριστεί σε λιγότερο από 1 λεπτό από τώρα."</item>
+    <item msgid="6002066367368421848">"Το ξυπνητήρι έχει οριστεί σε <xliff:g id="DAYS">%1$s</xliff:g> από τώρα."</item>
+    <item msgid="8824719306247973774">"Το ξυπνητήρι έχει οριστεί σε <xliff:g id="HOURS">%2$s</xliff:g> από τώρα."</item>
+    <item msgid="8182406852935468862">"Το ξυπνητήρι έχει οριστεί σε <xliff:g id="DAYS">%1$s</xliff:g> και <xliff:g id="HOURS">%2$s</xliff:g> από τώρα."</item>
+    <item msgid="2532279224777213194">"Το ξυπνητήρι έχει οριστεί σε <xliff:g id="MINUTES">%3$s</xliff:g> από τώρα."</item>
+    <item msgid="5936557894247187717">"Το ξυπνητήρι έχει οριστεί σε <xliff:g id="DAYS">%1$s</xliff:g> και <xliff:g id="MINUTES">%3$s</xliff:g> από τώρα."</item>
+    <item msgid="9115697840826129603">"Το ξυπνητήρι έχει οριστεί σε <xliff:g id="HOURS">%2$s</xliff:g> και <xliff:g id="MINUTES">%3$s</xliff:g> από τώρα."</item>
+    <item msgid="2332583385137381060">"Το ξυπνητήρι αυτό έχει οριστεί σε <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> και <xliff:g id="MINUTES">%3$s</xliff:g> από τώρα."</item>
+  </string-array>
+    <string name="day" msgid="7984755014526510295">"1 ημέρα"</string>
+    <string name="days" msgid="2070509222727852210">"<xliff:g id="DAYS">%s</xliff:g> ημέρες"</string>
+    <string name="hour" msgid="2546819039651509323">"1 ώρα"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> ώρες"</string>
+    <string name="minute" msgid="2486157997434653710">"1 λεπτό"</string>
+    <string name="minutes" msgid="6115838729146292526">"<xliff:g id="MINUTES">%s</xliff:g> λεπτά"</string>
+    <string name="every_day" msgid="4100909974923444602">"Κάθε ημέρα"</string>
+    <string name="never" msgid="54104287800571769">"Ποτέ"</string>
+    <string name="day_concat" msgid="971998564991636532">", "</string>
+    <string name="clock_instructions" msgid="2656876819515011590">"Επιλέξτε ένα ρολόι"</string>
+    <string name="analog_gadget" msgid="1670505720837152766">"Αναλογικό ρολόι"</string>
+    <string name="help" msgid="7786263119482654015">"βοήθεια"</string>
+    <string name="settings" msgid="5849739030579520686">"Ρυθμίσεις"</string>
+    <string name="snooze_duration_title" msgid="1097309861110780483">"Διάρκεια αναβολής"</string>
+  <plurals name="snooze_duration">
+    <item quantity="one" msgid="7406963706727564418">"1 λεπτό"</item>
+    <item quantity="other" msgid="568504136093419703">"<xliff:g id="NUMBER">%d</xliff:g> λεπτά"</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="one" msgid="3783171637798575068">"λεπτό"</item>
+    <item quantity="other" msgid="1304056759541595077">"λεπτά"</item>
+  </plurals>
+    <string name="auto_silence_title" msgid="2012754009554434544">"Σίγαση μετά"</string>
+    <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> λεπτά"</string>
+    <string name="auto_silence_never" msgid="4821982647348750809">"Ποτέ"</string>
+  <string-array name="auto_silence_entries">
+    <item msgid="3693401222993867634">"5 λεπτά"</item>
+    <item msgid="3663730603519549990">"10 λεπτά"</item>
+    <item msgid="1385481095199681200">"15 λεπτά"</item>
+    <item msgid="420479821767342125">"20 λεπτά"</item>
+    <item msgid="2107936130151066746">"25 λεπτά"</item>
+    <item msgid="7219791437023378544">"30 λεπτά"</item>
+    <item msgid="4278641338024561333">"Ποτέ"</item>
+  </string-array>
+    <string name="done" msgid="6509722361933858451">"Τέλος"</string>
+    <string name="revert" msgid="9100911171235162926">"Επαναφορά"</string>
+    <string name="delete" msgid="5732434972457000541">"Διαγραφή"</string>
+    <string name="alarm_volume_title" msgid="8506245173912428522">"Ένταση ήχου ξυπνητηριού"</string>
+    <string name="silent_alarm_summary" msgid="8605302849408279221">"Σίγαση"</string>
+    <string name="alarm_notify_text" msgid="4891014685945904766">"Αναβολή αφύπνισης ή παράβλεψη ξυπνητηριού."</string>
+    <string name="alarm_notify_snooze_label" msgid="5404083762646377829">"<xliff:g id="LABEL">%s</xliff:g> (αναβολή)"</string>
+    <string name="alarm_notify_snooze_text" msgid="4819324081410990368">"Το ξυπνητήρι ρυθμίστηκε για τις <xliff:g id="TIME">%s</xliff:g>. Αγγίξτε για να ακυρώσετε."</string>
+    <string name="volume_button_setting_title" msgid="6937131248843413357">"Κουμπί έντασης"</string>
+    <string name="volume_button_dialog_title" msgid="8768042543750036853">"Εφέ κουμπιού"</string>
+  <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Αφύπνιση"</item>
+    <item msgid="3450979320164769576">"Παράβλεψη"</item>
+    <item msgid="6302517608411378024">"Να μη γίνει καμία ενέργεια"</item>
+  </string-array>
+    <string name="default_ringtone_setting_title" msgid="4549726190682964245">"Ορισμός προεπιλεγμένου ήχου κλήσης"</string>
+    <string name="alarm_button_description" msgid="740283647046258651">"Ειδοποιήσεις"</string>
+    <string name="gallery_button_description" msgid="1151743663255257668">"Συλλογή"</string>
+    <string name="music_button_description" msgid="1626593420810117999">"Μουσική"</string>
+    <string name="nightmode_button_description" msgid="990894208217576381">"Θάμπωμα"</string>
+    <string name="home_button_description" msgid="3383859096809056157">"Εκκίνηση"</string>
+    <string name="desk_clock_button_description" msgid="4207371097361657274">"Οθόνη ρολογιού"</string>
+    <string name="label_description" msgid="8736179296142915727">"Ετικέτα"</string>
+    <string name="ringtone_description" msgid="7580922112921069925">"Ήχος κλήσης"</string>
+    <string name="battery_charging_level" msgid="5251483622085889693">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure" msgid="3425804832021006835">"Οι πληροφορίες καιρού δεν είναι διαθέσιμες αυτήν τη στιγμή."</string>
+    <string name="alarm_klaxon_service_desc" msgid="2147506334302260256">"Η υπηρεσία αναπαραγωγής ήχου για ειδοποιήσεις έχει ρυθμιστεί στο Ρολόι."</string>
+    <string name="loading_ringtone" msgid="6523322777415268044">"Φόρτωση ήχου κλήσης"</string>
+    <string name="timer_ring_service_desc" msgid="2620214305660322415">"Η υπηρεσία αναπαραγωγής ήχου για ξυπνητήρια έχει ρυθμιστεί στο Ρολόι."</string>
+    <string name="control_set_alarm" msgid="2194676418924016327">"Ορισμός ξυπνητηριού"</string>
+    <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
+    <skip />
+    <string name="menu_timer" msgid="6459070074762877114">"Χρονόμετρο"</string>
+    <string name="menu_clock" msgid="5612760670606829805">"Ρολόι"</string>
+    <string name="menu_stopwatch" msgid="3396117705293574701">"Χρονόμετρο"</string>
+    <string name="button_alarms" msgid="8016103479617020265">"Ειδοποιήσεις"</string>
+    <string name="button_cities" msgid="4555761857494501363">"Πόλεις"</string>
+    <string name="button_menu" msgid="6050484561842120282">"Περισσότερες επιλογές"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Ρυθμίσεις"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Βοήθεια"</string>
+    <string name="menu_item_night_mode" msgid="3486930302245398975">"Λειτουργία νύχτας"</string>
+    <string name="sw_resume_button" msgid="2569360966002022248">"Συνέχιση"</string>
+    <string name="sw_start_button" msgid="8373422516681242270">"Εκκίνηση"</string>
+    <string name="sw_stop_button" msgid="8322958613123274451">"Διακοπή"</string>
+    <string name="sw_lap_button" msgid="6992264696039004233">"Γύρος"</string>
+    <string name="sw_reset_button" msgid="6616804728322906117">"Επαναφορά"</string>
+    <string name="sw_share_button" msgid="4478648110382859382">"Κοινή χρήση"</string>
+    <string name="hours_label" msgid="3393478155635368097">"ω."</string>
+    <string name="minutes_label" msgid="3568098128251438588">"λ."</string>
+    <string name="seconds_label" msgid="124655952824003246">"δ."</string>
+    <string name="hours_label_description" msgid="8652842524970971830">"ώρες"</string>
+    <string name="minutes_label_description" msgid="965686733490357796">"λεπτά"</string>
+    <string name="seconds_label_description" msgid="3821620053141299692">"δευτερόλεπτα"</string>
+    <string name="zero" msgid="7102083421938355017">"0"</string>
+    <string name="sw_share_main" msgid="7703563468204234405">"Ο χρόνος μου είναι <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="sw_share_laps" msgid="614390674795945007">"Χρόνοι γύρων:"</string>
+    <string name="sw_notification_lap_number" msgid="3535420316052647126">"Γύρος <xliff:g id="NUMBER">%d</xliff:g>"</string>
+  <plurals name="Nhours_description">
+    <item quantity="one" msgid="371227238759147245">"1 ώρα"</item>
+    <item quantity="other" msgid="7018184076091344797">"<xliff:g id="NUMBER">%d</xliff:g> ώρες"</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <item quantity="one" msgid="1001391305885322059">"1 λεπτό"</item>
+    <item quantity="other" msgid="6948360065351547776">"<xliff:g id="NUMBER">%d</xliff:g> λεπτά"</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <item quantity="one" msgid="6589853086641485725">"1 δευτερόλεπτο"</item>
+    <item quantity="other" msgid="7583230315175387547">"<xliff:g id="NUMBER">%d</xliff:g> δευτερόλεπτα"</item>
+  </plurals>
+    <string name="timer_add_timer" msgid="862733633862574752">"Προσθήκη χρονόμετρου"</string>
+    <string name="timer_start" msgid="6158486445614356442">"Έναρξη"</string>
+    <string name="timer_delete" msgid="8699122001991909302">"Διαγραφή"</string>
+    <string name="timer_plus_one" msgid="6631211310420106116">"Προσθήκη 1 λεπτού"</string>
+    <string name="timer_stop" msgid="3361154678667736722">"Διακοπή"</string>
+    <string name="timer_reset" msgid="7848424809190171640">"Επαναφορά"</string>
+    <string name="timer_cancel" msgid="3572868404230815644">"Ακύρωση"</string>
+    <string name="timer_times_up" msgid="9190440395938519009">"Ο χρόνος έχει τελειώσει"</string>
+    <string name="timer_notification_label" msgid="4933184831583137249">"Ξυπνητήρι"</string>
+  <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Είστε πάρα πολύ γρήγοροι."</item>
+    <item msgid="6332879039890727169">"Απολαύστε"</item>
+    <item msgid="815382761274660130">"Τα Android είναι γρήγορα, αλλά όχι τόσο όσο εσείς!"</item>
+    <item msgid="7916250650982813737">"Ουφ."</item>
+    <item msgid="6836603904515182333">"Τρελοί χρόνοι."</item>
+    <item msgid="7508085100680861631">"Απίστευτη ταχύτητα."</item>
+    <item msgid="5961245252909589573">"Ας ξανακάνουμε ένα ταξίδι στο χρόνο."</item>
+    <item msgid="5211891900854545940">"Ένα απλό άλμα προς τα αριστερά."</item>
+    <item msgid="9071353477103826053">"Έχετε μια τάση να βιάζεστε."</item>
+    <item msgid="3785193933691117181">"Ταχύτητα φωτονίου."</item>
+  </string-array>
+  <plurals name="timers_num">
+    <item quantity="one" msgid="6764708652976799977">"1 λεπτό"</item>
+    <item quantity="other" msgid="3799129667336330616">"<xliff:g id="NUMBER">%d</xliff:g> ξυπνητήρια"</item>
+  </plurals>
+    <string name="home_label" msgid="4436139365695453870">"Αρχική σελίδα"</string>
+    <string name="cities_activity_title" msgid="8552462751129256730">"Πόλεις"</string>
+    <string name="alarm_on" msgid="4344630320756422804">"ΕΝΕΡΓΟ"</string>
+    <string name="alarm_off" msgid="6478058633710013612">"ΑΝΕΝΕΡΓΟ"</string>
+    <string name="clock_settings" msgid="8887845806151785393">"ΡΟΛΟΙ"</string>
+    <string name="clock_style" msgid="2265011060429742344">"Στυλ"</string>
+  <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Αναλογικό"</item>
+    <item msgid="8483930821046925592">"Ψηφιακό"</item>
+  </string-array>
+    <string name="automatic_home_clock" msgid="6274174710735449252">"Αυτόματη ώρα χώρας προέλευσης"</string>
+    <string name="automatic_home_clock_summary" msgid="6020476321040807273">"Όταν ταξιδεύετε σε μια περιοχή με διαφορετική ώρα, να προστίθεται ένα ρολόι με την ώρα της χώρας προέλευσής σας"</string>
+    <string name="home_time_zone" msgid="9199730676287974501">"Βασική ζώνη ώρας"</string>
+    <string name="home_time_zone_title" msgid="807894493443834624">"Βασική ζώνη ώρας"</string>
+    <string name="time_picker_cancel" msgid="7437106489606013077">"Ακύρωση"</string>
+    <string name="time_picker_set" msgid="331153175471468051">"OK"</string>
+    <string name="time_picker_time_seperator" msgid="7484926510054777041">":"</string>
+    <string name="time_picker_ampm_label" msgid="6754113715199751083">"--"</string>
+    <string name="time_picker_00_label" msgid="6001006474735281911">":00"</string>
+    <string name="time_picker_30_label" msgid="1027250857384838129">":30"</string>
+  <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Νήσοι Μάρσαλ"</item>
+    <item msgid="4196408495909011020">"Νήσος Μιντγουέι"</item>
+    <item msgid="1414384194857730006">"Χαβάη"</item>
+    <item msgid="2687091371581931926">"Αλάσκα"</item>
+    <item msgid="1922100269679049660">"Ώρα Ειρηνικού"</item>
+    <item msgid="7156402158716866161">"Τιχουάνα"</item>
+    <item msgid="1144117502254612241">"Αριζόνα"</item>
+    <item msgid="101284182011722637">"Τσιουάουα"</item>
+    <item msgid="689121094232986897">"Ορεινή ώρα"</item>
+    <item msgid="5445331923942302756">"Κεντρική Αμερική"</item>
+    <item msgid="2749806434052452351">"Κεντρική ώρα"</item>
+    <item msgid="3997138870229703753">"Πόλη του Μεξικού"</item>
+    <item msgid="5425567073027744888">"Σασκάτσουαν"</item>
+    <item msgid="2877342865396629368">"Μπογκοτά"</item>
+    <item msgid="568682398893899670">"Ανατολική ώρα"</item>
+    <item msgid="668135984541863866">"Βενεζουέλα"</item>
+    <item msgid="3737474220861486223">"Ώρ. Ατλ. (Μπαρμπάντ)"</item>
+    <item msgid="6279116051273436870">"Ώρα Ατλαντικού (Καναδάς)"</item>
+    <item msgid="8513382867172014244">"Μανάους"</item>
+    <item msgid="7776299003105932407">"Σαντιάγο"</item>
+    <item msgid="8636989494746218677">"Νέα Γη"</item>
+    <item msgid="4402541016410147505">"Μπραζίλια"</item>
+    <item msgid="2251184440733164084">"Μπουένος Άιρες"</item>
+    <item msgid="6202926618569004969">"Γροιλανδία"</item>
+    <item msgid="2355275037115290628">"Μοντεβιδέο"</item>
+    <item msgid="1377549694711708945">"Μεσο-Ατλαντικός"</item>
+    <item msgid="3457671272126347981">"Αζόρες"</item>
+    <item msgid="3659315141063710840">"Νήσοι Πράσινου Ακρωτηρίου"</item>
+    <item msgid="1260941741802367635">"Καζαμπλάνκα"</item>
+    <item msgid="8275203689687954762">"Λονδίνο, Δουβλίνο"</item>
+    <item msgid="5970179539479320905">"Άμστερνταμ, Βερολίνο"</item>
+    <item msgid="5396319478750517962">"Βελιγράδι"</item>
+    <item msgid="8688787475056663004">"Βρυξέλλες"</item>
+    <item msgid="3415827874921681622">"Σαράγεβο"</item>
+    <item msgid="402008965928320066">"Γουίντχοκ"</item>
+    <item msgid="6436942724959275569">"Ώρα Δ. Αφρικής"</item>
+    <item msgid="954536568417204026">"Αμμάν, Ιορδανία"</item>
+    <item msgid="8932745482008902551">"Αθήνα, Κωνσταντινούπολη"</item>
+    <item msgid="320025725949024510">"Βηρυτός, Λίβανος"</item>
+    <item msgid="7242083112551905970">"Κάιρο"</item>
+    <item msgid="7241520146011450419">"Ελσίνκι"</item>
+    <item msgid="2717065017510546526">"Ιερουσαλήμ"</item>
+    <item msgid="8698556287741466553">"Μινσκ"</item>
+    <item msgid="1797598357342084506">"Χαράρε"</item>
+    <item msgid="5169119919905066998">"Βαγδάτη"</item>
+    <item msgid="2615788116201065182">"Μόσχα"</item>
+    <item msgid="9084354867885584646">"Κουβέιτ"</item>
+    <item msgid="1351570519986178268">"Ναϊρόμπι"</item>
+    <item msgid="7094569580635877460">"Τεχεράνη"</item>
+    <item msgid="3953138772617909704">"Μπακού"</item>
+    <item msgid="2868893113598800752">"Τμπιλίσι"</item>
+    <item msgid="7088581865802476373">"Ερεβάν"</item>
+    <item msgid="1941122257623887992">"Ντουμπάι"</item>
+    <item msgid="9194797225058249720">"Καμπούλ"</item>
+    <item msgid="6486569254364577332">"Ισλαμαμπάντ, Καράτσι"</item>
+    <item msgid="5487724896895412089">"Ουράλσκ"</item>
+    <item msgid="364906869710826982">"Εκατερίνμπουργκ"</item>
+    <item msgid="2106505051751383358">"Καλκούτα"</item>
+    <item msgid="6851586621581501447">"Σρι Λάνκα"</item>
+    <item msgid="800438544128213134">"Κατμαντού"</item>
+    <item msgid="6173621471007643021">"Αστάνα"</item>
+    <item msgid="8645125891971581128">"Γιανγκόν"</item>
+    <item msgid="2886407505119737794">"Κρασνογιάρσκ"</item>
+    <item msgid="3408222398188107090">"Μπανγκόκ"</item>
+    <item msgid="4441612937172851228">"Πεκίνο"</item>
+    <item msgid="4936715789028996930">"Χονγκ Κονγκ"</item>
+    <item msgid="4261031143777385525">"Ιρκούτσκ"</item>
+    <item msgid="3538060959338191835">"Κουάλα Λουμπούρ"</item>
+    <item msgid="1438847562643099201">"Περθ"</item>
+    <item msgid="3063913827688244383">"Ταϊπέι"</item>
+    <item msgid="3502757135046564209">"Σεούλ"</item>
+    <item msgid="6107588684519111669">"Τόκιο, Οσάκα"</item>
+    <item msgid="4350769099755608471">"Γιακούτσκ"</item>
+    <item msgid="2422707004533526462">"Αδελαΐδα"</item>
+    <item msgid="1292192084554134339">"Ντάργουιν"</item>
+    <item msgid="1320883699470001716">"Μπρισμπέιν"</item>
+    <item msgid="5137198806146386527">"Χόμπαρτ"</item>
+    <item msgid="5920063686933941174">"Σύδνεϊ, Καμπέρα"</item>
+    <item msgid="615906039696009425">"Βλαδιβοστόκ"</item>
+    <item msgid="7738680449356275374">"Γκουάμ"</item>
+    <item msgid="2882915026380778227">"Μάγκανταν"</item>
+    <item msgid="8255615641810148152">"Όκλαντ"</item>
+    <item msgid="3027153773466391728">"Φίτζι"</item>
+    <item msgid="5911600083231840181">"Τόνγκα"</item>
+  </string-array>
+    <string name="alarm_settings" msgid="6049627772103646753">"ΞΥΠΝΗΤΗΡΙΑ"</string>
+    <string name="see_all" msgid="775983396630163739">"Εμφάνιση όλων…"</string>
+    <string name="stopwatch_service_desc" msgid="8416624630388063996">"Υπηρεσία χρονόμετρου για την εκτέλεση της ειδοποίησης."</string>
+    <string name="swn_stopped" msgid="783124901663086172">"Διακόπηκε"</string>
+    <string name="description_direction_right" msgid="1615911557926085934">"Ολίσθηση δεξιά για παράλειψη"</string>
+    <string name="description_direction_left" msgid="6328816971226781776">"Ολίσθηση αριστερά για αναβολή"</string>
+    <string name="description_direction_up" msgid="7875287578324520904">"Ολίσθηση επάνω για παράλειψη"</string>
+    <string name="description_direction_down" msgid="8240473964024874053">"Ολίσθηση κάτω για αναβολή"</string>
+    <string name="timer_stopped" msgid="2730331837832462008">"Το ξυπνητήρι διακόπηκε"</string>
+    <string name="timers_stopped" msgid="2393640808691864520">"<xliff:g id="NUMBER">%d</xliff:g> ξυπνητήρια διακόπηκαν"</string>
+    <string name="all_timers_stopped_notif" msgid="278532320068394600">"Αγγίξτε για να δείτε τα ξυπνητήρια σας"</string>
+    <string name="timers_in_use" msgid="5570729467344408506">"<xliff:g id="NUMBER">%d</xliff:g> ξυπνητήρια"</string>
+    <string name="next_timer_notif" msgid="6136454740115613653">"Επόμενο ξυπνητήρι: <xliff:g id="TIME_REMAINING">%s</xliff:g>"</string>
+    <string name="screensaver_settings" msgid="7013450738357352801">"Ρυθμίσεις λειτουργίας Dream"</string>
+    <string name="night_mode_title" msgid="5983813889469616299">"Λειτουργία νύχτας"</string>
+    <string name="night_mode_summary" msgid="1017350187324162631">"Πολύ χαμηλή φωτεινότητα οθόνης (για σκοτεινά δωμάτια)"</string>
+    <string name="expand_alarm" msgid="7392616528943305020">"Ανάπτυξη ξυπνητηριού"</string>
+    <string name="collapse_alarm" msgid="3561772046433483980">"Σύμπτυξη ξυπνητηριού"</string>
+    <string name="alarm_undo" msgid="5710042601177655254">"αναίρεση"</string>
+    <string name="alarm_deleted" msgid="5017075127290219443">"Το ξυπνητήρι έχει διαγραφεί."</string>
+    <string name="slash" msgid="2077577763821006919">"/"</string>
+    <string name="world_day_of_week_label" msgid="5911196322328341288">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
+    <string name="next_alarm_description" msgid="2650244835760747046">"Επόμενο ξυπνητήρι: <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <string name="label_unlabeled" msgid="4699506713571930740"></string>
+    <string name="alarms_selected" msgid="1075308195332888260">"<xliff:g id="ALARMS">%d</xliff:g> έχουν επιλεγεί"</string>
+    <string name="deleted_message" msgid="1220848140260509437">"Διαγράφηκε"</string>
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="one" msgid="111940612131906802">"Να διαγραφεί το επιλεγμένο ξυπνητήρι;"</item>
+    <item quantity="other" msgid="6918176478191272189">"Να διαγραφούν τα επιλεγμένα ξυπνητήρια;"</item>
+  </plurals>
+    <string name="timer_delete_confirmation" msgid="2815524107015816453">"Διαγραφή αυτού του ξυπνητηριού;"</string>
+    <string name="city_delete_confirmation" msgid="1783441538785676299">"Να διαγραφεί αυτή η πόλη;"</string>
+    <string name="widget_loading_ms" msgid="790841709484678848">"Φόρτωση"</string>
+    <string name="digital_gadget" msgid="2326954556720571358">"Ψηφιακό ρολόι"</string>
+</resources>

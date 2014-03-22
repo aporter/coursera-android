@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock_background"
+    android:layout_width="match_parent"
+    android:background="@drawable/blackish_transition"
+    android:layout_height="match_parent" >
+    <FrameLayout
+        android:id="@+id/clock_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blackish_transition" >
+
+      <LinearLayout
+          android:id="@+id/desk_clock"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+          <ListView
+              android:id="@+id/cities"
+              android:clickable="false"
+              android:layout_width="match_parent"
+              android:layout_height="0dip"
+              android:layout_weight="1"/>
+          <FrameLayout
+              android:id="@+id/clock_footer"
+              android:layout_marginTop="@dimen/button_footer_height_neg"
+              android:background="@drawable/footer_bg"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dip"
+                  android:background="#28ffffff" />
+                  <LinearLayout
+                      android:id="@+id/clock_buttons"
+                      android:gravity="bottom"
+                      android:layout_width="match_parent"
+                      android:layout_height="@dimen/button_footer_height" >
+                      <ImageButton
+                          android:id="@+id/alarms_button"
+                          android:contentDescription="@string/button_alarms"
+                          android:onClick="clockButtonsOnClick"
+                          android:layout_width="64dip"
+                          style="@style/button"
+                          android:layout_gravity="left"
+                          android:src="@drawable/ic_alarm"
+                          android:background="@drawable/item_background"
+                          android:layout_height="match_parent" />
+                      <Space
+                          android:layout_height="match_parent"
+                          android:layout_width="0dip"
+                          android:layout_weight="1"/>
+                      <ImageButton
+                          android:id="@+id/cities_button"
+                          android:contentDescription="@string/button_cities"
+                          android:onClick="clockButtonsOnClick"
+                          android:layout_width="64dip"
+                          android:src="@drawable/ic_location"
+                          style="@style/button"
+                          android:layout_gravity="center"
+                          android:background="@drawable/item_background"
+                          android:layout_height="match_parent" />
+                      <Space
+                          android:layout_height="match_parent"
+                          android:layout_width="0dip"
+                          android:layout_weight="1"/>
+                      <ImageButton
+                          android:id="@+id/menu_button"
+                          android:contentDescription="@string/button_menu"
+                          style="?android:attr/actionOverflowButtonStyle"
+                          android:background="@drawable/item_background"
+                          android:onClick="clockButtonsOnClick"
+                          android:layout_gravity="right"
+                          android:layout_width="64dip"
+                          android:layout_height="match_parent" />
+                  </LinearLayout>
+          </FrameLayout>
+      </LinearLayout>
+  </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/mainLayout">
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:text="@string/hello"
+        android:gravity="center_horizontal" android:textSize="48px"
+        android:padding="12px" />
+    <EditText android:layout_height="wrap_content" android:id="@+id/value1"
+        android:hint="@string/hint1" android:inputType="numberDecimal"
+        android:layout_width="fill_parent" android:textSize="48px"></EditText>
+    <EditText android:layout_height="wrap_content" android:id="@+id/value2"
+        android:hint="@string/hint2" android:inputType="numberDecimal"
+        android:layout_width="fill_parent" android:textSize="48px"></EditText>
+    <FrameLayout android:id="@+id/FrameLayout01"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:padding="12px" android:background="#ff0000">
+        <LinearLayout android:id="@+id/LinearLayout02"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:background="#000000"
+            android:padding="4px">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/resultLabel"
+                android:textSize="48px" android:id="@+id/resultLabel"></TextView>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/result"
+                android:textSize="48px" android:textStyle="bold"
+                android:layout_marginLeft="16px"></TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:id="@+id/LinearLayout03"
+        android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <Button android:layout_height="wrap_content" android:id="@+id/addValues"
+            android:text="@string/add" android:textSize="32px"
+            android:layout_width="wrap_content"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/multiplyValues"
+            android:text="@string/multiply" android:textSize="32px"
+            android:layout_width="wrap_content"></Button>
+    </LinearLayout>
+</LinearLayout>

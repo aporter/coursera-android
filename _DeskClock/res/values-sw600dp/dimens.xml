@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="time_text_size">180dip</dimen>
+    <dimen name="ampm_text_size">54dip</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+    <dimen name="next_alarm_text_size">15sp</dimen>
+    <dimen name="time_margin_right">8dip</dimen>
+    <dimen name="time_margin_left">8dip</dimen>
+    <dimen name="time_margin_bottom">14dip</dimen>
+    <dimen name="time_margin_top">32dip</dimen>
+    <dimen name="ampm_margin_top">15dip</dimen>
+    <dimen name="font_margin_adjust">8dip</dimen>
+    <dimen name="next_alarm_margin_top">-5dip</dimen>
+    <dimen name="alarm_label_padding">64dip</dimen>
+
+    <dimen name="big_font_size">220dp</dimen>
+    <dimen name="widget_big_font_size">130dp</dimen>
+    <dimen name="medium_font_size">100dp</dimen>
+    <dimen name="widget_medium_font_size">70dp</dimen>
+    <dimen name="label_font_size">18sp</dimen>
+    <dimen name="body_font_size">24sp</dimen>
+
+    <dimen name="body_font_padding">8dp</dimen>
+    <dimen name="medium_font_padding">24dp</dimen>
+
+    <dimen name="small_space">32dp</dimen>
+    <dimen name="medium_space_top">52dp</dimen>
+    <dimen name="medium_space_bottom">12dp</dimen>
+
+    <dimen name="label_margin_big">8dp</dimen>
+    <dimen name="label_margin_small">4dp</dimen>
+
+    <dimen name="timer_circle_diameter">480dip</dimen>
+    <dimen name="timer_circle_width">500dip</dimen>
+
+    <!-- Size of margin for circles. -->
+    <dimen name="circle_margin_top">48dp</dimen>
+    <dimen name="circle_margin">96dp</dimen>
+    <dimen name="laps_margin">110dp</dimen>
+    <dimen name="analog_clock_margin">96dp</dimen>
+
+     <!-- Width of the clock, for use with alarm buttons. -->
+    <dimen name="alarm_alert_display_width">550dip</dimen>
+
+    <!-- Size of analog clock in world clock. -->
+    <dimen name="world_clock_analog_size">200dip</dimen>
+    <!-- Empty space at the edges of the +1 and reset button icons. Based off of 56dip width.-->
+    <dimen name="plusone_reset_button_padding">23dip</dimen>
+    <!-- Empty space at the edges of the delete button icons. Based off of 56dip width. -->
+    <dimen name="delete_button_padding">19dip</dimen>
+    <!-- Empty space at the edges of the delete button icons. Based off of 56dip width, only nonzero for tablets. -->
+    <dimen name="share_button_padding">16dip</dimen>
+    <!-- Extra offset for timer button paddings. Only nonzero for non-tablets. -->
+    <dimen name="timer_button_extra_offset">0dip</dimen>
+
+    <!-- Size of alarm alert outer ring. -->
+    <dimen name="glowpadview_outerring_diameter">364dip</dimen>
+
+    <!-- Default target placement radius for GlowPadView. Should be 1/2 of outerring diameter. -->
+    <dimen name="glowpadview_target_placement_radius">182dip</dimen>
+
+    <dimen name="glowpadview_margin_bottom">0dip</dimen>
+
+    <dimen name="min_digital_widget_width">300dip</dimen>
+    <dimen name="min_digital_widget_height">120dip</dimen>
+    <dimen name="min_digital_widget_resize_width">200dip</dimen>
+    <dimen name="min_digital_widget_resize_height">120dip</dimen>
+    <dimen name="def_digital_widget_width">200dip</dimen>
+    <dimen name="def_digital_widget_height">190dip</dimen>
+
+</resources>

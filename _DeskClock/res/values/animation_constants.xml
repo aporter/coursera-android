@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources>
+    <!--
+    <integer name="activity_slide_left_duration">475</integer>
+    <integer name="activity_slide_right_duration">525</integer>
+    <integer name="activity_collapse_duration">125</integer>
+    <integer name="expand_cc_bcc_dur">150</integer>
+    <integer name="fadein_cc_bcc_dur">150</integer>
+
+    <integer name="dialog_animationDefaultDur">220</integer>
+    <integer name="dialog_animationShortDur">150</integer>
+    <integer name="shrink_animation_duration">350</integer>
+    <integer name="slide_animation_duration">320</integer>
+    <integer name="fade_in_animation_duration">350</integer>
+    -->
+    <integer name="fade_duration">250</integer>
+
+    <!-- Swipe constants -->
+    <integer name="swipe_escape_velocity">100</integer>
+    <integer name="escape_animation_duration">200</integer>
+    <integer name="max_escape_animation_duration">400</integer>
+    <integer name="max_dismiss_velocity">2000</integer>
+    <integer name="snap_animation_duration">350</integer>
+    <integer name="dismiss_animation_duration">500</integer>
+    <integer name="swipe_scroll_slop">2</integer>
+    <dimen name="min_swipe">10dip</dimen>
+    <dimen name="min_vert">10dip</dimen>
+    <dimen name="min_lock">20dip</dimen>
+    <integer name="hide_animation_duration">200</integer>
+    <integer name="dim_animation_duration">500</integer>
+</resources>

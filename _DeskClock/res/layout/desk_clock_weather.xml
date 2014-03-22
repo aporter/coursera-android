@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Weather data from Genie provider -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    >
+    <RelativeLayout android:id="@+id/weather_temp_icon_cluster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="-6dip"
+        >
+        <ImageView android:id="@+id/weather_icon"
+            android:layout_height="60sp"
+            android:layout_width="60sp"
+            android:gravity="left"
+            android:scaleType="centerInside"
+            android:layout_marginRight="8dip"
+            />
+        <TextView android:id="@+id/weather_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="46sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:shadowColor="#C0000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3.0"
+            android:layout_marginRight="8dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/weather_icon"
+            android:layout_alignBottom="@id/weather_icon"
+            />
+        <TextView android:id="@+id/weather_low_temperature"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorSecondary"
+            android:shadowColor="#C0000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3.0"
+            android:layout_toRightOf="@id/weather_temperature"
+            android:layout_alignBaseline="@id/weather_temperature"
+            />
+        <TextView android:id="@+id/weather_high_temperature"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:shadowColor="#C0000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3.0"
+            android:layout_alignTop="@id/weather_temperature"
+            android:layout_marginTop="9sp"
+            android:layout_alignLeft="@id/weather_low_temperature"
+            />
+    </RelativeLayout>
+    <TextView android:id="@+id/weather_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather_temp_icon_cluster"
+        android:maxWidth="300sp"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:textColor="#ffffffff"
+        android:shadowColor="#c0000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3.0"
+        />
+</RelativeLayout>

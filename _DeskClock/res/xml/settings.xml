@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+    <PreferenceCategory
+        android:title="@string/clock_settings">
+        <ListPreference
+            android:key="clock_style"
+            android:title="@string/clock_style"
+            android:entries="@array/clock_style_entries"
+            android:entryValues="@array/clock_style_values"
+            android:defaultValue="@string/default_clock_style"
+            android:dialogTitle="@string/clock_style" />
+        <CheckBoxPreference
+            android:key="automatic_home_clock"
+            android:title="@string/automatic_home_clock"
+            android:summary="@string/automatic_home_clock_summary"
+            android:defaultValue="true" />
+        <ListPreference
+            android:key="home_time_zone"
+            android:entries="@array/timezone_labels"
+            android:entryValues="@array/timezone_values"
+            android:dialogTitle="@string/home_time_zone_title"
+            android:title="@string/home_time_zone" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/alarm_settings">
+        <ListPreference
+            android:key="auto_silence"
+            android:title="@string/auto_silence_title"
+            android:entries="@array/auto_silence_entries"
+            android:entryValues="@array/auto_silence_values"
+            android:defaultValue="10"
+            android:dialogTitle="@string/auto_silence_title" />
+
+       <com.android.deskclock.SnoozeLengthDialog
+            android:key="snooze_duration"
+            android:title="@string/snooze_duration_title"
+            android:defaultValue="10"/>
+
+        <VolumePreference
+            android:title="@string/alarm_volume_title"
+            android:dialogTitle="@string/alarm_volume_title"
+            android:persistent="false"
+            android:streamType="alarm" />
+
+        <ListPreference
+            android:key="volume_button_setting"
+            android:title="@string/volume_button_setting_title"
+            android:dialogTitle="@string/volume_button_setting_title"
+            android:entries="@array/volume_button_setting_entries"
+            android:entryValues="@array/volume_button_setting_values"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+</PreferenceScreen>

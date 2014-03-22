@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6674495003718166674">"Ura"</string>
+    <string name="alarm_list_title" msgid="7589940465292950600">"Svegliarin"</string>
+    <string name="add_alarm" msgid="5976616107390962899">"Agiuntar in svegliarin"</string>
+    <string name="menu_desk_clock" msgid="3241995064554071588">"Ura da desktop"</string>
+    <string name="menu_edit_alarm" msgid="7204602994918829751">"Modifitgar il svegliarin"</string>
+    <string name="delete_alarm" msgid="3457780990646206817">"Stizzar il svegliarin"</string>
+    <string name="enable_alarm" msgid="1834599140632142536">"Activar il svegliarin"</string>
+    <string name="disable_alarm" msgid="5889378670229554109">"Deactivar il svegliarin"</string>
+    <!-- no translation found for delete_alarm_confirm (6578572637340860840) -->
+    <skip />
+    <string name="show_clock" msgid="8358759982675616915">"Mussar l\'ura"</string>
+    <string name="hide_clock" msgid="3217727306480505694">"Zuppentar l\'ura"</string>
+    <string name="label" msgid="162189613902857319">"Etichetta"</string>
+    <string name="default_label" msgid="5590025289805630372">"Svegliarin"</string>
+    <string name="set_alarm" msgid="9148359866152726808">"Drizzar il svegliarin"</string>
+    <string name="alarm_vibrate" msgid="3476686921490362230">"Vibrar"</string>
+    <string name="alarm_repeat" msgid="7242985466344233206">"Repeter"</string>
+    <!-- no translation found for alert (6506982899651975645) -->
+    <skip />
+    <!-- no translation found for ringtone (9110746249688559579) -->
+    <skip />
+    <string name="time" msgid="8067216534232296518">"Ura"</string>
+    <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">"Annullar"</string>
+    <!-- no translation found for alarm_alert_alert_silenced (2704775170733835993) -->
+    <skip />
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"Repeter"</string>
+    <string name="alarm_alert_snooze_set" msgid="656470966696912087">"Repetiziun en <xliff:g id="MINUTES">%d</xliff:g> minutas."</string>
+    <!-- no translation found for alarm_alert_snooze_until (6958013659168344550) -->
+    <skip />
+    <!-- no translation found for timer_notifications:0 (7760558912503484257) -->
+    <!-- no translation found for timer_notifications:1 (83197792732433351) -->
+    <!-- no translation found for timer_notifications:2 (8919698220200894252) -->
+    <!-- no translation found for timer_notifications:3 (8458069283817013813) -->
+    <!-- no translation found for alarm_set:0 (6450913786084215050) -->
+    <!-- no translation found for alarm_set:1 (6002066367368421848) -->
+    <!-- no translation found for alarm_set:2 (8824719306247973774) -->
+    <!-- no translation found for alarm_set:3 (8182406852935468862) -->
+    <!-- no translation found for alarm_set:4 (2532279224777213194) -->
+    <!-- no translation found for alarm_set:5 (5936557894247187717) -->
+    <!-- no translation found for alarm_set:6 (9115697840826129603) -->
+    <!-- no translation found for alarm_set:7 (2332583385137381060) -->
+    <string name="day" msgid="7984755014526510295">"1 di"</string>
+    <string name="days" msgid="2070509222727852210">"<xliff:g id="DAYS">%s</xliff:g> dis"</string>
+    <string name="hour" msgid="2546819039651509323">"1 ura"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> uras"</string>
+    <string name="minute" msgid="2486157997434653710">"1 minuta"</string>
+    <string name="minutes" msgid="6115838729146292526">"<xliff:g id="MINUTES">%s</xliff:g> minutas"</string>
+    <!-- no translation found for every_day (4100909974923444602) -->
+    <skip />
+    <string name="never" msgid="54104287800571769">"Mai"</string>
+    <string name="day_concat" msgid="971998564991636532">", "</string>
+    <!-- no translation found for clock_instructions (2656876819515011590) -->
+    <skip />
+    <string name="analog_gadget" msgid="1670505720837152766">"Ura analoga"</string>
+    <!-- no translation found for help (7786263119482654015) -->
+    <skip />
+    <string name="settings" msgid="5849739030579520686">"Parameters"</string>
+    <!-- no translation found for snooze_duration_title (1097309861110780483) -->
+    <skip />
+    <!-- no translation found for snooze_duration:one (7406963706727564418) -->
+    <!-- no translation found for snooze_duration:other (568504136093419703) -->
+    <!-- no translation found for snooze_picker_label:one (3783171637798575068) -->
+    <!-- no translation found for snooze_picker_label:other (1304056759541595077) -->
+    <!-- no translation found for auto_silence_title (2012754009554434544) -->
+    <skip />
+    <!-- no translation found for auto_silence_summary (7028508740659733028) -->
+    <skip />
+    <!-- no translation found for auto_silence_never (4821982647348750809) -->
+    <skip />
+    <!-- no translation found for auto_silence_entries:0 (3693401222993867634) -->
+    <!-- no translation found for auto_silence_entries:1 (3663730603519549990) -->
+    <!-- no translation found for auto_silence_entries:2 (1385481095199681200) -->
+    <!-- no translation found for auto_silence_entries:3 (420479821767342125) -->
+    <!-- no translation found for auto_silence_entries:4 (2107936130151066746) -->
+    <!-- no translation found for auto_silence_entries:5 (7219791437023378544) -->
+    <!-- no translation found for auto_silence_entries:6 (4278641338024561333) -->
+    <string name="done" msgid="6509722361933858451">"Finì"</string>
+    <string name="revert" msgid="9100911171235162926">"Reinizialisar"</string>
+    <string name="delete" msgid="5732434972457000541">"Stizzar"</string>
+    <string name="alarm_volume_title" msgid="8506245173912428522">"Volumen dal svegliarin"</string>
+    <string name="silent_alarm_summary" msgid="8605302849408279221">"Silenzius"</string>
+    <!-- no translation found for alarm_notify_text (4891014685945904766) -->
+    <skip />
+    <string name="alarm_notify_snooze_label" msgid="5404083762646377829">"<xliff:g id="LABEL">%s</xliff:g> (repetiziun)"</string>
+    <!-- no translation found for alarm_notify_snooze_text (4819324081410990368) -->
+    <skip />
+    <!-- no translation found for volume_button_setting_title (6937131248843413357) -->
+    <skip />
+    <string name="volume_button_dialog_title" msgid="8768042543750036853">"Effect dal buttun"</string>
+    <!-- no translation found for volume_button_setting_entries:0 (7972756698723318690) -->
+    <!-- no translation found for volume_button_setting_entries:1 (3450979320164769576) -->
+    <!-- no translation found for volume_button_setting_entries:2 (6302517608411378024) -->
+    <string name="default_ringtone_setting_title" msgid="4549726190682964245">"Utilisar il tun da scalin da standard"</string>
+    <string name="alarm_button_description" msgid="740283647046258651">"Svegliarins"</string>
+    <string name="gallery_button_description" msgid="1151743663255257668">"Catalog"</string>
+    <string name="music_button_description" msgid="1626593420810117999">"Musica"</string>
+    <string name="nightmode_button_description" msgid="990894208217576381">"Stgirentar"</string>
+    <string name="home_button_description" msgid="3383859096809056157">"Lantschader"</string>
+    <!-- no translation found for desk_clock_button_description (4207371097361657274) -->
+    <skip />
+    <!-- no translation found for label_description (8736179296142915727) -->
+    <skip />
+    <!-- no translation found for ringtone_description (7580922112921069925) -->
+    <skip />
+    <!-- no translation found for battery_charging_level (5251483622085889693) -->
+    <skip />
+    <!-- no translation found for weather_fetch_failure (3425804832021006835) -->
+    <skip />
+    <!-- no translation found for alarm_klaxon_service_desc (2147506334302260256) -->
+    <skip />
+    <!-- no translation found for loading_ringtone (6523322777415268044) -->
+    <skip />
+    <!-- no translation found for timer_ring_service_desc (2620214305660322415) -->
+    <skip />
+    <!-- no translation found for control_set_alarm (2194676418924016327) -->
+    <skip />
+    <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
+    <skip />
+    <!-- no translation found for menu_timer (6459070074762877114) -->
+    <skip />
+    <!-- no translation found for menu_clock (5612760670606829805) -->
+    <skip />
+    <!-- no translation found for menu_stopwatch (3396117705293574701) -->
+    <skip />
+    <!-- no translation found for button_alarms (8016103479617020265) -->
+    <skip />
+    <!-- no translation found for button_cities (4555761857494501363) -->
+    <skip />
+    <!-- no translation found for button_menu (6050484561842120282) -->
+    <skip />
+    <!-- no translation found for menu_item_settings (1413723516369078665) -->
+    <skip />
+    <!-- no translation found for menu_item_help (4570953476186849841) -->
+    <skip />
+    <!-- no translation found for menu_item_night_mode (3486930302245398975) -->
+    <skip />
+    <!-- no translation found for sw_resume_button (2569360966002022248) -->
+    <skip />
+    <!-- no translation found for sw_start_button (8373422516681242270) -->
+    <skip />
+    <!-- no translation found for sw_stop_button (8322958613123274451) -->
+    <skip />
+    <!-- no translation found for sw_lap_button (6992264696039004233) -->
+    <skip />
+    <!-- no translation found for sw_reset_button (6616804728322906117) -->
+    <skip />
+    <!-- no translation found for sw_share_button (4478648110382859382) -->
+    <skip />
+    <!-- no translation found for hours_label (3393478155635368097) -->
+    <skip />
+    <!-- no translation found for minutes_label (3568098128251438588) -->
+    <skip />
+    <!-- no translation found for seconds_label (124655952824003246) -->
+    <skip />
+    <!-- no translation found for hours_label_description (8652842524970971830) -->
+    <skip />
+    <!-- no translation found for minutes_label_description (965686733490357796) -->
+    <skip />
+    <!-- no translation found for seconds_label_description (3821620053141299692) -->
+    <skip />
+    <!-- no translation found for zero (7102083421938355017) -->
+    <skip />
+    <!-- no translation found for sw_share_main (7703563468204234405) -->
+    <skip />
+    <!-- no translation found for sw_share_laps (614390674795945007) -->
+    <skip />
+    <!-- no translation found for sw_notification_lap_number (3535420316052647126) -->
+    <skip />
+    <!-- no translation found for Nhours_description:one (371227238759147245) -->
+    <!-- no translation found for Nhours_description:other (7018184076091344797) -->
+    <!-- no translation found for Nminutes_description:one (1001391305885322059) -->
+    <!-- no translation found for Nminutes_description:other (6948360065351547776) -->
+    <!-- no translation found for Nseconds_description:one (6589853086641485725) -->
+    <!-- no translation found for Nseconds_description:other (7583230315175387547) -->
+    <!-- no translation found for timer_add_timer (862733633862574752) -->
+    <skip />
+    <!-- no translation found for timer_start (6158486445614356442) -->
+    <skip />
+    <!-- no translation found for timer_delete (8699122001991909302) -->
+    <skip />
+    <!-- no translation found for timer_plus_one (6631211310420106116) -->
+    <skip />
+    <!-- no translation found for timer_stop (3361154678667736722) -->
+    <skip />
+    <!-- no translation found for timer_reset (7848424809190171640) -->
+    <skip />
+    <!-- no translation found for timer_cancel (3572868404230815644) -->
+    <skip />
+    <!-- no translation found for timer_times_up (9190440395938519009) -->
+    <skip />
+    <!-- no translation found for timer_notification_label (4933184831583137249) -->
+    <skip />
+    <!-- no translation found for sw_share_strings:0 (842841032273927988) -->
+    <!-- no translation found for sw_share_strings:1 (6332879039890727169) -->
+    <!-- no translation found for sw_share_strings:2 (815382761274660130) -->
+    <!-- no translation found for sw_share_strings:3 (7916250650982813737) -->
+    <!-- no translation found for sw_share_strings:4 (6836603904515182333) -->
+    <!-- no translation found for sw_share_strings:5 (7508085100680861631) -->
+    <!-- no translation found for sw_share_strings:6 (5961245252909589573) -->
+    <!-- no translation found for sw_share_strings:7 (5211891900854545940) -->
+    <!-- no translation found for sw_share_strings:8 (9071353477103826053) -->
+    <!-- no translation found for sw_share_strings:9 (3785193933691117181) -->
+    <!-- no translation found for timers_num:one (6764708652976799977) -->
+    <!-- no translation found for timers_num:other (3799129667336330616) -->
+    <!-- no translation found for home_label (4436139365695453870) -->
+    <skip />
+    <!-- no translation found for cities_activity_title (8552462751129256730) -->
+    <skip />
+    <!-- no translation found for alarm_on (4344630320756422804) -->
+    <skip />
+    <!-- no translation found for alarm_off (6478058633710013612) -->
+    <skip />
+    <!-- no translation found for clock_settings (8887845806151785393) -->
+    <skip />
+    <!-- no translation found for clock_style (2265011060429742344) -->
+    <skip />
+    <!-- no translation found for clock_style_entries:0 (917900462224167608) -->
+    <!-- no translation found for clock_style_entries:1 (8483930821046925592) -->
+    <!-- no translation found for automatic_home_clock (6274174710735449252) -->
+    <skip />
+    <!-- no translation found for automatic_home_clock_summary (6020476321040807273) -->
+    <skip />
+    <!-- no translation found for home_time_zone (9199730676287974501) -->
+    <skip />
+    <!-- no translation found for home_time_zone_title (807894493443834624) -->
+    <skip />
+    <!-- no translation found for time_picker_cancel (7437106489606013077) -->
+    <skip />
+    <!-- no translation found for time_picker_set (331153175471468051) -->
+    <skip />
+    <!-- no translation found for time_picker_time_seperator (7484926510054777041) -->
+    <skip />
+    <!-- no translation found for time_picker_ampm_label (6754113715199751083) -->
+    <skip />
+    <!-- no translation found for time_picker_00_label (6001006474735281911) -->
+    <skip />
+    <!-- no translation found for time_picker_30_label (1027250857384838129) -->
+    <skip />
+    <!-- no translation found for timezone_labels:0 (5495601234086197399) -->
+    <!-- no translation found for timezone_labels:1 (4196408495909011020) -->
+    <!-- no translation found for timezone_labels:2 (1414384194857730006) -->
+    <!-- no translation found for timezone_labels:3 (2687091371581931926) -->
+    <!-- no translation found for timezone_labels:4 (1922100269679049660) -->
+    <!-- no translation found for timezone_labels:5 (7156402158716866161) -->
+    <!-- no translation found for timezone_labels:6 (1144117502254612241) -->
+    <!-- no translation found for timezone_labels:7 (101284182011722637) -->
+    <!-- no translation found for timezone_labels:8 (689121094232986897) -->
+    <!-- no translation found for timezone_labels:9 (5445331923942302756) -->
+    <!-- no translation found for timezone_labels:10 (2749806434052452351) -->
+    <!-- no translation found for timezone_labels:11 (3997138870229703753) -->
+    <!-- no translation found for timezone_labels:12 (5425567073027744888) -->
+    <!-- no translation found for timezone_labels:13 (2877342865396629368) -->
+    <!-- no translation found for timezone_labels:14 (568682398893899670) -->
+    <!-- no translation found for timezone_labels:15 (668135984541863866) -->
+    <!-- no translation found for timezone_labels:16 (3737474220861486223) -->
+    <!-- no translation found for timezone_labels:17 (6279116051273436870) -->
+    <!-- no translation found for timezone_labels:18 (8513382867172014244) -->
+    <!-- no translation found for timezone_labels:19 (7776299003105932407) -->
+    <!-- no translation found for timezone_labels:20 (8636989494746218677) -->
+    <!-- no translation found for timezone_labels:21 (4402541016410147505) -->
+    <!-- no translation found for timezone_labels:22 (2251184440733164084) -->
+    <!-- no translation found for timezone_labels:23 (6202926618569004969) -->
+    <!-- no translation found for timezone_labels:24 (2355275037115290628) -->
+    <!-- no translation found for timezone_labels:25 (1377549694711708945) -->
+    <!-- no translation found for timezone_labels:26 (3457671272126347981) -->
+    <!-- no translation found for timezone_labels:27 (3659315141063710840) -->
+    <!-- no translation found for timezone_labels:28 (1260941741802367635) -->
+    <!-- no translation found for timezone_labels:29 (8275203689687954762) -->
+    <!-- no translation found for timezone_labels:30 (5970179539479320905) -->
+    <!-- no translation found for timezone_labels:31 (5396319478750517962) -->
+    <!-- no translation found for timezone_labels:32 (8688787475056663004) -->
+    <!-- no translation found for timezone_labels:33 (3415827874921681622) -->
+    <!-- no translation found for timezone_labels:34 (402008965928320066) -->
+    <!-- no translation found for timezone_labels:35 (6436942724959275569) -->
+    <!-- no translation found for timezone_labels:36 (954536568417204026) -->
+    <!-- no translation found for timezone_labels:37 (8932745482008902551) -->
+    <!-- no translation found for timezone_labels:38 (320025725949024510) -->
+    <!-- no translation found for timezone_labels:39 (7242083112551905970) -->
+    <!-- no translation found for timezone_labels:40 (7241520146011450419) -->
+    <!-- no translation found for timezone_labels:41 (2717065017510546526) -->
+    <!-- no translation found for timezone_labels:42 (8698556287741466553) -->
+    <!-- no translation found for timezone_labels:43 (1797598357342084506) -->
+    <!-- no translation found for timezone_labels:44 (5169119919905066998) -->
+    <!-- no translation found for timezone_labels:45 (2615788116201065182) -->
+    <!-- no translation found for timezone_labels:46 (9084354867885584646) -->
+    <!-- no translation found for timezone_labels:47 (1351570519986178268) -->
+    <!-- no translation found for timezone_labels:48 (7094569580635877460) -->
+    <!-- no translation found for timezone_labels:49 (3953138772617909704) -->
+    <!-- no translation found for timezone_labels:50 (2868893113598800752) -->
+    <!-- no translation found for timezone_labels:51 (7088581865802476373) -->
+    <!-- no translation found for timezone_labels:52 (1941122257623887992) -->
+    <!-- no translation found for timezone_labels:53 (9194797225058249720) -->
+    <!-- no translation found for timezone_labels:54 (6486569254364577332) -->
+    <!-- no translation found for timezone_labels:55 (5487724896895412089) -->
+    <!-- no translation found for timezone_labels:56 (364906869710826982) -->
+    <!-- no translation found for timezone_labels:57 (2106505051751383358) -->
+    <!-- no translation found for timezone_labels:58 (6851586621581501447) -->
+    <!-- no translation found for timezone_labels:59 (800438544128213134) -->
+    <!-- no translation found for timezone_labels:60 (6173621471007643021) -->
+    <!-- no translation found for timezone_labels:61 (8645125891971581128) -->
+    <!-- no translation found for timezone_labels:62 (2886407505119737794) -->
+    <!-- no translation found for timezone_labels:63 (3408222398188107090) -->
+    <!-- no translation found for timezone_labels:64 (4441612937172851228) -->
+    <!-- no translation found for timezone_labels:65 (4936715789028996930) -->
+    <!-- no translation found for timezone_labels:66 (4261031143777385525) -->
+    <!-- no translation found for timezone_labels:67 (3538060959338191835) -->
+    <!-- no translation found for timezone_labels:68 (1438847562643099201) -->
+    <!-- no translation found for timezone_labels:69 (3063913827688244383) -->
+    <!-- no translation found for timezone_labels:70 (3502757135046564209) -->
+    <!-- no translation found for timezone_labels:71 (6107588684519111669) -->
+    <!-- no translation found for timezone_labels:72 (4350769099755608471) -->
+    <!-- no translation found for timezone_labels:73 (2422707004533526462) -->
+    <!-- no translation found for timezone_labels:74 (1292192084554134339) -->
+    <!-- no translation found for timezone_labels:75 (1320883699470001716) -->
+    <!-- no translation found for timezone_labels:76 (5137198806146386527) -->
+    <!-- no translation found for timezone_labels:77 (5920063686933941174) -->
+    <!-- no translation found for timezone_labels:78 (615906039696009425) -->
+    <!-- no translation found for timezone_labels:79 (7738680449356275374) -->
+    <!-- no translation found for timezone_labels:80 (2882915026380778227) -->
+    <!-- no translation found for timezone_labels:81 (8255615641810148152) -->
+    <!-- no translation found for timezone_labels:82 (3027153773466391728) -->
+    <!-- no translation found for timezone_labels:83 (5911600083231840181) -->
+    <!-- no translation found for alarm_settings (6049627772103646753) -->
+    <skip />
+    <!-- no translation found for see_all (775983396630163739) -->
+    <skip />
+    <!-- no translation found for stopwatch_service_desc (8416624630388063996) -->
+    <skip />
+    <!-- no translation found for swn_stopped (783124901663086172) -->
+    <skip />
+    <!-- no translation found for description_direction_right (1615911557926085934) -->
+    <skip />
+    <!-- no translation found for description_direction_left (6328816971226781776) -->
+    <skip />
+    <!-- no translation found for description_direction_up (7875287578324520904) -->
+    <skip />
+    <!-- no translation found for description_direction_down (8240473964024874053) -->
+    <skip />
+    <!-- no translation found for timer_stopped (2730331837832462008) -->
+    <skip />
+    <!-- no translation found for timers_stopped (2393640808691864520) -->
+    <skip />
+    <!-- no translation found for all_timers_stopped_notif (278532320068394600) -->
+    <skip />
+    <!-- no translation found for timers_in_use (5570729467344408506) -->
+    <skip />
+    <!-- no translation found for next_timer_notif (6136454740115613653) -->
+    <skip />
+    <!-- no translation found for screensaver_settings (7013450738357352801) -->
+    <skip />
+    <!-- no translation found for night_mode_title (5983813889469616299) -->
+    <skip />
+    <!-- no translation found for night_mode_summary (1017350187324162631) -->
+    <skip />
+    <!-- no translation found for expand_alarm (7392616528943305020) -->
+    <skip />
+    <!-- no translation found for collapse_alarm (3561772046433483980) -->
+    <skip />
+    <!-- no translation found for alarm_undo (5710042601177655254) -->
+    <skip />
+    <!-- no translation found for alarm_deleted (5017075127290219443) -->
+    <skip />
+    <!-- no translation found for slash (2077577763821006919) -->
+    <skip />
+    <!-- no translation found for world_day_of_week_label (5911196322328341288) -->
+    <skip />
+    <!-- no translation found for next_alarm_description (2650244835760747046) -->
+    <skip />
+    <string name="label_unlabeled" msgid="4699506713571930740"></string>
+    <!-- no translation found for alarms_selected (1075308195332888260) -->
+    <skip />
+    <!-- no translation found for deleted_message (1220848140260509437) -->
+    <skip />
+    <!-- no translation found for alarm_delete_confirmation:one (111940612131906802) -->
+    <!-- no translation found for alarm_delete_confirmation:other (6918176478191272189) -->
+    <!-- no translation found for timer_delete_confirmation (2815524107015816453) -->
+    <skip />
+    <!-- no translation found for city_delete_confirmation (1783441538785676299) -->
+    <skip />
+    <!-- no translation found for widget_loading_ms (790841709484678848) -->
+    <skip />
+    <!-- no translation found for digital_gadget (2326954556720571358) -->
+    <skip />
+</resources>

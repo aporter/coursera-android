@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:baselineAligned="false"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/alarm_clock_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="@dimen/header_font_size"
+        android:paddingLeft="@dimen/alarm_alert_clock_padding_left" >
+
+        <TextView
+            android:id="@+id/alertTitle"
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="@color/clock_white"
+            android:paddingLeft="@dimen/label_margin_big"
+            android:paddingBottom="@dimen/label_margin_small"
+            android:singleLine="true" />
+
+        <com.android.deskclock.DigitalClock
+            android:id="@+id/digitalClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="top" >
+
+            <com.android.deskclock.ZeroTopPaddingTextView
+                android:id="@+id/timeDisplayHours"
+                style="@style/big_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:paddingRight="@dimen/time_margin_right"
+                android:singleLine="true"
+                android:textColor="@color/clock_white" />
+
+            <com.android.deskclock.ZeroTopPaddingTextView
+                android:id="@+id/timeDisplayMinutes"
+                style="@style/big_thin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:textColor="@color/clock_white" />
+
+            <com.android.deskclock.ZeroTopPaddingTextView
+                android:id="@+id/am_pm"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:textColor="@color/clock_white" />
+        </com.android.deskclock.DigitalClock>
+    </LinearLayout>
+
+    <com.android.deskclock.widget.multiwaveview.GlowPadView
+        android:id="@+id/glow_pad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginRight="@dimen/glowpadview_margin_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+
+        dc:targetDrawables="@array/snooze_dismiss_drawables"
+        dc:targetDescriptions="@array/snooze_dismiss_descriptions"
+        dc:directionDescriptions="@array/snooze_dismiss_direction_descriptions"
+        dc:handleDrawable="@drawable/ic_alarm_alert_touch_handle"
+        dc:outerRingDrawable="@drawable/ic_alarm_alert_outerring"
+        dc:outerRadius="@dimen/glowpadview_target_placement_radius"
+        dc:innerRadius="@dimen/glowpadview_inner_radius"
+        dc:snapMargin="@dimen/glowpadview_snap_margin"
+        dc:feedbackCount="1"
+        dc:vibrationDuration="20"
+        dc:glowRadius="@dimen/glowpadview_glow_radius"
+        dc:pointDrawable="@drawable/ic_lockscreen_glowdot"
+        />
+
+</RelativeLayout>
+

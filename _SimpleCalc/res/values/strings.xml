@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Unit Testing Sample</string>
+    <string name="app_name">Simple Calc</string>
+    <string name="hint1">Enter value...</string>
+    <string name="hint2">Enter value two...</string>
+    <string name="multiply">Multiply Values</string>
+    <string name="add">Add Values</string>
+    <string name="resultLabel">Result: </string>
+</resources>

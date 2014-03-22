@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6674495003718166674">"Horlosie"</string>
+    <string name="alarm_list_title" msgid="7589940465292950600">"Wekkers"</string>
+    <string name="add_alarm" msgid="5976616107390962899">"Voeg wekker by"</string>
+    <string name="menu_desk_clock" msgid="3241995064554071588">"Skermhorlosie"</string>
+    <string name="menu_edit_alarm" msgid="7204602994918829751">"Redigeer wekker"</string>
+    <string name="delete_alarm" msgid="3457780990646206817">"Vee wekker uit"</string>
+    <string name="enable_alarm" msgid="1834599140632142536">"Skakel wekker aan"</string>
+    <string name="disable_alarm" msgid="5889378670229554109">"Skakel wekker af"</string>
+    <string name="delete_alarm_confirm" msgid="6578572637340860840">"Vee hierdie alarm uit?"</string>
+    <string name="show_clock" msgid="8358759982675616915">"Vertoon klok"</string>
+    <string name="hide_clock" msgid="3217727306480505694">"Versteek horlosie"</string>
+    <string name="label" msgid="162189613902857319">"Etiket"</string>
+    <string name="default_label" msgid="5590025289805630372">"Wekker"</string>
+    <string name="set_alarm" msgid="9148359866152726808">"Stel wekker"</string>
+    <string name="alarm_vibrate" msgid="3476686921490362230">"Vibreer"</string>
+    <string name="alarm_repeat" msgid="7242985466344233206">"Herhaal"</string>
+    <string name="alert" msgid="6506982899651975645">"Alarm se luitoon"</string>
+    <string name="ringtone" msgid="9110746249688559579">"Luitoon"</string>
+    <string name="time" msgid="8067216534232296518">"Tyd"</string>
+    <string name="alarm_alert_dismiss_text" msgid="4942914605480888820">"Maak toe"</string>
+    <string name="alarm_alert_alert_silenced" msgid="2704775170733835993">"Wekker sal na <xliff:g id="MINUTES">%d</xliff:g> minute stil word."</string>
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"Sluimer"</string>
+    <string name="alarm_alert_snooze_set" msgid="656470966696912087">"Sluimer vir <xliff:g id="MINUTES">%d</xliff:g> minute."</string>
+    <string name="alarm_alert_snooze_until" msgid="6958013659168344550">"Sluimer tot <xliff:g id="TIME">%s</xliff:g>"</string>
+  <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Minder as \'n minuut oor"</item>
+    <item msgid="83197792732433351">"<xliff:g id="HOURS">%1$s</xliff:g> oor"</item>
+    <item msgid="8919698220200894252">"<xliff:g id="MINUTES">%2$s</xliff:g> oor"</item>
+    <item msgid="8458069283817013813">"<xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g> oor"</item>
+  </string-array>
+  <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Alarm gestel vir minder as 1 minuut van nou af."</item>
+    <item msgid="6002066367368421848">"Alarm gestel vir <xliff:g id="DAYS">%1$s</xliff:g> van nou af."</item>
+    <item msgid="8824719306247973774">"Alarm gestel vir <xliff:g id="HOURS">%2$s</xliff:g> van nou af."</item>
+    <item msgid="8182406852935468862">"Alarm gestel vir <xliff:g id="DAYS">%1$s</xliff:g> en <xliff:g id="HOURS">%2$s</xliff:g> van nou af."</item>
+    <item msgid="2532279224777213194">"Wekker gestel vir <xliff:g id="MINUTES">%3$s</xliff:g> van nou af."</item>
+    <item msgid="5936557894247187717">"Alarm gestel vir <xliff:g id="DAYS">%1$s</xliff:g> en  <xliff:g id="MINUTES">%3$s</xliff:g> van nou af."</item>
+    <item msgid="9115697840826129603">"Alarm gestel vir <xliff:g id="HOURS">%2$s</xliff:g> en <xliff:g id="MINUTES">%3$s</xliff:g> van nou af."</item>
+    <item msgid="2332583385137381060">"Alarm gestel vir <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>en <xliff:g id="MINUTES">%3$s</xliff:g> van nou af."</item>
+  </string-array>
+    <string name="day" msgid="7984755014526510295">"1 dag"</string>
+    <string name="days" msgid="2070509222727852210">"<xliff:g id="DAYS">%s</xliff:g> dae"</string>
+    <string name="hour" msgid="2546819039651509323">"1 uur"</string>
+    <string name="hours" msgid="2071487018566991613">"<xliff:g id="HOURS">%s</xliff:g> uur"</string>
+    <string name="minute" msgid="2486157997434653710">"1 minuut"</string>
+    <string name="minutes" msgid="6115838729146292526">"<xliff:g id="MINUTES">%s</xliff:g> minute"</string>
+    <string name="every_day" msgid="4100909974923444602">"Elke dag"</string>
+    <string name="never" msgid="54104287800571769">"Nooit"</string>
+    <string name="day_concat" msgid="971998564991636532">", "</string>
+    <string name="clock_instructions" msgid="2656876819515011590">"Kies \'n horlosie"</string>
+    <string name="analog_gadget" msgid="1670505720837152766">"Wyserhorlosie"</string>
+    <string name="help" msgid="7786263119482654015">"hulp"</string>
+    <string name="settings" msgid="5849739030579520686">"Instellings"</string>
+    <string name="snooze_duration_title" msgid="1097309861110780483">"Sluimer-duurte"</string>
+  <plurals name="snooze_duration">
+    <item quantity="one" msgid="7406963706727564418">"1 minuut"</item>
+    <item quantity="other" msgid="568504136093419703">"<xliff:g id="NUMBER">%d</xliff:g> minute"</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="one" msgid="3783171637798575068">"minuut"</item>
+    <item quantity="other" msgid="1304056759541595077">"minute"</item>
+  </plurals>
+    <string name="auto_silence_title" msgid="2012754009554434544">"Stilte ná"</string>
+    <string name="auto_silence_summary" msgid="7028508740659733028">"<xliff:g id="MINUTES">%d</xliff:g> minute"</string>
+    <string name="auto_silence_never" msgid="4821982647348750809">"Nooit"</string>
+  <string-array name="auto_silence_entries">
+    <item msgid="3693401222993867634">"5 minute"</item>
+    <item msgid="3663730603519549990">"10 minute"</item>
+    <item msgid="1385481095199681200">"15 minute"</item>
+    <item msgid="420479821767342125">"20 minute"</item>
+    <item msgid="2107936130151066746">"25 minute"</item>
+    <item msgid="7219791437023378544">"30 minute"</item>
+    <item msgid="4278641338024561333">"Nooit"</item>
+  </string-array>
+    <string name="done" msgid="6509722361933858451">"Klaar"</string>
+    <string name="revert" msgid="9100911171235162926">"Laai terug"</string>
+    <string name="delete" msgid="5732434972457000541">"Vee uit"</string>
+    <string name="alarm_volume_title" msgid="8506245173912428522">"Wekkervolume"</string>
+    <string name="silent_alarm_summary" msgid="8605302849408279221">"Stil"</string>
+    <string name="alarm_notify_text" msgid="4891014685945904766">"Sluimer of sit alarm uit."</string>
+    <string name="alarm_notify_snooze_label" msgid="5404083762646377829">"<xliff:g id="LABEL">%s</xliff:g> (sluimerend)"</string>
+    <string name="alarm_notify_snooze_text" msgid="4819324081410990368">"Alarm is vir <xliff:g id="TIME">%s</xliff:g> gestel. Raak om te kanselleer."</string>
+    <string name="volume_button_setting_title" msgid="6937131248843413357">"Volumeknoppies"</string>
+    <string name="volume_button_dialog_title" msgid="8768042543750036853">"Knoppie-effek"</string>
+  <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Sluimer"</item>
+    <item msgid="3450979320164769576">"Maak toe"</item>
+    <item msgid="6302517608411378024">"Doen niks nie"</item>
+  </string-array>
+    <string name="default_ringtone_setting_title" msgid="4549726190682964245">"Stel verstek luitoon"</string>
+    <string name="alarm_button_description" msgid="740283647046258651">"Wekkers"</string>
+    <string name="gallery_button_description" msgid="1151743663255257668">"Galery"</string>
+    <string name="music_button_description" msgid="1626593420810117999">"Musiek"</string>
+    <string name="nightmode_button_description" msgid="990894208217576381">"Verdof"</string>
+    <string name="home_button_description" msgid="3383859096809056157">"Lanseerpoort"</string>
+    <string name="desk_clock_button_description" msgid="4207371097361657274">"Horlosieskerm"</string>
+    <string name="label_description" msgid="8736179296142915727">"Etiket"</string>
+    <string name="ringtone_description" msgid="7580922112921069925">"Luitoon"</string>
+    <string name="battery_charging_level" msgid="5251483622085889693">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure" msgid="3425804832021006835">"Weerinligting is nie nou beskikbaar nie."</string>
+    <string name="alarm_klaxon_service_desc" msgid="2147506334302260256">"Klankterugspeel-diens vir wekkers word in Clock gestel."</string>
+    <string name="loading_ringtone" msgid="6523322777415268044">"Laai tans luitoon…"</string>
+    <string name="timer_ring_service_desc" msgid="2620214305660322415">"Klankterugspeel-diens vir aftellers word in Horlosie gestel."</string>
+    <string name="control_set_alarm" msgid="2194676418924016327">"Stel wekker"</string>
+    <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
+    <skip />
+    <string name="menu_timer" msgid="6459070074762877114">"Tydhouer"</string>
+    <string name="menu_clock" msgid="5612760670606829805">"Horlosie"</string>
+    <string name="menu_stopwatch" msgid="3396117705293574701">"Stophorlosie"</string>
+    <string name="button_alarms" msgid="8016103479617020265">"Wekkers"</string>
+    <string name="button_cities" msgid="4555761857494501363">"Stede"</string>
+    <string name="button_menu" msgid="6050484561842120282">"Meer opsies"</string>
+    <string name="menu_item_settings" msgid="1413723516369078665">"Instellings"</string>
+    <string name="menu_item_help" msgid="4570953476186849841">"Hulp"</string>
+    <string name="menu_item_night_mode" msgid="3486930302245398975">"Nagmodus"</string>
+    <string name="sw_resume_button" msgid="2569360966002022248">"Hervat"</string>
+    <string name="sw_start_button" msgid="8373422516681242270">"Begin"</string>
+    <string name="sw_stop_button" msgid="8322958613123274451">"Stop"</string>
+    <string name="sw_lap_button" msgid="6992264696039004233">"Rondte"</string>
+    <string name="sw_reset_button" msgid="6616804728322906117">"Stel terug"</string>
+    <string name="sw_share_button" msgid="4478648110382859382">"Deel"</string>
+    <string name="hours_label" msgid="3393478155635368097">"u."</string>
+    <string name="minutes_label" msgid="3568098128251438588">"min."</string>
+    <string name="seconds_label" msgid="124655952824003246">"s"</string>
+    <string name="hours_label_description" msgid="8652842524970971830">"ure"</string>
+    <string name="minutes_label_description" msgid="965686733490357796">"minute"</string>
+    <string name="seconds_label_description" msgid="3821620053141299692">"sekondes"</string>
+    <string name="zero" msgid="7102083421938355017">"0"</string>
+    <string name="sw_share_main" msgid="7703563468204234405">"My tyd is <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="sw_share_laps" msgid="614390674795945007">"Rondtetye:"</string>
+    <string name="sw_notification_lap_number" msgid="3535420316052647126">"Rondte <xliff:g id="NUMBER">%d</xliff:g>"</string>
+  <plurals name="Nhours_description">
+    <item quantity="one" msgid="371227238759147245">"1 uur"</item>
+    <item quantity="other" msgid="7018184076091344797">"<xliff:g id="NUMBER">%d</xliff:g> ure"</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <item quantity="one" msgid="1001391305885322059">"1 minuut"</item>
+    <item quantity="other" msgid="6948360065351547776">"<xliff:g id="NUMBER">%d</xliff:g> minute"</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <item quantity="one" msgid="6589853086641485725">"1 sekonde"</item>
+    <item quantity="other" msgid="7583230315175387547">"<xliff:g id="NUMBER">%d</xliff:g> sekondes"</item>
+  </plurals>
+    <string name="timer_add_timer" msgid="862733633862574752">"Voeg teller by"</string>
+    <string name="timer_start" msgid="6158486445614356442">"Begin"</string>
+    <string name="timer_delete" msgid="8699122001991909302">"Vee uit"</string>
+    <string name="timer_plus_one" msgid="6631211310420106116">"Voeg 1 minuut by"</string>
+    <string name="timer_stop" msgid="3361154678667736722">"Stop"</string>
+    <string name="timer_reset" msgid="7848424809190171640">"Stel terug"</string>
+    <string name="timer_cancel" msgid="3572868404230815644">"Kanselleer"</string>
+    <string name="timer_times_up" msgid="9190440395938519009">"Tyd is op"</string>
+    <string name="timer_notification_label" msgid="4933184831583137249">"Tydhouer"</string>
+  <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Jy\'s \'n regte spoedduiwel."</item>
+    <item msgid="6332879039890727169">"Geniet die vrugte van jou arbeid."</item>
+    <item msgid="815382761274660130">"Androids is bekend daarvoor om vinnig te wees, maar nie so vinnig soos jy nie!"</item>
+    <item msgid="7916250650982813737">"Sjoe."</item>
+    <item msgid="6836603904515182333">"L33t keer."</item>
+    <item msgid="7508085100680861631">"Sulke ontsaglike snelheid."</item>
+    <item msgid="5961245252909589573">"Kom ons doen die tydverwringing weer."</item>
+    <item msgid="5211891900854545940">"Net \'n sprong na links."</item>
+    <item msgid="9071353477103826053">"Jy het \'n smaak vir haastigheid."</item>
+    <item msgid="3785193933691117181">"Fototoniese snelheid."</item>
+  </string-array>
+  <plurals name="timers_num">
+    <item quantity="one" msgid="6764708652976799977">"1 minuut"</item>
+    <item quantity="other" msgid="3799129667336330616">"<xliff:g id="NUMBER">%d</xliff:g> tydhouers"</item>
+  </plurals>
+    <string name="home_label" msgid="4436139365695453870">"Tuis"</string>
+    <string name="cities_activity_title" msgid="8552462751129256730">"Stede"</string>
+    <string name="alarm_on" msgid="4344630320756422804">"AAN"</string>
+    <string name="alarm_off" msgid="6478058633710013612">"AF"</string>
+    <string name="clock_settings" msgid="8887845806151785393">"HORLOSIE"</string>
+    <string name="clock_style" msgid="2265011060429742344">"Styl"</string>
+  <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Analoog"</item>
+    <item msgid="8483930821046925592">"Digitaal"</item>
+  </string-array>
+    <string name="automatic_home_clock" msgid="6274174710735449252">"Outomatiese huishorlosie"</string>
+    <string name="automatic_home_clock_summary" msgid="6020476321040807273">"Terwyl jy reis in \'n streek waar die tyd anders is, voeg \'n tuishorlosie by"</string>
+    <string name="home_time_zone" msgid="9199730676287974501">"Tuistydsone"</string>
+    <string name="home_time_zone_title" msgid="807894493443834624">"Tuistydsone"</string>
+    <string name="time_picker_cancel" msgid="7437106489606013077">"Kanselleer"</string>
+    <string name="time_picker_set" msgid="331153175471468051">"OK"</string>
+    <string name="time_picker_time_seperator" msgid="7484926510054777041">":"</string>
+    <string name="time_picker_ampm_label" msgid="6754113715199751083">"--"</string>
+    <string name="time_picker_00_label" msgid="6001006474735281911">":00"</string>
+    <string name="time_picker_30_label" msgid="1027250857384838129">":30"</string>
+  <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Marshalleilande"</item>
+    <item msgid="4196408495909011020">"Midwayeiland"</item>
+    <item msgid="1414384194857730006">"Hawaii"</item>
+    <item msgid="2687091371581931926">"Alaska"</item>
+    <item msgid="1922100269679049660">"Stille Oseaan-tyd"</item>
+    <item msgid="7156402158716866161">"Tijuana"</item>
+    <item msgid="1144117502254612241">"Arizona"</item>
+    <item msgid="101284182011722637">"Chihuahua"</item>
+    <item msgid="689121094232986897">"Bergtyd"</item>
+    <item msgid="5445331923942302756">"Sentraal-Amerika"</item>
+    <item msgid="2749806434052452351">"Sentrale tyd"</item>
+    <item msgid="3997138870229703753">"Meksikostad"</item>
+    <item msgid="5425567073027744888">"Saskatchewan"</item>
+    <item msgid="2877342865396629368">"Bogota"</item>
+    <item msgid="568682398893899670">"Oostelike tyd"</item>
+    <item msgid="668135984541863866">"Venezuela"</item>
+    <item msgid="3737474220861486223">"Atlantiese tyd (Barbados)"</item>
+    <item msgid="6279116051273436870">"Atlantiese tyd (Kanada)"</item>
+    <item msgid="8513382867172014244">"Manaus"</item>
+    <item msgid="7776299003105932407">"Santiago"</item>
+    <item msgid="8636989494746218677">"Newfoundland"</item>
+    <item msgid="4402541016410147505">"Brasilia"</item>
+    <item msgid="2251184440733164084">"Buenos Aires"</item>
+    <item msgid="6202926618569004969">"Groenland"</item>
+    <item msgid="2355275037115290628">"Montevideo"</item>
+    <item msgid="1377549694711708945">"Mid-Atlanties"</item>
+    <item msgid="3457671272126347981">"Asore"</item>
+    <item msgid="3659315141063710840">"Kaap-Verdiese Eilande"</item>
+    <item msgid="1260941741802367635">"Casablanca"</item>
+    <item msgid="8275203689687954762">"Londen, Dublin"</item>
+    <item msgid="5970179539479320905">"Amsterdam, Berlyn"</item>
+    <item msgid="5396319478750517962">"Belgrado"</item>
+    <item msgid="8688787475056663004">"Brussel"</item>
+    <item msgid="3415827874921681622">"Sarajevo"</item>
+    <item msgid="402008965928320066">"Windhoek"</item>
+    <item msgid="6436942724959275569">"Wes-Afrika-tyd"</item>
+    <item msgid="954536568417204026">"Amman, Jordanië"</item>
+    <item msgid="8932745482008902551">"Atene, Istanboel"</item>
+    <item msgid="320025725949024510">"Beiroet, Libanon"</item>
+    <item msgid="7242083112551905970">"Kaïro"</item>
+    <item msgid="7241520146011450419">"Helsinki"</item>
+    <item msgid="2717065017510546526">"Jerusalem"</item>
+    <item msgid="8698556287741466553">"Minsk"</item>
+    <item msgid="1797598357342084506">"Harare"</item>
+    <item msgid="5169119919905066998">"Bagdad"</item>
+    <item msgid="2615788116201065182">"Moskou"</item>
+    <item msgid="9084354867885584646">"Koeweit"</item>
+    <item msgid="1351570519986178268">"Nairobi"</item>
+    <item msgid="7094569580635877460">"Tehran"</item>
+    <item msgid="3953138772617909704">"Baku"</item>
+    <item msgid="2868893113598800752">"Tbilisi"</item>
+    <item msgid="7088581865802476373">"Yerevan"</item>
+    <item msgid="1941122257623887992">"Doebai"</item>
+    <item msgid="9194797225058249720">"Kaboel"</item>
+    <item msgid="6486569254364577332">"Islamabad, Karatsji"</item>
+    <item msgid="5487724896895412089">"Oeralsk"</item>
+    <item msgid="364906869710826982">"Jekaterinburg"</item>
+    <item msgid="2106505051751383358">"Kolkata"</item>
+    <item msgid="6851586621581501447">"Sri Lanka"</item>
+    <item msgid="800438544128213134">"Katmandoe"</item>
+    <item msgid="6173621471007643021">"Astana"</item>
+    <item msgid="8645125891971581128">"Jangon"</item>
+    <item msgid="2886407505119737794">"Krasnojarsk"</item>
+    <item msgid="3408222398188107090">"Bangkok"</item>
+    <item msgid="4441612937172851228">"Beijing"</item>
+    <item msgid="4936715789028996930">"Hongkong"</item>
+    <item msgid="4261031143777385525">"Irkoetsk"</item>
+    <item msgid="3538060959338191835">"Koeala Loempoer"</item>
+    <item msgid="1438847562643099201">"Perth"</item>
+    <item msgid="3063913827688244383">"Taipei"</item>
+    <item msgid="3502757135046564209">"Seoel"</item>
+    <item msgid="6107588684519111669">"Tokio, Osaka"</item>
+    <item msgid="4350769099755608471">"Jakoetsk"</item>
+    <item msgid="2422707004533526462">"Adelaide"</item>
+    <item msgid="1292192084554134339">"Darwin"</item>
+    <item msgid="1320883699470001716">"Brisbane"</item>
+    <item msgid="5137198806146386527">"Hobart"</item>
+    <item msgid="5920063686933941174">"Sydney, Canberra"</item>
+    <item msgid="615906039696009425">"Vladivostok"</item>
+    <item msgid="7738680449356275374">"Guam"</item>
+    <item msgid="2882915026380778227">"Magadan"</item>
+    <item msgid="8255615641810148152">"Auckland"</item>
+    <item msgid="3027153773466391728">"Fidji"</item>
+    <item msgid="5911600083231840181">"Tonga"</item>
+  </string-array>
+    <string name="alarm_settings" msgid="6049627772103646753">"WEKKERS"</string>
+    <string name="see_all" msgid="775983396630163739">"Sien almal..."</string>
+    <string name="stopwatch_service_desc" msgid="8416624630388063996">"Stophorlosie-diens om die kennisgewing te laat loop"</string>
+    <string name="swn_stopped" msgid="783124901663086172">"Gestop"</string>
+    <string name="description_direction_right" msgid="1615911557926085934">"Gly regs om toe te maak"</string>
+    <string name="description_direction_left" msgid="6328816971226781776">"Gly links om te sluimer"</string>
+    <string name="description_direction_up" msgid="7875287578324520904">"Gly op om toe te maak"</string>
+    <string name="description_direction_down" msgid="8240473964024874053">"Gly af om te sluimer"</string>
+    <string name="timer_stopped" msgid="2730331837832462008">"Afteller gestop"</string>
+    <string name="timers_stopped" msgid="2393640808691864520">"<xliff:g id="NUMBER">%d</xliff:g> aftellers gestop"</string>
+    <string name="all_timers_stopped_notif" msgid="278532320068394600">"Raak om jou aftellers te sien"</string>
+    <string name="timers_in_use" msgid="5570729467344408506">"<xliff:g id="NUMBER">%d</xliff:g> aftellers"</string>
+    <string name="next_timer_notif" msgid="6136454740115613653">"Volgende afteller: <xliff:g id="TIME_REMAINING">%s</xliff:g>"</string>
+    <string name="screensaver_settings" msgid="7013450738357352801">"Droom-instellings"</string>
+    <string name="night_mode_title" msgid="5983813889469616299">"Nag-modus"</string>
+    <string name="night_mode_summary" msgid="1017350187324162631">"Skerm baie verdof (vir donker kamers)"</string>
+    <string name="expand_alarm" msgid="7392616528943305020">"Vou wekker uit"</string>
+    <string name="collapse_alarm" msgid="3561772046433483980">"Vou wekker in"</string>
+    <string name="alarm_undo" msgid="5710042601177655254">"ontdoen"</string>
+    <string name="alarm_deleted" msgid="5017075127290219443">"Wekker uitgevee."</string>
+    <string name="slash" msgid="2077577763821006919">"/"</string>
+    <string name="world_day_of_week_label" msgid="5911196322328341288">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
+    <string name="next_alarm_description" msgid="2650244835760747046">"Volgende wekker: <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <string name="label_unlabeled" msgid="4699506713571930740"></string>
+    <string name="alarms_selected" msgid="1075308195332888260">"<xliff:g id="ALARMS">%d</xliff:g> gekies"</string>
+    <string name="deleted_message" msgid="1220848140260509437">"Uitgevee"</string>
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="one" msgid="111940612131906802">"Moet die gekose wekker uitgevee word?"</item>
+    <item quantity="other" msgid="6918176478191272189">"Moet die gekose wekkers uitgevee word?"</item>
+  </plurals>
+    <string name="timer_delete_confirmation" msgid="2815524107015816453">"Moet hierdie tydhouer uitgevee word?"</string>
+    <string name="city_delete_confirmation" msgid="1783441538785676299">"Moet hierdie stad verwyder word?"</string>
+    <string name="widget_loading_ms" msgid="790841709484678848">"Laai tans"</string>
+    <string name="digital_gadget" msgid="2326954556720571358">"Digitale horlosie"</string>
+</resources>

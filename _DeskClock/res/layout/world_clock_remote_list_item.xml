@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/widget_item"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:baselineAligned="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextClock
+                android:id="@+id/leftClock1"
+                android:format12Hour="@string/widget_12_hours_format_h"
+                android:format24Hour="@string/widget_24_hours_format_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/widget_medium_bold"
+                android:textColor="@color/clock_white"
+                android:layout_gravity="center"
+                android:gravity="center" />
+            <TextClock
+                android:id="@+id/leftClock2"
+                android:format12Hour="@string/widget_12_hours_format_m"
+                android:format24Hour="@string/widget_24_hours_format_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/widget_medium_light"
+                android:textColor="@color/clock_white"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/city_name_left"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/city_day_left"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/style_label_space"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:textColor="@color/clock_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:baselineAligned="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextClock
+                android:id="@+id/rightClock1"
+                android:format12Hour="@string/widget_12_hours_format_h"
+                android:format24Hour="@string/widget_24_hours_format_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/widget_medium_bold"
+                android:textColor="@color/clock_white"
+                android:layout_gravity="center"
+                android:gravity="center" />
+            <TextClock
+                android:id="@+id/rightClock2"
+                android:format12Hour="@string/widget_12_hours_format_m"
+                android:format24Hour="@string/widget_24_hours_format_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/widget_medium_light"
+                android:textColor="@color/clock_white"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/city_name_right"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/city_day_right"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/style_label_space"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:textColor="@color/clock_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
