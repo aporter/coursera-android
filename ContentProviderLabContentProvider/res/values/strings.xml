@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ContentProviderLabProvider</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="footer_text">Get New Place</string>
+    <string name="delete">Delete</string>
+    <string name="print">Print</string>
+    <string name="place_one">Place One</string>
+    <string name="place_invalid">Place Invalid</string>
+    <string name="place_two">Place Two</string>
+
+</resources>
