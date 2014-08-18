@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#7777</color>
+
+    <style name="CustomBackground" parent="android:Theme.Holo">
+        <item name="android:colorBackground">@color/background_color</item>
+    </style>
+
+</resources>
