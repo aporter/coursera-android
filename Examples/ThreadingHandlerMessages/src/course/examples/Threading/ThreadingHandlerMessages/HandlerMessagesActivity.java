@@ -1,5 +1,7 @@
 package course.examples.Threading.ThreadingHandlerMessages;
 
+import java.lang.ref.WeakReference;
+
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -22,25 +24,38 @@ public class HandlerMessagesActivity extends Activity {
 	private ProgressBar mProgressBar;
 	private int mDelay = 500;
 
-	Handler handler = new Handler() {
+	static class UIHandler extends Handler {
+		WeakReference<HandlerMessagesActivity> mParent;
+
+		public UIHandler(WeakReference<HandlerMessagesActivity> parent) {
+			mParent = parent;
+		}
+
 		@Override
 		public void handleMessage(Message msg) {
-			switch (msg.what) {
-			case SET_PROGRESS_BAR_VISIBILITY: {
-				mProgressBar.setVisibility((Integer) msg.obj);
-				break;
-			}
-			case PROGRESS_UPDATE: {
-				mProgressBar.setProgress((Integer) msg.obj);
-				break;
-			}
-			case SET_BITMAP: {
-				mImageView.setImageBitmap((Bitmap) msg.obj);
-				break;
-			}
+			HandlerMessagesActivity parent = mParent.get();
+			if (null != parent) {
+				switch (msg.what) {
+				case SET_PROGRESS_BAR_VISIBILITY: {
+					parent.getProgressBar().setVisibility((Integer) msg.obj);
+					break;
+				}
+				case PROGRESS_UPDATE: {
+					parent.getProgressBar().setProgress((Integer) msg.obj);
+					break;
+				}
+				case SET_BITMAP: {
+					parent.getImageView().setImageBitmap((Bitmap) msg.obj);
+					break;
+				}
+				}
 			}
 		}
-	};
+
+	}
+
+	Handler handler = new UIHandler(new WeakReference<HandlerMessagesActivity>(
+			this));
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -109,4 +124,13 @@ public class HandlerMessagesActivity extends Activity {
 			}
 		}
 	}
+
+	public ImageView getImageView() {
+		return mImageView;
+	}
+
+	public ProgressBar getProgressBar() {
+		return mProgressBar;
+	}
+
 }

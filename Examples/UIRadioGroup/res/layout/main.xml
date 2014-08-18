@@ -8,7 +8,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No Choice Made" 
+        android:text="@string/no_choice_made_string" 
         android:textSize="24sp">
     </TextView>
 
@@ -22,21 +22,21 @@
             android:id="@+id/choice1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choice 1" 
+            android:text="@string/choice_1_string" 
             android:textSize="24sp"/>
 
         <RadioButton
             android:id="@+id/choice2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choice 2" 
+            android:text="@string/choice_2_string" 
             android:textSize="24sp"/>
 
         <RadioButton
             android:id="@+id/choice3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choice 3"
+            android:text="@string/choice_3_string"
             android:textSize="24sp" />
     </RadioGroup>
 

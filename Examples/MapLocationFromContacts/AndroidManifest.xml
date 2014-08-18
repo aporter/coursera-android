@@ -8,8 +8,8 @@
     </uses-permission>
 
     <uses-sdk
-        android:minSdkVersion="5"
-        android:targetSdkVersion="17" />
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="false"

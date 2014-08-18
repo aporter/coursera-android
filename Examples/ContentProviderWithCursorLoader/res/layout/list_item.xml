@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/textview_height"
+    android:drawableLeft="@drawable/contact_photo"
+    android:drawablePadding="5dp"
+    android:textSize="24sp" >
 
-    <ImageView
-        android:id="@+id/photo"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:contentDescription="@string/photo_desc"
-        android:background="@drawable/ic_contact_picture" >
-    </ImageView>
-
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="64dp"
-        android:textSize="24sp" >
-    </TextView>
-
-</LinearLayout>
+</TextView>

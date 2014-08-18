@@ -23,7 +23,6 @@ public class NotificationStatusBarWithCustomViewActivity extends Activity {
 
 	// Notification Text Elements
 	private final CharSequence tickerText = "This is a Really, Really, Super Long Notification Message!";
-	private final CharSequence contentTitle = "Notification";
 	private final CharSequence contentText = "You've Been Notified!";
 
 	// Notification Action Elements

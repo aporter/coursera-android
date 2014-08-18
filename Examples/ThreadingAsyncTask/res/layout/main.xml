@@ -6,9 +6,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="400dp"
-        android:layout_height="340dp"
-        android:scaleType="centerInside" >
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerInside" 
+        android:contentDescription="@string/image_desc_string">
     </ImageView>
 
     <ProgressBar
@@ -25,7 +26,7 @@
         android:id="@+id/loadButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Load Icon"
+        android:text="@string/load_icon_string"
         android:textSize="24sp" >
     </Button>
 
@@ -33,7 +34,7 @@
         android:id="@+id/otherButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Other Button"
+        android:text="@string/other_button_string"
         android:textSize="24sp" >
     </Button>
 

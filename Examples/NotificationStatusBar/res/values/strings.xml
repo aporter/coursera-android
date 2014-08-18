@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, NotificationCreateActivity!</string>
+
     <string name="app_name">NotificationStatusBar</string>
+    <string name="notify_string">Notify</string>
+    <string name="intent_received_string">Got The Intent</string>
+
 </resources>

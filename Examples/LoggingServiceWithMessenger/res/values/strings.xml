@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ServiceLoggingWithMessenger</string>
-    <string name="generate_log_message_string">Generate Log Message</string>
 </resources>

@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-<EditText android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="android.intent.action"></EditText>
-<TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:text="Type in Intent Action"></TextView>
-<ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="250dip">
-    <TextView android:layout_height="wrap_content" android:text="" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
-</ScrollView>
+    android:orientation="vertical" >
 
-<Button android:layout_height="wrap_content" android:text="Check Intent" android:layout_width="wrap_content" android:id="@+id/CheckIntentButton"></Button>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_intent_action_string"
+        android:inputType="text" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_in_intent_action_string" >
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/CheckIntentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_intent_string" >
+    </Button>
+
 </LinearLayout>

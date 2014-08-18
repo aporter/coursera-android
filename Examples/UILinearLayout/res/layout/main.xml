@@ -16,7 +16,7 @@
             android:layout_weight="1"
             android:background="#aa0000"
             android:gravity="center_horizontal"
-            android:text="red" 
+            android:text="@string/red_string" 
             android:textSize="24sp"/>
 
         <TextView
@@ -25,7 +25,7 @@
             android:layout_weight="1"
             android:background="#00aa00"
             android:gravity="center_horizontal"
-            android:text="green" 
+            android:text="@string/green_string" 
             android:textSize="24sp"/>
 
         <TextView
@@ -34,7 +34,7 @@
             android:layout_weight="1"
             android:background="#0000aa"
             android:gravity="center_horizontal"
-            android:text="blue" 
+            android:text="@string/blue_string" 
             android:textSize="24sp"/>
 
         <TextView
@@ -43,7 +43,7 @@
             android:layout_weight="1"
             android:background="#aaaa00"
             android:gravity="center_horizontal"
-            android:text="yellow" 
+            android:text="@string/yellow_string" 
             android:textSize="24sp"/>
     </LinearLayout>
 
@@ -57,28 +57,28 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="row one"
+            android:text="@string/row_one_string"
             android:textSize="15pt" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="row two"
+            android:text="@string/row_two_string"
             android:textSize="15pt" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="row three"
+            android:text="@string/row_three_string"
             android:textSize="15pt" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="row four"
+            android:text="@string/row_four__string"
             android:textSize="15pt" />
     </LinearLayout>
 

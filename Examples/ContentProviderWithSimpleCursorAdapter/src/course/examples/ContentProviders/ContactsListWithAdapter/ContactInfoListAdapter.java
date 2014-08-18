@@ -5,31 +5,36 @@ import java.io.InputStream;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.provider.ContactsContract.Contacts;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
 
 public class ContactInfoListAdapter extends ResourceCursorAdapter {
 
-	private Bitmap mNoPictureBitmap;
-	private String TAG = "ContactInfoListAdapter";
+	private final String TAG = "ContactInfoListAdapter";
+	private final Context mApplicationContext;
+	private final int mBitmapSize;
+	private final BitmapDrawable mNoPictureBitmap;
 
 	public ContactInfoListAdapter(Context context, int layout, Cursor c,
 			int flags) {
 
 		super(context, layout, c, flags);
-		
+
+		mApplicationContext = context.getApplicationContext();
+
 		// default thumbnail photo
-		mNoPictureBitmap = BitmapFactory.decodeResource(context.getResources(),
+		mNoPictureBitmap = (BitmapDrawable) context.getResources().getDrawable(
 				R.drawable.ic_contact_picture);
+		mBitmapSize = (int) context.getResources().getDimension(
+				R.dimen.textview_height);
+		mNoPictureBitmap.setBounds(0, 0, mBitmapSize, mBitmapSize);
 
 	}
 
@@ -52,9 +57,8 @@ public class ContactInfoListAdapter extends ResourceCursorAdapter {
 		textView.setText(cursor.getString(cursor
 				.getColumnIndex(Contacts.DISPLAY_NAME)));
 
-		// default thumbnail photo
-		ImageView imageView = (ImageView) view.findViewById(R.id.photo);
-		Bitmap photoBitmap = mNoPictureBitmap;
+		// Default photo
+		BitmapDrawable photoBitmap = mNoPictureBitmap;
 
 		// Get actual thumbnail photo if it exists
 		String photoContentUri = cursor.getString(cursor
@@ -72,10 +76,11 @@ public class ContactInfoListAdapter extends ResourceCursorAdapter {
 
 				if (input != null) {
 
-					photoBitmap = BitmapFactory.decodeStream(input);
+					photoBitmap = new BitmapDrawable(
+							mApplicationContext.getResources(), input);
+					photoBitmap.setBounds(0, 0, mBitmapSize, mBitmapSize);
 
 				}
-
 			} catch (FileNotFoundException e) {
 
 				Log.i(TAG, "FileNotFoundException");
@@ -84,7 +89,7 @@ public class ContactInfoListAdapter extends ResourceCursorAdapter {
 		}
 
 		// Set thumbnail image
-		imageView.setImageBitmap(photoBitmap);
+		textView.setCompoundDrawables(photoBitmap, null, null, null);
 
 	}
 }

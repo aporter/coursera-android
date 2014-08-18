@@ -8,7 +8,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notify"
+        android:text="@string/notify_string"
         android:textSize="24sp" />
 
 </LinearLayout>

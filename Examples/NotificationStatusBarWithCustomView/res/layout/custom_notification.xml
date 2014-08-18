@@ -3,7 +3,6 @@
     android:id="@+id/toast_layout_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7777"
     android:padding="3dp" >
 
     <ImageView
@@ -11,7 +10,7 @@
         android:layout_width="44dp"
         android:layout_height="44dp"
         android:layout_marginRight="10dp"
-        android:contentDescription="Eye"
+        android:contentDescription="@string/eye_desc_string"
         android:src="@drawable/fire_eye_alien" />
 
     <TextView

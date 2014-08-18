@@ -3,7 +3,6 @@ package course.examples.DataManagement.DataBaseExample;
 import android.app.ListActivity;
 import android.content.ContentValues;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -12,7 +11,6 @@ import android.widget.SimpleCursorAdapter;
 
 public class DatabaseExampleActivity extends ListActivity {
 
-	private SQLiteDatabase mDB = null;
 	private DatabaseOpenHelper mDbHelper;
 	private SimpleCursorAdapter mAdapter;
 
@@ -24,9 +22,6 @@ public class DatabaseExampleActivity extends ListActivity {
 
 		// Create a new DatabaseHelper
 		mDbHelper = new DatabaseOpenHelper(this);
-
-		// Get the underlying database for writing
-		mDB = mDbHelper.getWritableDatabase();
 
 		// start with an empty database
 		clearAll();
@@ -65,27 +60,27 @@ public class DatabaseExampleActivity extends ListActivity {
 		ContentValues values = new ContentValues();
 
 		values.put(DatabaseOpenHelper.ARTIST_NAME, "Frank Sinatra");
-		mDB.insert(DatabaseOpenHelper.TABLE_NAME, null, values);
+		mDbHelper.getWritableDatabase().insert(DatabaseOpenHelper.TABLE_NAME, null, values);
 
 		values.clear();
 
 		values.put(DatabaseOpenHelper.ARTIST_NAME, "Lady Gaga");
-		mDB.insert(DatabaseOpenHelper.TABLE_NAME, null, values);
+		mDbHelper.getWritableDatabase().insert(DatabaseOpenHelper.TABLE_NAME, null, values);
 
 		values.clear();
 
 		values.put(DatabaseOpenHelper.ARTIST_NAME, "Jawny Cash");
-		mDB.insert(DatabaseOpenHelper.TABLE_NAME, null, values);
+		mDbHelper.getWritableDatabase().insert(DatabaseOpenHelper.TABLE_NAME, null, values);
 
 		values.clear();
 
 		values.put(DatabaseOpenHelper.ARTIST_NAME, "Ludwig von Beethoven");
-		mDB.insert(DatabaseOpenHelper.TABLE_NAME, null, values);
+		mDbHelper.getWritableDatabase().insert(DatabaseOpenHelper.TABLE_NAME, null, values);
 	}
 
 	// Returns all artist records in the database
 	private Cursor readArtists() {
-		return mDB.query(DatabaseOpenHelper.TABLE_NAME,
+		return mDbHelper.getWritableDatabase().query(DatabaseOpenHelper.TABLE_NAME,
 				DatabaseOpenHelper.columns, null, new String[] {}, null, null,
 				null);
 	}
@@ -94,7 +89,7 @@ public class DatabaseExampleActivity extends ListActivity {
 	private void fix() {
 
 		// Sorry Lady Gaga :-(
-		mDB.delete(DatabaseOpenHelper.TABLE_NAME,
+		mDbHelper.getWritableDatabase().delete(DatabaseOpenHelper.TABLE_NAME,
 				DatabaseOpenHelper.ARTIST_NAME + "=?",
 				new String[] { "Lady Gaga" });
 
@@ -102,7 +97,7 @@ public class DatabaseExampleActivity extends ListActivity {
 		ContentValues values = new ContentValues();
 		values.put(DatabaseOpenHelper.ARTIST_NAME, "Johnny Cash");
 
-		mDB.update(DatabaseOpenHelper.TABLE_NAME, values,
+		mDbHelper.getWritableDatabase().update(DatabaseOpenHelper.TABLE_NAME, values,
 				DatabaseOpenHelper.ARTIST_NAME + "=?",
 				new String[] { "Jawny Cash" });
 
@@ -111,7 +106,7 @@ public class DatabaseExampleActivity extends ListActivity {
 	// Delete all records
 	private void clearAll() {
 
-		mDB.delete(DatabaseOpenHelper.TABLE_NAME, null, null);
+		mDbHelper.getWritableDatabase().delete(DatabaseOpenHelper.TABLE_NAME, null, null);
 
 	}
 
@@ -119,7 +114,7 @@ public class DatabaseExampleActivity extends ListActivity {
 	@Override
 	protected void onDestroy() {
 
-		mDB.close();
+		mDbHelper.getWritableDatabase().close();
 		mDbHelper.deleteDatabase();
 
 		super.onDestroy();

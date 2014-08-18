@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Check Package Intents for Activities</string>
+    <string name="type_in_intent_action_string">Type in Intent Action</string>
+    <string name="android_intent_action_string">android.intent.action</string>
+    <string name="check_intent_string">Check Intent</string>
 </resources>

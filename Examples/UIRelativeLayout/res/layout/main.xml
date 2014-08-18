@@ -7,7 +7,7 @@
         android:id="@+id/entry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type here:"
+        android:hint="@string/type_here_string"
         android:textSize="24sp" />
 
     <Button
@@ -17,7 +17,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@id/entry"
         android:layout_marginLeft="10dip"
-        android:text="OK"
+        android:text="@string/ok_string"
         android:textSize="24sp" />
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/ok"
         android:layout_toLeftOf="@id/ok"
-        android:text="Cancel"
+        android:text="@string/cancel_string"
         android:textSize="24sp" />
 
 </RelativeLayout>

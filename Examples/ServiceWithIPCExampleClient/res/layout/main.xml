@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-	<TextView android:id="@+id/labeloutput" android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:text="Your ID" />
-	<TextView android:id="@+id/output" android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:layout_marginTop="15px"
-		android:layout_marginBottom="15px" android:lines="2" />
+    <TextView
+        android:id="@+id/labeloutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_id_string" />
 
-	<Button android:id="@+id/go_button" android:layout_width="fill_parent"
-		android:layout_height="wrap_content" android:layout_marginTop="150px"
-		android:text="Get New ID" />
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="1dp"
+        android:lines="2" />
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/get_new_id_string" />
 
 </LinearLayout>

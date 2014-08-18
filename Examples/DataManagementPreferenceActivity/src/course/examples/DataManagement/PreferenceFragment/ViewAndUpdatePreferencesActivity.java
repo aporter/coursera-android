@@ -1,4 +1,4 @@
-package course.examples.DataManagement.PreferenceActivity;
+package course.examples.DataManagement.PreferenceFragment;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

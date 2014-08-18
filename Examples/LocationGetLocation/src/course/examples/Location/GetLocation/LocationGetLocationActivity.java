@@ -27,7 +27,6 @@ public class LocationGetLocationActivity extends Activity {
 	private static final float MIN_ACCURACY = 25.0f;
 	private static final float MIN_LAST_READ_ACCURACY = 500.0f;
 	private static final float MIN_DISTANCE = 10.0f;
-	
 
 	// Views for display location information
 	private TextView mAccuracyView;
@@ -123,24 +122,31 @@ public class LocationGetLocationActivity extends Activity {
 		super.onResume();
 
 		// Determine whether initial reading is
-		// "good enough"
+		// "good enough". If not, register for
+		// further location updates
 
-		if (mBestReading.getAccuracy() > MIN_LAST_READ_ACCURACY
+		if (null == mBestReading
+				|| mBestReading.getAccuracy() > MIN_LAST_READ_ACCURACY
 				|| mBestReading.getTime() < System.currentTimeMillis()
 						- TWO_MIN) {
 
 			// Register for network location updates
-			mLocationManager.requestLocationUpdates(
-					LocationManager.NETWORK_PROVIDER, POLLING_FREQ, MIN_DISTANCE,
-					mLocationListener);
+			if (null != mLocationManager
+					.getProvider(LocationManager.NETWORK_PROVIDER)) {
+				mLocationManager.requestLocationUpdates(
+						LocationManager.NETWORK_PROVIDER, POLLING_FREQ,
+						MIN_DISTANCE, mLocationListener);
+			}
 
 			// Register for GPS location updates
-			mLocationManager.requestLocationUpdates(
-					LocationManager.GPS_PROVIDER, POLLING_FREQ, MIN_DISTANCE,
-					mLocationListener);
-
+			if (null != mLocationManager
+					.getProvider(LocationManager.GPS_PROVIDER)) {
+				mLocationManager.requestLocationUpdates(
+						LocationManager.GPS_PROVIDER, POLLING_FREQ,
+						MIN_DISTANCE, mLocationListener);
+			}
+			
 			// Schedule a runnable to unregister location listeners
-
 			Executors.newScheduledThreadPool(1).schedule(new Runnable() {
 
 				@Override
@@ -156,7 +162,6 @@ public class LocationGetLocationActivity extends Activity {
 	}
 
 	// Unregister location listeners
-
 	@Override
 	protected void onPause() {
 		super.onPause();
@@ -198,7 +203,8 @@ public class LocationGetLocationActivity extends Activity {
 		}
 
 		// Return best reading or null
-		if (bestAccuracy > minAccuracy || (System.currentTimeMillis() - bestAge) > maxAge) {
+		if (bestAccuracy > minAccuracy
+				|| (System.currentTimeMillis() - bestAge) > maxAge) {
 			return null;
 		} else {
 			return bestResult;

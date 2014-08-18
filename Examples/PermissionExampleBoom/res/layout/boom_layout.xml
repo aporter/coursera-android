@@ -2,7 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF000000"
     android:gravity="center">
 
     <TextView
@@ -14,7 +13,7 @@
         android:shadowRadius="10"
         android:text="@string/boom_string"
         android:textColor="#FFFF0000"
-        android:textSize="120sp"
+        android:textSize="100sp"
         android:textStyle="bold" />
 
 </RelativeLayout>

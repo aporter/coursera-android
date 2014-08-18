@@ -14,7 +14,7 @@
     android:stretchMode="columnWidth"
     android:verticalSpacing="10dp" />
 
-<TextView android:text="XXXXX"
+<TextView android:text="@string/xxxxx_string"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 </TextView> 

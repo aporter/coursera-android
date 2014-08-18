@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UIRadioGroup</string>
+    <string name="no_choice_made_string">No Choice Made</string>
+    <string name="choice_1_string">Choice 1</string>
+    <string name="choice_2_string">Choice 2</string>
+    <string name="choice_3_string">Choice 3</string>
 </resources>

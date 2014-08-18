@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, BluetoothSetupAndTransferDataActivity!</string>
     <string name="app_name">BluetoothSetupAndTransferData</string>
+    <string name="server_mode_string">Server Mode</string>
+    <string name="client_mode_string">Client Mode</string>
 </resources>

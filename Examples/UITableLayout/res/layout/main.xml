@@ -9,13 +9,13 @@
         <TextView
             android:layout_column="1"
             android:padding="3dip"
-            android:text="Open..."
+            android:text="@string/open_string"
             android:textSize="24sp" />
 
         <TextView
             android:gravity="right"
             android:padding="3dip"
-            android:text="Ctrl-O"
+            android:text="@string/ctrl_o_string"
             android:textSize="24sp" />
     </TableRow>
 
@@ -24,13 +24,13 @@
         <TextView
             android:layout_column="1"
             android:padding="3dip"
-            android:text="Save..."
+            android:text="@string/save_string"
             android:textSize="24sp" />
 
         <TextView
             android:gravity="right"
             android:padding="3dip"
-            android:text="Ctrl-S"
+            android:text="@string/ctrl_s_string"
             android:textSize="24sp" />
     </TableRow>
 
@@ -39,13 +39,13 @@
         <TextView
             android:layout_column="1"
             android:padding="3dip"
-            android:text="Save As..."
+            android:text="@string/save_as_string"
             android:textSize="24sp" />
 
         <TextView
             android:gravity="right"
             android:padding="3dip"
-            android:text="Ctrl-Shift-S"
+            android:text="@string/ctrl_shift_s_string"
             android:textSize="24sp" />
     </TableRow>
 
@@ -57,12 +57,12 @@
 
         <TextView
             android:padding="3dip"
-            android:text="X"
+            android:text="@string/x_string"
             android:textSize="24sp" />
 
         <TextView
             android:padding="3dip"
-            android:text="Import..."
+            android:text="@string/import_string"
             android:textSize="24sp" />
     </TableRow>
 
@@ -70,18 +70,18 @@
 
         <TextView
             android:padding="3dip"
-            android:text="X"
+            android:text="@string/x_string"
             android:textSize="24sp" />
 
         <TextView
             android:padding="3dip"
-            android:text="Export..."
+            android:text="@string/export_string"
             android:textSize="24sp" />
 
         <TextView
             android:gravity="right"
             android:padding="3dip"
-            android:text="Ctrl-E"
+            android:text="@string/ctrl_e_string"
             android:textSize="24sp" />
     </TableRow>
 
@@ -94,7 +94,7 @@
         <TextView
             android:layout_column="1"
             android:padding="3dip"
-            android:text="Quit"
+            android:text="@string/quit_string"
             android:textSize="24sp" />
     </TableRow>
 

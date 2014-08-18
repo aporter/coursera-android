@@ -2,6 +2,5 @@
 <resources>
 
     <string name="app_name">GraphicsValueAnimator</string>
-	<string name="image_desc"> Single Color Background </string>
 	<string name="button_label">Animate</string>
 </resources>

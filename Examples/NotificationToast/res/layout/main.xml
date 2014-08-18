@@ -8,7 +8,7 @@
         android:id="@+id/toast_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Toast"
+        android:text="@string/show_toast_string"
         android:textSize="24sp" />
 
 </LinearLayout>

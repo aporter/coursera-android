@@ -32,44 +32,60 @@ public class AudioRecordingActivity extends Activity {
 		final ToggleButton mRecordButton = (ToggleButton) findViewById(R.id.record_button);
 		final ToggleButton mPlayButton = (ToggleButton) findViewById(R.id.play_button);
 
+		// Set up record Button
 		mRecordButton.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
 
-				mPlayButton.setEnabled(!isChecked);
+				// Set checked state
+				mRecordButton.setEnabled(!isChecked);
+
+				// Start/stop recording
 				onRecordPressed(isChecked);
 
 			}
 		});
 
+		// Set up play Button
 		mPlayButton.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
+
+				// Set checked state
 				mRecordButton.setEnabled(!isChecked);
+
+				// Start/stop playback
 				onPlayPressed(isChecked);
 			}
 		});
-		
-		// Request audio focus
+
+		// Get AudioManager
 		mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+
+		// Request audio focus
 		mAudioManager.requestAudioFocus(afChangeListener,
 				AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
 
 	}
 
+	// Toggle recording
 	private void onRecordPressed(boolean shouldStartRecording) {
+
 		if (shouldStartRecording) {
 			startRecording();
 		} else {
 			stopRecording();
 		}
+
 	}
 
+	// Start recording with MediaRecorder
 	private void startRecording() {
+
 		mRecorder = new MediaRecorder();
 		mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
 		mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
@@ -85,23 +101,31 @@ public class AudioRecordingActivity extends Activity {
 		mRecorder.start();
 	}
 
+	// Stop recording. Release resources
 	private void stopRecording() {
+
 		if (null != mRecorder) {
 			mRecorder.stop();
 			mRecorder.release();
 			mRecorder = null;
 		}
+
 	}
 
+	// Toggle playback
 	private void onPlayPressed(boolean shouldStartPlaying) {
+
 		if (shouldStartPlaying) {
 			startPlaying();
 		} else {
 			stopPlaying();
 		}
+
 	}
 
+	// Playback audio using MediaPlayer
 	private void startPlaying() {
+
 		mPlayer = new MediaPlayer();
 		try {
 			mPlayer.setDataSource(mFileName);
@@ -110,31 +134,44 @@ public class AudioRecordingActivity extends Activity {
 		} catch (IOException e) {
 			Log.e(TAG, "Couldn't prepare and start MediaPlayer");
 		}
+
 	}
 
+	// Stop playback. Release resources
 	private void stopPlaying() {
+
 		if (null != mPlayer) {
 			if (mPlayer.isPlaying())
 				mPlayer.stop();
 			mPlayer.release();
 			mPlayer = null;
 		}
+
 	}
 
-	// Listen for Audio focus changes
+	// Listen for Audio Focus changes
 	OnAudioFocusChangeListener afChangeListener = new OnAudioFocusChangeListener() {
+
+		@Override
 		public void onAudioFocusChange(int focusChange) {
+
 			if (focusChange == AudioManager.AUDIOFOCUS_LOSS) {
 				mAudioManager.abandonAudioFocus(afChangeListener);
-				if (mPlayer.isPlaying()) 
+
+				// Stop playback, if necessary
+				if (mPlayer.isPlaying())
 					stopPlaying();
 			}
+
 		}
+
 	};
-	
+
+	// Release recording and playback resources, if necessary
 	@Override
 	public void onPause() {
 		super.onPause();
+
 		if (null != mRecorder) {
 			mRecorder.release();
 			mRecorder = null;
@@ -144,5 +181,7 @@ public class AudioRecordingActivity extends Activity {
 			mPlayer.release();
 			mPlayer = null;
 		}
+
 	}
+
 }

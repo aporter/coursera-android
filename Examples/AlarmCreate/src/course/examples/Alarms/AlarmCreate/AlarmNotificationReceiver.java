@@ -27,18 +27,22 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
 	private PendingIntent mContentIntent;
 
 	// Notification Sound and Vibration on Arrival
-	private Uri soundURI = Uri
+	private final Uri soundURI = Uri
 			.parse("android.resource://course.examples.Alarms.AlarmCreate/"
 					+ R.raw.alarm_rooster);
-	private long[] mVibratePattern = { 0, 200, 200, 300 };
+	private final long[] mVibratePattern = { 0, 200, 200, 300 };
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
 
+		// The Intent to be used when the user clicks on the Notification View
 		mNotificationIntent = new Intent(context, AlarmCreateActivity.class);
+
+		// The PendingIntent that wraps the underlying Intent
 		mContentIntent = PendingIntent.getActivity(context, 0,
 				mNotificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
 
+		// Build the Notification
 		Notification.Builder notificationBuilder = new Notification.Builder(
 				context).setTicker(tickerText)
 				.setSmallIcon(android.R.drawable.stat_sys_warning)
@@ -46,13 +50,17 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
 				.setContentText(contentText).setContentIntent(mContentIntent)
 				.setSound(soundURI).setVibrate(mVibratePattern);
 
-		// Pass the Notification to the NotificationManager:
+		// Get the NotificationManager
 		NotificationManager mNotificationManager = (NotificationManager) context
 				.getSystemService(Context.NOTIFICATION_SERVICE);
+
+		// Pass the Notification to the NotificationManager:
 		mNotificationManager.notify(MY_NOTIFICATION_ID,
 				notificationBuilder.build());
-		
-		Log.i(TAG,"Sending notification at:" + DateFormat.getDateTimeInstance().format(new Date()));
+
+		// Log occurence of notify() call
+		Log.i(TAG, "Sending notification at:"
+				+ DateFormat.getDateTimeInstance().format(new Date()));
 
 	}
 }

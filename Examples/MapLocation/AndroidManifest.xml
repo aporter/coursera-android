@@ -5,20 +5,20 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="17" >
-    </uses-sdk>
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="MapLocation" >
-        <activity
-            android:name="course.examples.MapLocation.MapLocation">
+        <activity android:name="course.examples.MapLocation.MapLocation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

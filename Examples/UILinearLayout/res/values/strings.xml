@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UILinearLayout</string>
+    <string name="red_string">red</string>
+    <string name="green_string">green</string>
+    <string name="blue_string">blue</string>
+    <string name="yellow_string">yellow</string>
+    <string name="row_one_string">row one</string>
+    <string name="row_two_string">row two</string>
+    <string name="row_three_string">row three</string>
+    <string name="row_four__string">row four</string>
 </resources>

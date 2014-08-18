@@ -1,3 +1,9 @@
+/*
+ * When "Load Icon" Button is pressed throws 
+ * android.view.ViewRootImpl$CalledFromWrongThreadException: 
+ * Only the original thread that created a view hierarchy can touch its views.
+ */
+
 package course.examples.Threading.ThreadingSimple;
 
 import android.app.Activity;
@@ -54,7 +60,7 @@ public class SimpleThreadingExample extends Activity {
 				}
 				mBitmap = BitmapFactory.decodeResource(getResources(),
 						R.drawable.painter);
-				
+
 				// This doesn't work in Android
 				mIView.setImageBitmap(mBitmap);
 			}

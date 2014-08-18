@@ -14,14 +14,14 @@
         android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I&apos;m not checked" 
+        android:text="@string/im_not_checked_string" 
         android:textSize="24sp"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hide CheckBox" 
+        android:text="@string/hide_checkbox_string" 
         android:textSize="24sp">
     </Button>
 

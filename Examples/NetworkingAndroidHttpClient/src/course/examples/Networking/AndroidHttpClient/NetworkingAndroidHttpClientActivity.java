@@ -37,8 +37,6 @@ public class NetworkingAndroidHttpClientActivity extends Activity {
 
 	private class HttpGetTask extends AsyncTask<Void, Void, String> {
 
-		private static final String TAG = "HttpGetTask";
-
 		// Get your own user name at http://www.geonames.org/login
 		private static final String USER_NAME = "aporter";
 

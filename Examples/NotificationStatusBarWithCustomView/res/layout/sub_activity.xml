@@ -8,7 +8,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Got The Intent"
+        android:text="@string/intent_received_string"
         android:textSize="24sp" >
     </TextView>
 

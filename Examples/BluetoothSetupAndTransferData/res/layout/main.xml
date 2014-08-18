@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
-	<TextView android:id="@+id/text_window" android:layout_width="match_parent"
-		android:layout_height="200dip" android:lines="4" />
-	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-		<Button android:id="@+id/server_button" android:text="Server Mode"
-			android:layout_height="wrap_content" android:layout_weight="1"
-			android:layout_width="wrap_content" android:layout_marginTop="30dip"></Button>
-		<Button android:id="@+id/client_button" android:text="Client Mode"
-			android:layout_height="wrap_content" android:layout_weight="1"
-			android:layout_width="wrap_content" android:layout_marginTop="30dip"></Button>
-	</LinearLayout>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_window"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:lines="4" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/server_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:layout_weight="1"
+            android:text="@string/server_mode_string" >
+        </Button>
+
+        <Button
+            android:id="@+id/client_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:layout_weight="1"
+            android:text="@string/client_mode_string" >
+        </Button>
+    </LinearLayout>
+
 </LinearLayout>

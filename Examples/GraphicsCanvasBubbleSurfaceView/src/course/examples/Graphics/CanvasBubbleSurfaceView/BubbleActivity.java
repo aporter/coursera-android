@@ -50,7 +50,7 @@ public class BubbleActivity extends Activity {
 			super(context);
 
 			mBitmapHeightAndWidth = (int) getResources().getDimension(
-					R.dimen.image_height);
+					R.dimen.image_height_width);
 			this.mBitmap = Bitmap.createScaledBitmap(bitmap,
 					mBitmapHeightAndWidth, mBitmapHeightAndWidth, false);
 

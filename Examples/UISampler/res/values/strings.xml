@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UISampler</string>
+    <string name="red_string">Red</string>
+    <string name="blue_string">Blue</string>
+    <string name="check_it_out_string">check it out</string>
+    <string name="vibrate_on_string">Vibrate on</string>
+    <string name="vibrate_off_string">Vibrate off</string>
+    <string name="type_here_string">Type here:</string>
 </resources>

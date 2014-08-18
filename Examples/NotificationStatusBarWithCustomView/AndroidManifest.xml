@@ -4,15 +4,16 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
+        <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="19" />
+
 
     <uses-permission android:name="android.permission.VIBRATE" >
     </uses-permission>
 
     <application
-        android:icon="@drawable/icon"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:allowBackup="false" >
         <activity
@@ -24,9 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <service android:name=".NotificationStatusBarWithCustomViewActivity$MyService" >
-        </service>
 
         <activity android:name="NotificationSubActivity" >
             <intent-filter>

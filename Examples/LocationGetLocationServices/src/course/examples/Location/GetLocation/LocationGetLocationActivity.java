@@ -1,3 +1,8 @@
+/* 
+ * Requires Google Play Services 
+ * Doesn't run on emulator 
+*/
+
 package course.examples.Location.GetLocation;
 
 import java.text.SimpleDateFormat;
