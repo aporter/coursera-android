@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 public class BoomActivity extends Activity {
 
+	// String used to represent the dangerous operation
 	public static final String ACTION_BOOM = 
 			"course.examples.permissionexample.boom.boom_action";
 

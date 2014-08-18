@@ -6,8 +6,9 @@
 
     <uses-sdk
         android:minSdkVersion="13"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="20" />
 
+    <!--  grant the "...BOOM_PERM permission to this application -->
     <uses-permission android:name="course.examples.permissionexample.BOOM_PERM" />
 
     <application

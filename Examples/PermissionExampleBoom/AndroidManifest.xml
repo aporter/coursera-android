@@ -6,14 +6,16 @@
 
     <uses-sdk
         android:minSdkVersion="13"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="20" />
 
+    <!-- Defines a custom permission -->
     <permission
         android:name="course.examples.permissionexample.BOOM_PERM"
         android:description="@string/boom_perm_string"
         android:label="@string/boom_permission_label_string" >
     </permission>
 
+    <!--  Enforces the BOOM_PERM permission on users of this application  -->
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -27,6 +29,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            
+            <!--  Sets up an Intent Filter for the dangerous operation defined by the 
+                   Action String "....boom_action"  -->
             <intent-filter>
                 <action android:name="course.examples.permissionexample.boom.boom_action" />
 

@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -15,7 +16,8 @@ public class MapLocation extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
-		// Restore any saved state 
+		// Required call through to Activity.onCreate()
+		// Restore any saved instance state
 		super.onCreate(savedInstanceState);
 		
 		// Set content view
@@ -26,17 +28,26 @@ public class MapLocation extends Activity {
 		final Button button = (Button) findViewById(R.id.mapButton);
 
 		// Link UI elements to actions in code		
-		button.setOnClickListener(new Button.OnClickListener() {
-			@Override
+		button.setOnClickListener(new OnClickListener() {
+			
+			// Called when user clicks the Show Map button
 			public void onClick(View v) {
 				try {
+					
+					// Process text for network transmission
 					String address = addrText.getText().toString();
 					address = address.replace(' ', '+');
+					
+					// Create Intent object for starting Google Maps application 
 					Intent geoIntent = new Intent(
 							android.content.Intent.ACTION_VIEW, Uri
 									.parse("geo:0,0?q=" + address));
+					
+					// Use the Intent to start Google Maps application using Activity.startActivity()
 					startActivity(geoIntent);
+					
 				} catch (Exception e) {
+					// Log any error messages to LogCat using Log.e()
 					Log.e(TAG, e.toString());
 				}
 			}

@@ -17,6 +17,7 @@ import android.widget.Button;
 
 public class MapLocationFromContactsActivity extends Activity {
 
+	// These variables are shorthand aliases for data items in Contacts-related database tables 
 	private static final String DATA_MIMETYPE = ContactsContract.Data.MIMETYPE;
 	private static final Uri DATA_CONTENT_URI = ContactsContract.Data.CONTENT_URI;
 	private static final String DATA_CONTACT_ID = ContactsContract.Data.CONTACT_ID;
@@ -36,15 +37,23 @@ public class MapLocationFromContactsActivity extends Activity {
 		setContentView(R.layout.main);
 
 		final Button button = (Button) findViewById(R.id.mapButton);
-
 		button.setOnClickListener(new Button.OnClickListener() {
+
+			// Called when user clicks the Show Map button
 			@Override
 			public void onClick(View v) {
 				try {
+					// Create Intent object for picking data from Contacts database
 					Intent intent = new Intent(Intent.ACTION_PICK,
 							CONTACTS_CONTENT_URI);
+					
+					// Use intent to start Contacts application
+					// Variable PICK_CONTACT_REQUEST identifies this operation 
 					startActivityForResult(intent, PICK_CONTACT_REQUEST);
+					
 				} catch (Exception e) {
+					// Log any error messages to LogCat using Log.e()
+					Log.e(TAG, e.toString());
 				}
 			}
 		});
@@ -52,9 +61,12 @@ public class MapLocationFromContactsActivity extends Activity {
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+		// Ensure that this call is the result of a successful PICK_CONTACT_REQUEST request
 		if (resultCode == Activity.RESULT_OK
 				&& requestCode == PICK_CONTACT_REQUEST) {
 
+			// These details are covered in the lesson on ContentProviders
 			ContentResolver cr = getContentResolver();
 			Cursor cursor = cr.query(data.getData(), null, null, null, null);
 
@@ -74,10 +86,16 @@ public class MapLocationFromContactsActivity extends Activity {
 									.getColumnIndex(STRUCTURED_POSTAL_FORMATTED_ADDRESS));
 
 					if (null != formattedAddress) {
+
+						// Process text for network transmission
 						formattedAddress = formattedAddress.replace(' ', '+');
+						
+						// Create Intent object for starting Google Maps application 
 						Intent geoIntent = new Intent(
 								android.content.Intent.ACTION_VIEW,
 								Uri.parse("geo:0,0?q=" + formattedAddress));
+						
+						// Use the Intent to start Google Maps application using Activity.startActivity()
 						startActivity(geoIntent);
 					}
 				}
