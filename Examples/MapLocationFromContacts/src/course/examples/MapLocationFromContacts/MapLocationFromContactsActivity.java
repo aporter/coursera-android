@@ -15,6 +15,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+//Several Activity lifecycle methods are instrumented to emit LogCat output
+//so you can follow this class' lifecycle
+
 public class MapLocationFromContactsActivity extends Activity {
 
 	// These variables are shorthand aliases for data items in Contacts-related database tables 

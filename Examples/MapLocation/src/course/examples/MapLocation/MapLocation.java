@@ -10,9 +10,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
+// Several Activity lifecycle methods are instrumented to emit LogCat output
+// so you can follow this class' lifecycle
+
 public class MapLocation extends Activity {
 
 	private final String TAG = "MapLocation";
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
