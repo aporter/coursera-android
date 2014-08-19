@@ -7,7 +7,6 @@ import course.examples.Fragments.StaticLayout.TitlesFragment.ListSelectionListen
 
 //Several Activity lifecycle methods are instrumented to emit LogCat output
 //so you can follow this class' lifecycle
-
 public class QuoteViewerActivity extends Activity implements
 		ListSelectionListener {
 

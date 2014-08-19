@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 //Several Activity and Fragment lifecycle methods are instrumented to emit LogCat output
 //so you can follow the class' lifecycle
-
 public class QuotesFragment extends Fragment {
 
 	private TextView mQuoteView = null;
@@ -58,6 +57,7 @@ public class QuotesFragment extends Fragment {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
+
 		mQuoteView = (TextView) getActivity().findViewById(R.id.quoteView);
 		mQuoteArrayLen = QuoteViewerActivity.mQuoteArray.length;
 	}

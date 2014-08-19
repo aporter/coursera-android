@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+//Several Activity and Fragment lifecycle methods are instrumented to emit LogCat output
+//so you can follow the class' lifecycle
 public class QuotesFragment extends Fragment {
 
 	private static final String TAG = "QuotesFragment";
@@ -21,7 +23,8 @@ public class QuotesFragment extends Fragment {
 		return mCurrIdx;
 	}
 
-	void showIndex(int newIndex) {
+	// Show the Quote string at position newIndex
+	void showQuoteAtIndex(int newIndex) {
 		if (newIndex < 0 || newIndex >= mQuoteArrLen)
 			return;
 		mCurrIdx = newIndex;
@@ -40,15 +43,19 @@ public class QuotesFragment extends Fragment {
 		super.onCreate(savedInstanceState);
 	}
 
+	// Called to create the content view for this Fragment
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		Log.i(TAG, getClass().getSimpleName() + ":entered onCreateView()");
 
+		// Inflate the layout defined in quote_fragment.xml
+		// The last parameter is false because the returned view does not need to be attached to the container ViewGroup
 		return inflater.inflate(R.layout.quote_fragment,
 				container, false);
 	}
 	
+	// Set up some information about the mQuoteView TextView 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		Log.i(TAG, getClass().getSimpleName() + ":entered onActivityCreated()");

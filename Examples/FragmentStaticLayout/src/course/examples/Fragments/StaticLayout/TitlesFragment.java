@@ -12,8 +12,6 @@ import android.widget.ListView;
 
 //Several Activity and Fragment lifecycle methods are instrumented to emit LogCat output
 //so you can follow the class' lifecycle
-
-
 public class TitlesFragment extends ListFragment {
 	private ListSelectionListener mListener = null;
 	private static final String TAG = "TitlesFragment";
