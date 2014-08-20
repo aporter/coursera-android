@@ -8,8 +8,6 @@ import android.widget.LinearLayout;
 import android.widget.ToggleButton;
 
 public class ToggleButtonActivity extends Activity {
-	int count = 0;
-
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
