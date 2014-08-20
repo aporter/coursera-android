@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
+// This application uses some deprecated methods. 
+// See UIDatePickerFragmentActivity for a  more version of this application
+
 public class DatePickerActivity extends Activity {
 
 	private TextView mDateDisplay;
@@ -21,7 +24,7 @@ public class DatePickerActivity extends Activity {
 
 	static final int DATE_DIALOG_ID = 0;
 
-	  // the callback received when the user "sets" the date in the dialog
+	  // The callback received when the user "sets" the date in the Dialog
     private DatePickerDialog.OnDateSetListener mDateSetListener =
             new DatePickerDialog.OnDateSetListener() {
 
@@ -40,28 +43,29 @@ public class DatePickerActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		// capture our View elements
+		// Capture our View elements
 		mDateDisplay = (TextView) findViewById(R.id.dateDisplay);
 		mPickDate = (Button) findViewById(R.id.pickDate);
 
-		// add a click listener to the button
+		// Set an OnClickListener on the Change The Date Button
 		mPickDate.setOnClickListener(new View.OnClickListener() {
+			@SuppressWarnings("deprecation")
 			public void onClick(View v) {
 				showDialog(DATE_DIALOG_ID);
 			}
 		});
 
-		// get the current date
+		// Get the current date
 		final Calendar c = Calendar.getInstance();
 		mYear = c.get(Calendar.YEAR);
 		mMonth = c.get(Calendar.MONTH);
 		mDay = c.get(Calendar.DAY_OF_MONTH);
 
-		// display the current date (this method is below)
+		// Display the current date
 		updateDisplay();
 	}
 	
-	 // updates the date in the TextView
+	 // Update the date in the TextView
     private void updateDisplay() {
         mDateDisplay.setText(
             new StringBuilder()
@@ -71,6 +75,7 @@ public class DatePickerActivity extends Activity {
                     .append(mYear).append(" "));
     }
     
+    // Create and return DatePickerDialog
     @Override
     protected Dialog onCreateDialog(int id) {
         switch (id) {
