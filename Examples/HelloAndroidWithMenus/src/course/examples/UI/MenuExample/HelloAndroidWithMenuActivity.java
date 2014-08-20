@@ -18,10 +18,12 @@ public class HelloAndroidWithMenuActivity extends Activity {
 		setContentView(R.layout.main);
 		TextView tv = (TextView) findViewById(R.id.text_view);
 
+		// Long presses on TextView tv invoke Context Menu
 		registerForContextMenu(tv);
 	
 	}
 
+	// Create Options Menu
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
@@ -29,6 +31,7 @@ public class HelloAndroidWithMenuActivity extends Activity {
 		return true;
 	}
 
+	// Process clicks on Options Menu items
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
@@ -47,6 +50,7 @@ public class HelloAndroidWithMenuActivity extends Activity {
 		}
 	}
 
+	// Create Context Menu
 	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v,
 			ContextMenuInfo menuInfo) {
@@ -55,6 +59,7 @@ public class HelloAndroidWithMenuActivity extends Activity {
 		inflater.inflate(R.menu.context_menu, menu);
 	}
 
+	// Process clicks on Context Menu Items
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
