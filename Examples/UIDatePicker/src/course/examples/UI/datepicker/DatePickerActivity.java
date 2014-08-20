@@ -12,7 +12,7 @@ import android.widget.DatePicker;
 import android.widget.TextView;
 
 // This application uses some deprecated methods. 
-// See UIDatePickerFragmentActivity for a  more version of this application
+// See UIDatePickerFragmentActivity for a more modern version of this application
 
 public class DatePickerActivity extends Activity {
 
@@ -24,20 +24,18 @@ public class DatePickerActivity extends Activity {
 
 	static final int DATE_DIALOG_ID = 0;
 
-	  // The callback received when the user "sets" the date in the Dialog
-    private DatePickerDialog.OnDateSetListener mDateSetListener =
-            new DatePickerDialog.OnDateSetListener() {
+	// The callback received when the user "sets" the date in the Dialog
+	private DatePickerDialog.OnDateSetListener mDateSetListener = new DatePickerDialog.OnDateSetListener() {
 
-                public void onDateSet(DatePicker view, int year, 
-                                      int monthOfYear, int dayOfMonth) {
-                    mYear = year;
-                    mMonth = monthOfYear;
-                    mDay = dayOfMonth;
-                    updateDisplay();
-                }
-            };
-     
-	/** Called when the activity is first created. */
+		public void onDateSet(DatePicker view, int year, int monthOfYear,
+				int dayOfMonth) {
+			mYear = year;
+			mMonth = monthOfYear;
+			mDay = dayOfMonth;
+			updateDisplay();
+		}
+	};
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -64,26 +62,23 @@ public class DatePickerActivity extends Activity {
 		// Display the current date
 		updateDisplay();
 	}
-	
-	 // Update the date in the TextView
-    private void updateDisplay() {
-        mDateDisplay.setText(
-            new StringBuilder()
-                    // Month is 0 based so add 1
-                    .append(mMonth + 1).append("-")
-                    .append(mDay).append("-")
-                    .append(mYear).append(" "));
-    }
-    
-    // Create and return DatePickerDialog
-    @Override
-    protected Dialog onCreateDialog(int id) {
-        switch (id) {
-        case DATE_DIALOG_ID:
-            return new DatePickerDialog(this,
-                        mDateSetListener,
-                        mYear, mMonth, mDay);
-        }
-        return null;
-    }
+
+	// Update the date in the TextView
+	private void updateDisplay() {
+		mDateDisplay.setText(new StringBuilder()
+				// Month is 0 based so add 1
+				.append(mMonth + 1).append("-").append(mDay).append("-")
+				.append(mYear).append(" "));
+	}
+
+	// Create and return DatePickerDialog
+	@Override
+	protected Dialog onCreateDialog(int id) {
+		switch (id) {
+		case DATE_DIALOG_ID:
+			return new DatePickerDialog(this, mDateSetListener, mYear, mMonth,
+					mDay);
+		}
+		return null;
+	}
 }

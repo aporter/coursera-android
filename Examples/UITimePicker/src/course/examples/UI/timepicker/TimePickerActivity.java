@@ -11,17 +11,19 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+//This application uses some deprecated methods. 
+//See UITimePickerFragment for a  more modern version of this application
+
 public class TimePickerActivity extends Activity {
 
 	private TextView mTimeDisplay;
 	private Button mPickTime;
-
 	private int mHour;
 	private int mMinute;
 
 	static final int TIME_DIALOG_ID = 0;
 
-	// the callback received when the user "sets" the time in the dialog
+	// The callback received when the user "sets" the time in the dialog
 	private TimePickerDialog.OnTimeSetListener mTimeSetListener = new TimePickerDialog.OnTimeSetListener() {
 		public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 			mHour = hourOfDay;
@@ -30,38 +32,39 @@ public class TimePickerActivity extends Activity {
 		}
 	};
 
-	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		// capture our View elements
+		// Capture UI elements
 		mTimeDisplay = (TextView) findViewById(R.id.timeDisplay);
 		mPickTime = (Button) findViewById(R.id.pickTime);
 
-		// add a click listener to the button
+		// Set an OnClickListener on the Change the Time Button
 		mPickTime.setOnClickListener(new View.OnClickListener() {
+			@SuppressWarnings("deprecation")
 			public void onClick(View v) {
 				showDialog(TIME_DIALOG_ID);
 			}
 		});
 
-		// get the current time
+		// Get the current time
 		final Calendar c = Calendar.getInstance();
 		mHour = c.get(Calendar.HOUR_OF_DAY);
 		mMinute = c.get(Calendar.MINUTE);
 
-		// display the current date
+		// Display the current date
 		updateDisplay();
 	}
 
-	// updates the time we display in the TextView
+	// Update the time String in the TextView
 	private void updateDisplay() {
 		mTimeDisplay.setText(new StringBuilder().append(pad(mHour)).append(":")
 				.append(pad(mMinute)));
 	}
 
+	// Prepends a "0" to 1-digit minutes 
 	private static String pad(int c) {
 		if (c >= 10)
 			return String.valueOf(c);
