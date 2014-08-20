@@ -17,13 +17,19 @@ public class AutoCompleteActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
+		// Get a reference to the AutoCompleteTextView
 		AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.autocomplete_country);
+	
+		// Create an ArrayAdapter containing country names
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				R.layout.list_item, COUNTRIES);
+		
+		// Set the adapter for the AutoCompleteTextView
 		textView.setAdapter(adapter);
 		
 		textView.setOnItemClickListener(new OnItemClickListener() {
 
+			// Display a Toast Message when the user clicks on an item in the AutoCompleteTextView
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
