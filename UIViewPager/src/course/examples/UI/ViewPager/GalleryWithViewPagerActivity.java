@@ -1,10 +1,14 @@
+// This project requires the v4 and v13 support libraries. 
+// See http://developer.android.com/tools/support-library/setup.html for more information
+
+
 package course.examples.UI.ViewPager;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 
-public class GalleryWithViewPagerActivity extends ActionBarActivity {
+public class GalleryWithViewPagerActivity extends Activity {
 
 	private ImageAdapter mImageAdapter;
 	private ViewPager mViewPager;
@@ -19,7 +23,7 @@ public class GalleryWithViewPagerActivity extends ActionBarActivity {
 		// Create a new ImageAdapter (subclass of FragmentStatePagerAdapter)
 		// ViewPager uses support library, so use getSupportFragmentManager()
 		// instead of getFragmentManager()
-		mImageAdapter = new ImageAdapter(getSupportFragmentManager());
+		mImageAdapter = new ImageAdapter(getFragmentManager());
 
 		// Set the Adapter on the ViewPager
 		mViewPager.setAdapter(mImageAdapter);
