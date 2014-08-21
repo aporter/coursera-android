@@ -16,19 +16,22 @@ public class ImageAdapter extends BaseAdapter {
 	private Context mContext;
 	private List<Integer> mThumbIds;
 
+	// Store the list of image IDs
 	public ImageAdapter(Context c, List<Integer> ids) {
 		mContext = c;
 		this.mThumbIds = ids;
 	}
 
+	// Return the number of items in the Adapter
 	@Override
 	public int getCount() {
 		return mThumbIds.size();
 	}
 
+	// Return the data item at position
 	@Override
 	public Object getItem(int position) {
-		return null;
+		return mThumbIds.get(position);
 	}
 
 	// Will get called to provide the ID that
@@ -38,9 +41,10 @@ public class ImageAdapter extends BaseAdapter {
 		return mThumbIds.get(position);
 	}
 
-	// create a new ImageView for each item referenced by the Adapter
+	// Return an ImageView for each item referenced by the Adapter
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
+
 		ImageView imageView = (ImageView) convertView;
 
 		// if convertView's not recycled, initialize some attributes

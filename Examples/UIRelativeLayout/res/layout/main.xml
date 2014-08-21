@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <!-- Note the use of android:hint to put explanatory text in the EditText  -->
     <EditText
         android:id="@+id/entry"
         android:layout_width="match_parent"
@@ -11,7 +12,7 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/ok"
+        android:id="@+id/ok_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -21,10 +22,11 @@
         android:textSize="24sp" />
 
     <Button
+        android:id="@+id/cancel_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/ok"
-        android:layout_toLeftOf="@id/ok"
+        android:layout_alignTop="@id/ok_button"
+        android:layout_toLeftOf="@id/ok_button"
         android:text="@string/cancel_string"
         android:textSize="24sp" />
 

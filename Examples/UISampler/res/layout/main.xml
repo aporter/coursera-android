@@ -4,18 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <Button
+    <ImageButton
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/android_button"
-        android:padding="10dp" />
+        android:src="@drawable/android_button"
+        android:padding="10dp"
+        android:contentDescription="@string/android_button_desc_string" />
 
     <EditText
         android:id="@+id/edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
-        android:hint="@string/type_here_string"/>
+        android:hint="@string/type_here_string"
+        android:inputType="text"/>
 
     <CheckBox
         android:id="@+id/checkbox"

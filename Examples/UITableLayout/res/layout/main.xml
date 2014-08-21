@@ -4,8 +4,10 @@
     android:layout_height="match_parent"
     android:stretchColumns="1" >
 
+    <!-- First row -->
     <TableRow>
 
+        <!-- start in column 1 -->
         <TextView
             android:layout_column="1"
             android:padding="3dip"
@@ -49,6 +51,7 @@
             android:textSize="24sp" />
     </TableRow>
 
+    <!-- Create a divider -->
     <View
         android:layout_height="2dip"
         android:background="#FF909090" />

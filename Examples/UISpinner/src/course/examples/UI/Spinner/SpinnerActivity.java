@@ -16,15 +16,23 @@ public class SpinnerActivity extends Activity {
 
 		setContentView(R.layout.main);
 
+		// Get a reference to the Spinner
 		Spinner spinner = (Spinner) findViewById(R.id.spinner);
-		
+
+		// Create an Adapter that holds a list of colors
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
 				this, R.array.colors, R.layout.dropdown_item);
-	
+
+		// Set the Adapter for the spinner
 		spinner.setAdapter(adapter);
+
+		// Set an setOnItemSelectedListener on the spinner
 		spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
 			public void onItemSelected(AdapterView<?> parent, View view,
 					int pos, long id) {
+
+				// Display a Toast message indicating the currently selected
+				// item
 				Toast.makeText(
 						parent.getContext(),
 						"The color is "

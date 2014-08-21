@@ -7,4 +7,5 @@
     <string name="vibrate_on_string">Vibrate on</string>
     <string name="vibrate_off_string">Vibrate off</string>
     <string name="type_here_string">Type here:</string>
+    <string name="android_button_desc_string">Android Button</string>
 </resources>
