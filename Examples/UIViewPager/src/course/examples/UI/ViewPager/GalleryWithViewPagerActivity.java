@@ -1,4 +1,4 @@
-// This project requires the v4 and v13 support libraries. 
+// This project requires the v13 support library. 
 // See http://developer.android.com/tools/support-library/setup.html for more information
 
 
