@@ -11,6 +11,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+//This application uses some deprecated methods. 
+//See UIViewPager for a more modern version of this application
+
 public class GridLayoutActivity extends Activity {
 
 	protected static final String EXTRA_RES_ID = "POS";
