@@ -14,9 +14,10 @@ import android.widget.Toast;
 public class QuoteFragment extends Fragment {
 
 	private TextView mQuoteView = null;
-	private int mCurrIdx = -1;
+	private int mCurrIdx = QuoteViewerActivity.UNSELECTED;
 	private int mQuoteArrLen = 0;
 
+	// Returns currently selected item
 	public int getShownIndex() {
 		return mCurrIdx;
 	}
@@ -43,7 +44,10 @@ public class QuoteFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		// Don't destroy Fragment on reconfiguration
 		setRetainInstance(true);
+		
+		// This Fragment adds options to the ActionBar
 		setHasOptionsMenu(true);
 	}
 
@@ -58,7 +62,7 @@ public class QuoteFragment extends Fragment {
 	@Override
 	public void onDetach() {
 		super.onDetach();
-		mCurrIdx = -1;
+		mCurrIdx = QuoteViewerActivity.UNSELECTED;
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class QuoteViewerActivity extends Activity implements ListSelectionListen
 	public static String[] QuoteArray;
 	private final TitlesFragment mTitlesFragment = new TitlesFragment();
 	private final QuoteFragment mDetailsFragment = new QuoteFragment();
-
+	public static final int UNSELECTED = -1;
 	private FragmentManager mFragmentManager;
 
 	@Override

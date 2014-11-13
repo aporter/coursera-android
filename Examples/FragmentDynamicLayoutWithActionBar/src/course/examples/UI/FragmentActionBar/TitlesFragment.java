@@ -57,7 +57,8 @@ public class TitlesFragment extends ListFragment {
 		setListAdapter(new ArrayAdapter<String>(getActivity(),
 				R.layout.list_item, QuoteViewerActivity.TitleArray));
 
-		if (mCurrIdx != -1) {
+		// If a title has already been selected in the past, reset the selection state now
+		if (mCurrIdx != QuoteViewerActivity.UNSELECTED) {
 			setSelection(mCurrIdx);
 		}
 	}
