@@ -1,4 +1,4 @@
-package course.examples.Maps.EarthQuakeMap;
+package course.examples.maps.earthquakemap;
 
 import java.io.IOException;
 import java.util.ArrayList;

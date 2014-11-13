@@ -1,4 +1,4 @@
-package course.examples.Maps.EarthQuakeMap;
+package course.examples.maps.earthquakemap;
 
 public class EarthQuakeRec {
 	private double lat, lng, magnitude;
