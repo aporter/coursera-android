@@ -74,7 +74,7 @@ public class DatabaseExampleActivity extends ListActivity {
 
 		values.clear();
 
-		values.put(DatabaseOpenHelper.ARTIST_NAME, "Ludwig von Beethoven");
+		values.put(DatabaseOpenHelper.ARTIST_NAME, "Ludwig van Beethoven");
 		mDbHelper.getWritableDatabase().insert(DatabaseOpenHelper.TABLE_NAME, null, values);
 	}
 
