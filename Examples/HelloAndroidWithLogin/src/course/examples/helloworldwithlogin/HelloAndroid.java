@@ -1,4 +1,4 @@
-package course.examples.helloWorldWithLogin;
+package course.examples.helloworldwithlogin;
 
 import android.app.Activity;
 import android.os.Bundle;

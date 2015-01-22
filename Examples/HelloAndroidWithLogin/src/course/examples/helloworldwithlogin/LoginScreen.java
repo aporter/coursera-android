@@ -1,4 +1,4 @@
-package course.examples.helloWorldWithLogin;
+package course.examples.helloworldwithlogin;
 
 import java.util.Random;
 
@@ -24,7 +24,6 @@ public class LoginScreen extends Activity {
         loginButton.setOnClickListener(new OnClickListener() {
 
             public void onClick(View v) {
-
                 if (checkPassword(uname.getText(), passwd.getText())) {
 
                     // Create an explicit Intent for starting the HelloAndroid
@@ -34,7 +33,6 @@ public class LoginScreen extends Activity {
 
                     // Use the Intent to start the HelloAndroid Activity
                     startActivity(helloAndroidIntent);
-
                 } else {
                     uname.setText("");
                     passwd.setText("");
