@@ -1,4 +1,4 @@
-package course.examples.HelloWorld.HelloWorld;
+package course.examples.helloworld;
 
 import android.app.Activity;
 import android.os.Bundle;
