@@ -1,11 +1,11 @@
-package course.examples.HelloWorld.HelloWorld.test;
+package course.examples.helloworld.test;
 
 // Taken from Hello Testing Tutorial
 // http://developer.android.com/resources/tutorials/testing/helloandroid_test.html
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.TextView;
-import course.examples.HelloWorld.HelloWorld.HelloAndroid;
+import course.examples.helloworld.HelloAndroid;
 
 public class HelloAndroidTest extends
 		ActivityInstrumentationTestCase2<HelloAndroid> {
@@ -15,7 +15,7 @@ public class HelloAndroidTest extends
 	private String resourceString;
 
 	public HelloAndroidTest() {
-		super("course.examples.HelloWorld.HelloWorld", HelloAndroid.class);
+		super("course.examples.helloworld", HelloAndroid.class);
 	}
 
 	@Override
@@ -23,9 +23,9 @@ public class HelloAndroidTest extends
 		super.setUp();
 		mActivity = this.getActivity();
 		mView = (TextView) mActivity
-				.findViewById(course.examples.HelloWorld.HelloWorld.R.id.textview);
+				.findViewById(course.examples.helloworld.R.id.textview);
 		resourceString = mActivity
-				.getString(course.examples.HelloWorld.HelloWorld.R.string.hello);
+				.getString(course.examples.helloworld.R.string.hello);
 	}
 
 	public void testPreconditions() {
