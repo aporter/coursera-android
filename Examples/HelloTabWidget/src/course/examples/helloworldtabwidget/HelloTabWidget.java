@@ -1,4 +1,4 @@
-package course.examples.HelloWorldTabWidget;
+package course.examples.helloworldtabwidget;
 
 import android.app.TabActivity;
 import android.content.Intent;
