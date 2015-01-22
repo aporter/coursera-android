@@ -1,4 +1,4 @@
-package course.examples.UI.MenuExample;
+package course.examples.helloandroidwithmenu;
 
 import android.app.Activity;
 import android.os.Bundle;
