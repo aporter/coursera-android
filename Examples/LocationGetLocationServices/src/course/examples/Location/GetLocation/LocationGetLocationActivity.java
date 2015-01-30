@@ -84,7 +84,7 @@ public class LocationGetLocationActivity extends Activity implements
 		// Update every 10 seconds
 		mLocationRequest.setInterval(POLLING_FREQ);
 
-		// Recieve updates no more often than every 2 seconds
+		// Receive updates no more often than every 2 seconds
 		mLocationRequest.setFastestInterval(FASTES_UPDATE_FREQ);
 
 	}
