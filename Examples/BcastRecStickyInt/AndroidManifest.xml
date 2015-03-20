@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.BroadcastReceiver.StickyIntent"
+    package="course.examples.broadcastreceiver.stickyintent"
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="13"
+    <uses-sdk android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.VIBRATE" >
@@ -14,7 +14,7 @@
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
-        <activity android:name=".StickyIntentBroadcastReceiverActivity" >
+        <activity android:name="course.examples.broadcastreceiver.stickyintent.StickyIntentBroadcastReceiverActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

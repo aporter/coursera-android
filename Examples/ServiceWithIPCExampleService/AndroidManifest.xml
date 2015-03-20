@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.Services.KeyService"
+    package="course.examples.services.keyservice"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
-    <permission android:name="course.examples.Services.KeyService.GEN_ID" >
+    <permission android:name="course.examples.services.keyservice.GEN_ID" >
     </permission>
 
     <application
@@ -17,11 +17,11 @@
  
         <service
             android:label="@string/app_name"
-            android:name=".KeyGeneratorImpl"
+            android:name="course.examples.services.keyservice.KeyGeneratorImpl"
             android:exported="true"
-            android:permission="course.examples.Services.KeyService.GEN_ID" >
+            android:permission="course.examples.services.keyservice.GEN_ID" >
             <intent-filter>
-                <action android:name="course.examples.Services.KeyCommon.KeyGenerator" />
+                <action android:name="course.examples.services.keycommon.KeyGenerator" />
             </intent-filter>
         </service>
     </application>

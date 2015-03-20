@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.Location.GetLocation"
+    package="course.examples.location.getlocationservices"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -20,7 +20,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".LocationGetLocationActivity"
+            android:name="course.examples.location.getlocationservices.LocationGetLocationActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

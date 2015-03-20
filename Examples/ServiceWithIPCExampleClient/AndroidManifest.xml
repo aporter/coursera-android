@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.Services.KeyClient"
+    package="course.examples.services.keyclient"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
-    <uses-permission android:name="course.examples.Services.KeyService.GEN_ID" />
+    <uses-permission android:name="course.examples.services.keyservice.GEN_ID" />
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher" >
         <activity
-            android:name=".KeyServiceUser"
+            android:name="course.examples.services.keyclient.KeyServiceUser"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

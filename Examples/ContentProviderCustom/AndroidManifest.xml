@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.ContentProviders.StringContentProvider"
+    package="course.examples.contentproviders.stringcontentprovider"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <permission android:name="course.examples.ContentProviders.StringContentProvider.PERMISSION" >
@@ -16,7 +16,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <provider
-            android:name="course.examples.ContentProviders.StringContentProvider.StringsContentProvider"
+            android:name="course.examples.contentproviders.stringcontentprovider.StringsContentProvider"
             android:authorities="course.examples.ContentProviders.StringContentProvider"
             android:exported="true"
             android:permission="course.examples.ContentProviders.StringContentProvider.PERMISSION" >

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.Services.LocalLoggingService"
+    package="course.examples.services.localloggingservice"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
-    <uses-permission android:name="course.examples.Services.LoggingServiceWithMessenger.PERMISSION" />
+    <uses-permission android:name="course.examples.services.localloggingservice.PERMISSION" />
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".LoggingServiceClient"
+            android:name="course.examples.services.localloggingservice.LoggingServiceClient"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".LoggingService" />
+        <service android:name="course.examples.services.localloggingservice.LoggingService" />
     </application>
 
 </manifest>

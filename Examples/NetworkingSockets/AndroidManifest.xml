@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.Networking.Sockets"
+    package="course.examples.networking.sockets"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-       android:minSdkVersion="13"
+       android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" >
@@ -16,7 +16,7 @@
         android:label="@string/app_name" 
         android:allowBackup="false">
         <activity
-            android:name=".NetworkingSocketsActivity"
+            android:name="course.examples.networking.sockets.NetworkingSocketsActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

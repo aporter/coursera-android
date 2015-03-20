@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.UI.Spinner"
+    package="course.examples.ui.spinner"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <application
@@ -13,7 +13,7 @@
         android:label="@string/app_name" 
         android:allowBackup="false">
         <activity
-            android:name=".SpinnerActivity"
+            android:name="course.examples.ui.spinner.SpinnerActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

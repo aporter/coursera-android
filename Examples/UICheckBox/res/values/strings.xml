@@ -2,6 +2,6 @@
 <resources>
     <string name="checkbox_string">This is a checkbox</string>
     <string name="app_name">UICheckBox</string>
-    <string name="im_not_checked_string">I&amp;apos;m not checked</string>
+    <string name="im_not_checked_string">I\'m not checked</string>
     <string name="hide_checkbox_string">Hide CheckBox</string>
 </resources>

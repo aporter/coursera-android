@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.examples.Bluetooth.SetupAndTransferData"
+    package="course.examples.bluetooth.setupandtransferdata"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:allowBackup="false" >
         <activity
-            android:name=".DataTransferActivity"
+            android:name="course.examples.bluetooth.setupandtransferdata.DataTransferActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShowDevices" >
+        <activity android:name="course.examples.bluetooth.setupandtransferdata.ShowDevices" >
         </activity>
     </application>
 
