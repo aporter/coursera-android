@@ -31,12 +31,12 @@ public class NotificationStatusBarWithCustomViewActivity extends Activity {
 
 	// Notification Sound and Vibration on Arrival
 	private Uri soundURI = Uri
-			.parse("android.resource://course.examples.Notification.StatusBarWithCustomView/"
+			.parse("android.resource://course.examples.notification.statusbarwithcustomview/"
 					+ R.raw.alarm_rooster);
 	private long[] mVibratePattern = { 0, 200, 200, 300 };
 
 	RemoteViews mContentView = new RemoteViews(
-			"course.examples.Notification.StatusBarWithCustomView",
+			"course.examples.notification.statusbarwithcustomview",
 			R.layout.custom_notification);
 
 	@Override
