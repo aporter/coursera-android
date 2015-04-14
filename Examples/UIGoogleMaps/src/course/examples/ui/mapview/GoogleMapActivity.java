@@ -3,6 +3,12 @@ package course.examples.ui.mapview;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 // This applications requires several set up steps. 
 // See https://developers.google.com/maps/documentation/android/start for more information
 	
