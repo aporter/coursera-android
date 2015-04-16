@@ -39,8 +39,8 @@ public class AudioRecordingActivity extends Activity {
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
 
-				// Set checked state
-				mRecordButton.setEnabled(!isChecked);
+				// Set enabled state
+				mPlayButton.setEnabled(!isChecked);
 
 				// Start/stop recording
 				onRecordPressed(isChecked);
@@ -55,7 +55,7 @@ public class AudioRecordingActivity extends Activity {
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
 
-				// Set checked state
+				// Set enabled state
 				mRecordButton.setEnabled(!isChecked);
 
 				// Start/stop playback
@@ -139,14 +139,12 @@ public class AudioRecordingActivity extends Activity {
 
 	// Stop playback. Release resources
 	private void stopPlaying() {
-
 		if (null != mPlayer) {
 			if (mPlayer.isPlaying())
 				mPlayer.stop();
 			mPlayer.release();
 			mPlayer = null;
 		}
-
 	}
 
 	// Listen for Audio Focus changes
@@ -159,7 +157,7 @@ public class AudioRecordingActivity extends Activity {
 				mAudioManager.abandonAudioFocus(afChangeListener);
 
 				// Stop playback, if necessary
-				if (mPlayer.isPlaying())
+				if (null != mPlayer && mPlayer.isPlaying())
 					stopPlaying();
 			}
 
