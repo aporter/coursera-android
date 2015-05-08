@@ -11,6 +11,7 @@
                android:layout_width="44dp"
                android:layout_height="44dp"
                android:layout_marginRight="10dp"
+               android:layout_marginEnd="10dp"
                android:src="@drawable/fire_eye_alien"
                android:layout_centerVertical="true"
                android:contentDescription="@string/eyeball_string"
@@ -22,6 +23,7 @@
               android:text="@string/toast_string"
               android:layout_centerVertical="true"
               android:layout_toRightOf="@id/image"
+              android:layout_toEndOf="@id/image"
               android:textSize="32sp"
               />
 </RelativeLayout>
