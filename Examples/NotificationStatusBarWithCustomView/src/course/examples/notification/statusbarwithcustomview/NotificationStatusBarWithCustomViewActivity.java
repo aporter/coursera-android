@@ -36,7 +36,7 @@ public class NotificationStatusBarWithCustomViewActivity extends Activity {
 	private long[] mVibratePattern = { 0, 200, 200, 300 };
 
 	RemoteViews mContentView = new RemoteViews(
-			"course.examples.Notification.StatusBarWithCustomView",
+			"course.examples.notification.statusbarwithcustomview",
 			R.layout.custom_notification);
 
 	@Override
