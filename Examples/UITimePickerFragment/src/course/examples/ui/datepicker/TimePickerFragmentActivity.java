@@ -35,10 +35,10 @@ public class TimePickerFragmentActivity extends Activity implements
 		mPickTime.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 
-				// Create a new DatePickerFragment
+				// Create a new TimePickerFragment
 				DialogFragment newFragment = new TimePickerFragment();
 
-				// Display DatePickerFragment
+				// Display TimePickerFragment
 				newFragment.show(getFragmentManager(), "TimePicker");
 			}
 		});
