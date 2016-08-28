@@ -26,6 +26,10 @@ public class QuoteViewerActivity extends Activity implements ListSelectionListen
 		
 		setContentView(R.layout.main);
 
+		if(savedInstanceState != null) {
+			return;
+		}
+
 		// Get a reference to the FragmentManager
 		FragmentManager fragmentManager = getFragmentManager();
 		
