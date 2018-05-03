@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GraphicsShapeDrawXML</string>
+   	<string name="magenta_circle"> Magenta Circle </string>
+    <string name="cyan_circle">Cyan Circle</string>
+</resources>

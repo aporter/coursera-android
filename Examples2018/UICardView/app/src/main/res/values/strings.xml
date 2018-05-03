@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UICardView</string>
+    <string name="flag_image_content_desc_string">Flag Image</string>
+    <string name="location_string">Washington, D.C.,</string>
+    <string name="country_string">United States</string>
+    <string name="visited_on_string">Visited On: July 4, 1776</string>
+    <string name="location_coords_string">Location: (38.8977,-77.0366)</string>
+
+</resources>

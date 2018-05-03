@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GraphicsPaint</string>
+    <string name="text_literal">Text</string>
+    <string name="long_text">This is a lot of Text. This is even more Text.</string>
+</resources>

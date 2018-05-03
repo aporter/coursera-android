@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/accuracy_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accuracy_view"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:id="@+id/lat_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_view"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:id="@+id/lng_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lat_view"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/red" />
+
+</RelativeLayout>

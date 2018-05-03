@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SensorRawAccelerometer</string>
+    <string name="raw_y_string">Raw Y:</string>
+    <string name="raw_x_string">Raw X:</string>
+    <string name="raw_z_string">Raw Z:</string>
+</resources>

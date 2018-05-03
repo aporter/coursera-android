@@ -1,0 +1,8 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:contentDescription="@string/image_desc_string"
+    android:scaleType="fitXY">
+
+</ImageView>

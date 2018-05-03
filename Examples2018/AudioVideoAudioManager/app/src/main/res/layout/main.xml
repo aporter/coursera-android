@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Display4"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/down_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentStart="true"
+        android:text="@string/down_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:onClick="onDownButtonClick"/>
+
+    <Button
+        android:id="@+id/up_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/down_button"
+        android:layout_alignParentEnd="true"
+        android:text="@string/up_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:onClick="onUpButtonClick"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/up_button"
+        android:enabled="false"
+        android:text="@string/play_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white"
+        android:onClick="onPlayButtonClick"/>
+
+</RelativeLayout>

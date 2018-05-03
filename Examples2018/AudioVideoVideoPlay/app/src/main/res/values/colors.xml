@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="primary" tools:keep="@color/primary">#FF5722</color>
+    <color name="primary_dark" tools:keep="@color/primary_dark">#E64A19</color>
+    <color name="accent" tools:keep="@color/accent">#E64A19</color>
+    <color name="primary_text" tools:keep="@color/primary_text">#000000</color>
+    <color name="secondary_text" tools:keep="@color/secondary_text">#727272</color>
+    <color name="edit_text" tools:keep="@color/edit_text">#202020</color>
+    <color name="white" tools:keep="@color/white">#FFFFFF</color>
+
+</resources>

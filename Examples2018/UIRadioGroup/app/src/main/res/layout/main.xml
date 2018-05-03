@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/content_area_space"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/choice1"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClickCallback"
+            android:text="@string/choice_1_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+        <RadioButton
+            android:id="@+id/choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClickCallback"
+            android:text="@string/choice_2_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+        <RadioButton
+            android:id="@+id/choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClickCallback"
+            android:text="@string/choice_3_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+    </RadioGroup>
+
+</LinearLayout>

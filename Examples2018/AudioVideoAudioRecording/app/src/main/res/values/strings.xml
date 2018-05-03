@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioVideoAudioRecording</string>
+    <string name="stop_recording_string">Stop Recording</string>
+    <string name="start_recording_string">Start Recording</string>
+    <string name="start_playback_string">Start Playback</string>
+    <string name="stop_playback_string">Stop Playback</string>
+    <string name="need_perms_string">This app needs mPermissions to capture and save audio recordings</string>
+</resources>

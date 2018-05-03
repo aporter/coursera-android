@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indigo">#FF3F51B5</color>
+    <color name="light_indigo">#e8eaf6</color>
+    <color name="dark_indigo">#FF303F9F</color>
+    <color name="pink">#FFFF4081</color>
+    <color name="black_text_87">#DE000000</color>
+    <color name="black_text_54">#8A000000</color>
+    <color name="indigo_300">#7986cb</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloAndroidWithMenus</string>
+    <string name="help">Help</string>
+    <string name="more_help">Help!</string>
+    <string name="even_more_help">Help!!</string>
+    <string name="guide">Hit the Menu Button!</string>
+    <string name="give_up">There is no more help!</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="helped_string">you\'ve been helped</string>
+    <string name="helped_more_string">you\'ve been helped more</string>
+    <string name="context_menu_shown_string">ContextMenu Shown</string>
+
+</resources>

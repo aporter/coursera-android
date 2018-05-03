@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="course.examples.contentproviders.stringcontentprovider">
+
+    <permission
+        android:name="course.examples.contentproviders.stringcontentprovider.PERMISSION"
+        android:description="@string/app_name"
+        android:label="@string/app_name"
+        android:protectionLevel="dangerous" />
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MaterialTheme">
+        <provider
+            android:name=".StringsContentProvider"
+            android:authorities="course.examples.contentproviders.stringcontentprovider"
+            android:exported="true"
+            android:enabled="true"
+            android:permission="course.examples.contentproviders.stringcontentprovider.PERMISSION" />
+
+        <activity
+            android:name=".DisplayActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

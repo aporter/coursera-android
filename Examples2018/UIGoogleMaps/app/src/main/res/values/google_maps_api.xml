@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+    See this page for more information:
+    https://developers.google.com/maps/documentation/android/start#get_an_android_certificate_and_the_google_maps_api_key
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    Note: This resource is used for the release build target. You likely only want to update the string
+    in the debug/.../google_maps_api.xml instead if you just want to run this app.
+    (This file is used for the release target that uses the release key store.)
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyA1J05AQTnbdnVJ2QlmHBJ-8OArECG-fYs
+    </string>
+</resources>

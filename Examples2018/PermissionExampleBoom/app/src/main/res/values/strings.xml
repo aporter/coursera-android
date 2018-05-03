@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PermissionExampleBoom</string>
+    <string name="boom_string">BOOM!</string>
+    <string name="boom_perm_string">Goes BOOM. Malicious applications can cause the dynamite to GO BOOM!</string>
+    <string name="boom_permission_label_string">Boom Permission</string>
+
+</resources>

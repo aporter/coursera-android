@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NetworkingXML</string>
+    <string name="load_data_string">Load Data</string>
+
+</resources>

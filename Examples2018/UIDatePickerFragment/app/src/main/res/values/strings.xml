@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIDatePickerFragment</string>
+    <string name="change_the_date_string">Change the date</string>
+    <string name="no_date_selected_string">No Date Selected</string>
+</resources>

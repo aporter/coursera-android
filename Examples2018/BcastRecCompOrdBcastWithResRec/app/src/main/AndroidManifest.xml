@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="course.examples.broadcastreceiver.resultreceiver"
+ >
+
+
+    <application
+        android:allowBackup="false"
+        android:theme="@style/MaterialTheme"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="CompoundOrderedBroadcastWithResultReceiver"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="course.examples.broadcastreceiver.resultreceiver.Receiver2"
+            android:exported="false" >
+            <intent-filter android:priority="1" >
+                <action android:name="course.examples.broadcastreceiver.resultreceiver.SHOW_TOAST" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="course.examples.broadcastreceiver.resultreceiver.Receiver3"
+            android:exported="false" >
+            <intent-filter android:priority="10" >
+                <action android:name="course.examples.broadcastreceiver.resultreceiver.SHOW_TOAST" >
+                </action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

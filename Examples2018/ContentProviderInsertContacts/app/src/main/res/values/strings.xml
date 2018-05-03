@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContentProviderInsertContacts</string>
+    <string name="insert_contacts_string">Insert Contacts</string>
+    <string name="need_perms_string">This app requires permission to read your contacts</string>
+</resources>

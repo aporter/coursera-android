@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Outermost  LinearLayout with vertical orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/divider"
+    android:orientation="vertical">
+
+    <!--
+     Inner LinearLayout with horizontal orientation
+		and layout weight of 1 out of 4
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_red"
+            android:gravity="center"
+            android:text="@string/red_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white"
+            tools:ignore="NestedWeights" />
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_green"
+            android:gravity="center"
+            android:text="@string/green_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white" />
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_blue"
+            android:gravity="center"
+            android:text="@string/blue_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white" />
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_yellow"
+            android:gravity="center"
+            android:text="@string/yellow_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!--
+     Inner LinearLayout with vertical orientation
+		and layout weight of 3 out of 4
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_red"
+            android:gravity="center_vertical"
+            android:padding="@dimen/activity_margin"
+            android:text="@string/row_one_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white"
+            tools:ignore="NestedWeights" />
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_green"
+            android:gravity="center_vertical"
+            android:padding="@dimen/activity_margin"
+            android:text="@string/row_two_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white" />
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_blue"
+            android:gravity="center_vertical"
+            android:padding="@dimen/activity_margin"
+            android:text="@string/row_three_string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white" />
+
+        <!-- TextView with layout weight of 1 out of 4 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_weight="1"
+            android:background="@color/color_yellow"
+            android:gravity="center_vertical"
+            android:padding="@dimen/activity_margin"
+            android:text="@string/row_four__string"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

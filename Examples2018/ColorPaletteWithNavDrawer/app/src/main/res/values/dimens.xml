@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="color_name_right_padding">16dp</dimen>
+    <dimen name="basic_margin">8dp</dimen>
+    <dimen name="nav_drawer_width">150dp</dimen>
+    <dimen name="title_strip_padding">4dp</dimen>
+</resources>

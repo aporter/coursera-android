@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/bubble_width"
+        android:layout_height="@dimen/bubble_width"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/bubble_desc"
+        android:src="@drawable/b512"
+        android:tint="@android:color/white"/>
+
+</RelativeLayout>

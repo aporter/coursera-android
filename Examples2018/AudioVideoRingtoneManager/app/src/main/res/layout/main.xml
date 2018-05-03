@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <Button
+        android:id="@+id/ringtone_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:onClick="onClickRingtoneButton"
+        android:text="@string/ringtone_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/notif_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ringtone_button"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:onClick="onClickNotifButton"
+        android:text="@string/notification_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notif_button"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:onClick="onClickAlarmButton"
+        android:text="@string/alarm_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/cyan_shape"
+        android:right="@dimen/image_padding" />
+    <item
+        android:drawable="@drawable/magenta_shape"
+        android:left="@dimen/image_padding" />
+
+</transition>

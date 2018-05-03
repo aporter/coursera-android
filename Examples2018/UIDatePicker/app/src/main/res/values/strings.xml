@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIDatePicker</string>
+    <string name="change_the_date_string">Change the date</string>
+</resources>

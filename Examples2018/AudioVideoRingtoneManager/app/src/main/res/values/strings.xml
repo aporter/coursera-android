@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AudioVideoRingtoneManager</string>
+    <string name="ringtone_string">Ringtone</string>
+    <string name="notification_string">Notification</string>
+    <string name="alarm_string">Alarm</string>
+
+</resources>

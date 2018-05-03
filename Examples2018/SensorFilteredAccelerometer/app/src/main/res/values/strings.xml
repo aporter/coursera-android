@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SensorFilteredAccelerometer</string>
+    <string name="raw_x_string">Raw X:</string>
+    <string name="raw_y_string">Raw Y:</string>
+    <string name="raw_z_string">Raw Z:</string>
+    <string name="lowpass_x_string">LowPass X</string>
+    <string name="lowpass_y_string">LowPass Y:</string>
+    <string name="lowpass_z_string">LowPass Z:</string>
+    <string name="highpass_x_string">HighPass X</string>
+    <string name="highpass_y_string">HighPass Y:</string>
+    <string name="highpass_z_string">HighPass Z:</string>
+</resources>

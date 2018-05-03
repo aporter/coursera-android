@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlarmCreate</string>
+    <string name="set_single_alarm">Set Single Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="cancel_repeating_alarm">Cancel Repeating Alarm</string>
+    <string name="channel_name">AlarmCreate Notification Channel</string>
+    <string name="channel_description">Notification channel for AlarmCreate</string>
+    <string name="sending_not_string">Sending notification at:</string>
+    <string name="logging_at_string">Logging alarm at:</string>
+</resources>

@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="title_strip_padding">4dp</dimen>
+</resources>

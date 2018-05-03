@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    android:stretchColumns="1">
+
+    <!-- First row -->
+    <TableRow>
+
+        <!-- start in column 1 -->
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/open_string"
+            android:textSize="16sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="@string/ctrl_o_string"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/save_string"
+            android:textSize="16sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="@string/ctrl_s_string"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/save_as_string"
+            android:textSize="16sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="@string/ctrl_shift_s_string"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+    <!-- Create a divider -->
+    <View
+        android:layout_height="2dp"
+        android:background="@color/divider" />
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dp"
+            android:text="@string/x_string"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="3dp"
+            android:text="@string/import_string"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dp"
+            android:text="@string/x_string"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="3dp"
+            android:text="@string/export_string"
+            android:textSize="16sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="@string/ctrl_e_string"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dp"
+        android:background="@color/divider" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/quit_string"
+            android:textSize="16sp" />
+    </TableRow>
+
+</TableLayout>

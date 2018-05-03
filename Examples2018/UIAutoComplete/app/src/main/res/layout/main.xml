@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/autocomplete_country"
+        android:paddingEnd="@dimen/content_area_space"
+        android:paddingStart="@dimen/content_area_space"
+        android:text="@string/country_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview"
+        android:layout_toEndOf="@id/textview"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+</RelativeLayout>

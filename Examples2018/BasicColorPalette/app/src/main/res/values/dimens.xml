@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="basic_margin">16dp</dimen>
+    <dimen name="content_margin">8dp</dimen>
+    <dimen name="color_name_height" tools:keep="@dimen/color_name_height">64dp</dimen>
+    <dimen name="color_name_padding" tools:keep="@dimen/color_name_padding">16dp</dimen>
+    <dimen name="color_block_height">64dp</dimen>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContentProviderCustomUser</string>
+    <string name="need_perms_string">This app requires permission to access content provider</string>
+</resources>

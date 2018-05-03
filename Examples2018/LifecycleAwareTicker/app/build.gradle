@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "examples.course.lifecycleawareticker"
+        minSdkVersion 26
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dependencies {
+        compile 'android.arch.lifecycle:common-java8:1.0.0-beta2'
+        compile 'android.arch.lifecycle:extensions:1.0.0-beta2'
+        compile 'android.arch.lifecycle:runtime:1.0.0'
+        compile 'com.android.support:appcompat-v7:26.1.0'
+
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <Button
+        android:id="@+id/single_alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickButton"
+        android:text="@string/set_single_alarm"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/repeating_alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/single_alarm_button"
+        android:onClick="onClickRepButton"
+        android:text="@string/set_repeating_alarm"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/cancel_repeating_alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repeating_alarm_button"
+        android:onClick="onClickCancelRepButton"
+        android:text="@string/cancel_repeating_alarm"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

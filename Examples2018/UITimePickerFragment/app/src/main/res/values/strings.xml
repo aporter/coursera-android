@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UItimePickerFragment</string>
+    <string name="change_the_time_string">Change the Time</string>
+    <string name="no_time_selected_string">No Time Selected</string>
+</resources>

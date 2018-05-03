@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"
+    android:alpha="0.87 "
+    android:elevation="2dp"
+    card_view:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/flag_image"
+            android:layout_width="240dp"
+            android:layout_height="128dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:background="@android:color/black"
+            android:contentDescription="@string/flag_image_content_desc_string"
+            android:elevation="2dp"
+            android:scaleType="fitXY"
+            android:transitionName="flag_image" />
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignStart="@+id/flag_image"
+            android:layout_below="@+id/flag_image"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2"
+            android:textColor="@color/black_text_87" />
+
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/place_name"
+            android:layout_toEndOf="@id/place_name"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2"
+            android:textColor="@color/black_text_87" />
+
+        <TextView
+            android:id="@+id/date_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/flag_image"
+            android:layout_below="@id/place_name"
+            android:layout_gravity="start"
+            android:textAppearance="@android:style/TextAppearance.Material.Caption"
+            android:textColor="@color/black_text_54" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/flag_image"
+            android:layout_below="@id/date_string"
+            android:layout_gravity="start"
+            android:textAppearance="@android:style/TextAppearance.Material.Caption"
+            android:textColor="@color/black_text_54" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

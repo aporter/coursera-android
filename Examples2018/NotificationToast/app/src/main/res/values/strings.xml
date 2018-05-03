@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotificationToast</string>
+    <string name="show_toast_string">Show Toast</string>
+    <string name="youre_toast_string">You\'re Toast!</string>
+</resources>

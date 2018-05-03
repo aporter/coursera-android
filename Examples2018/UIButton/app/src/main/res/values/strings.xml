@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIButton</string>
+    <string name="press_me_string">Press Me!</string>
+    <string name="got_pressed_string">Got Pressed:%1d</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_height">64dp</dimen>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="text_padding">8dp</dimen>
+</resources>

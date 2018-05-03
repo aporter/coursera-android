@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DataManagementSharedPreference</string>
+    <string name="play_string">Play</string>
+    <string name="highscore_string">&quot;HighScore: &quot;</string>
+    <string name="reset_string">Reset</string>
+</resources>
