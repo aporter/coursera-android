@@ -1,0 +1,4 @@
+#Fri Jul 26 15:59:51 EDT 2019
+base.0=/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/HelloWorld/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out
+path.0=classes.dex
+renamed.0=classes.dex
