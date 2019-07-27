@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,5,6",
+                        "startColumns": "4,0,0,0,0",
+                        "startOffsets": "136,51,89,173,216",
+                        "endColumns": "40,37,42,42,44",
+                        "endOffsets": "172,88,131,215,260"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,96,138,185,232",
+                        "endColumns": "40,41,46,46,48",
+                        "endOffsets": "91,133,180,227,276"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "474"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "535",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "954"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "127",
+                        "endColumns": "46",
+                        "endOffsets": "169"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "281",
+                        "endColumns": "46",
+                        "endOffsets": "323"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,5,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,199,103",
+                        "endColumns": "46,63,95",
+                        "endOffsets": "98,258,194"
+                    },
+                    "to": {
+                        "startLines": "8,9,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "328,375,439",
+                        "endColumns": "46,63,95",
+                        "endOffsets": "370,434,530"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/res/merged/debug/layout_answer_layout.xml.flat",
+        "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/layout/answer_layout.xml"
+    },
+    {
+        "merged": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="28"
+    build-mode="HOT_WARM"
+    density="440dpi"
+    format="10"
+    plugin-version="3.4.2"
+    timestamp="1564259759766"
+    token="63481464822713660"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="17" />
+    <task
+        name="instant-run-transform"
+        duration="14" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        build-mode="FULL"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1564259365292"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1564259447887"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1564259524189"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/builds/debug/1564259524189/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1564259724473"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/builds/debug/1564259724473/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1564259759766"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

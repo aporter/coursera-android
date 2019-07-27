@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFC107</color>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_text">#ffffff</color>
+    <color name="secondary_text">#727272</color>
+    <dimen name="activity_margin">16dp</dimen>
+    <string name="app_name">TheAnswer</string>
+    <string name="never_know_string">We may never know</string>
+    <string name="question_string">The answer to life, the universe and everything is:</string>
+    <style name="MaterialTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+</resources>

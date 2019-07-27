@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TheAnswer</string>
+    <string name="question_string">The answer to life, the universe and everything is:</string>
+    <string name="never_know_string">We may never know</string>
+
+</resources>
