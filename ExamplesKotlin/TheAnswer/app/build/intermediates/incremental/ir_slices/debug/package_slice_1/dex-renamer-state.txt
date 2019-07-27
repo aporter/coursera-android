@@ -1,4 +1,0 @@
-#Sat Jul 27 16:30:49 EDT 2019
-base.0=/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/TheAnswer/app/build/intermediates/transforms/dexMerger/debug/1
-path.0=classes.dex
-renamed.0=classes.dex

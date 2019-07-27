@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Fri Jul 26 15:59:51 EDT 2019
-0.baseType=DIRECTORY
-0.base=/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/HelloWorld/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out
-0.path=classes.dex
-0.set=DEX
-count=1
