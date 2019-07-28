@@ -17,9 +17,9 @@ class MapLocation : Activity() {
         const val TAG = "MapLocation"
     }
 
-    // Initialize UI elements
-    private val addrText: EditText by lazy { findViewById(R.id.location) }
-    private val button: Button by lazy { findViewById(R.id.mapButton) }
+    // UI elements
+    private lateinit var addrText: EditText
+    private lateinit var button: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +32,10 @@ class MapLocation : Activity() {
 
         // Set content view
         setContentView(R.layout.main)
+
+        // Initialize UI elements
+        addrText = findViewById(R.id.location)
+        button = findViewById(R.id.mapButton)
 
         // Link UI elements to actions in code
         button.setOnClickListener { processClick() }
