@@ -17,6 +17,11 @@ class MapLocation : Activity() {
         const val TAG = "MapLocation"
     }
 
+    // Initialize UI elements
+    private val addrText: EditText by lazy { findViewById(R.id.location) }
+    private val button: Button by lazy { findViewById(R.id.mapButton) }
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         /*
@@ -28,9 +33,6 @@ class MapLocation : Activity() {
         // Set content view
         setContentView(R.layout.main)
 
-        // Initialize UI element
-        val button = findViewById<Button>(R.id.mapButton)
-
         // Link UI elements to actions in code
         button.setOnClickListener { processClick() }
 
@@ -40,9 +42,6 @@ class MapLocation : Activity() {
 
     private fun processClick() {
         try {
-
-            // Initialize UI element
-            val addrText = findViewById<EditText>(R.id.location)
 
             // Process text for network transmission
             var address = addrText.text.toString()
