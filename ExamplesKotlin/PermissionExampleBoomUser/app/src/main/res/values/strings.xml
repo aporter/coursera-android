@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PermissionExampleBoomUser</string>
+    <string name="dangerous_action_button_string">Detonate</string>
+    <string name="need_permission_string">This app cannot detonate without your permission.</string>
+
+</resources>
