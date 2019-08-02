@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIViewPager</string>
+    <string name="image_desc_string">Image</string>
+
+</resources>
