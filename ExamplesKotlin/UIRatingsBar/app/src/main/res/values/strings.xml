@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIRatingsBar</string>
+    <string name="rating_string">Rating:%1.1f</string>
+</resources>
