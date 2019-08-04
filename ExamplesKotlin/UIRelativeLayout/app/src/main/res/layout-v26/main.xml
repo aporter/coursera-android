@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <!-- Note the use of android:hint to put explanatory text in the EditText  -->
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_here_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:inputType="textPersonName"
+        android:autofillHints="username" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/entry"
+        android:text="@string/ok_string"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:onClick="okButtonClicked"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ok_button"
+        android:layout_toStartOf="@id/ok_button"
+        android:text="@string/cancel_string"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:onClick="cancelButtonClicked"/>
+
+</RelativeLayout>
