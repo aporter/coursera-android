@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIGoogleMaps</string>
+    <string name="in_mexico_string">Estoy en México</string>
+    <string name="in_washington_string">I\'m at the Washington Monument</string>
+</resources>
