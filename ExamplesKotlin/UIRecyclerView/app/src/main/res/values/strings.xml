@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIRecyclerView</string>
+
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+        <item>Aqua</item>
+        <item>Black</item>
+        <item>Fuchsia</item>
+        <item>Gray</item>
+        <item>Lime</item>
+        <item>Maroon</item>
+        <item>Navy</item>
+        <item>Olive</item>
+        <item>Purple</item>
+        <item>Silver</item>
+        <item>Teal</item>
+        <item>White</item>
+    </string-array>
+
+</resources>
