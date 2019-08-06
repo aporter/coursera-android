@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toast_layout_root"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/activity_margin"
+              android:background="@color/accent"
+    tools:ignore="Overdraw">
+    <ImageView android:id="@+id/image"
+               android:layout_width="88dp"
+               android:layout_height="88dp"
+               android:layout_marginEnd="@dimen/activity_margin"
+               android:src="@drawable/fire_eye_alien"
+               android:layout_centerVertical="true"
+               android:contentDescription="@string/eyeball_string"
+               />
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/toast_string"
+              android:layout_centerVertical="true"
+              android:layout_toEndOf="@id/image"
+              android:textAppearance="@android:style/TextAppearance.Material.Display1"
+              />
+</RelativeLayout>
