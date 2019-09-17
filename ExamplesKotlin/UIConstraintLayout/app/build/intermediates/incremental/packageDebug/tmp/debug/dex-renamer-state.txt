@@ -1,7 +1,0 @@
-#Tue Sep 17 10:22:20 EDT 2019
-base.0=/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
