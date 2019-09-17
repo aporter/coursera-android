@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.ui.linearlayout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:8:5-23:19
+12        android:allowBackup="false"
+12-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:12:9-36
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:9:9-43
+15        android:label="@string/app_name"
+15-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:11:9-41
+16        android:testOnly="true"
+17        android:theme="@style/MaterialTheme" >
+17-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:10:9-45
+18        <activity
+18-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:14:9-22:20
+19            android:name="course.examples.ui.linearlayout.LinearLayoutActivity"
+19-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:15:13-80
+20            android:label="@string/app_name" >
+20-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:16:13-45
+21            <intent-filter>
+21-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:17:13-21:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:18:17-69
+22-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:18:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:20:17-77
+24-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/UIConstraintLayout/app/src/main/AndroidManifest.xml:20:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>
