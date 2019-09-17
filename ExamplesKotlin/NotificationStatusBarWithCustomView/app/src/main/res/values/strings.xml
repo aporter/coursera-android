@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotificationStatusBarWithCustomView</string>
+    <string name="eye_desc_string">Eye</string>
+    <string name="notify_string">Notify</string>
+    <string name="intent_received_string">Got The Intent</string>
+    <string name="channel_name">NotificationChannel</string>
+    <string name="channel_description">Notification channel for this app</string>
+</resources>
