@@ -22,16 +22,14 @@ class ViewAndUpdatePreferencesActivity : AppCompatActivity() {
 
     // Fragment that displays the username preference
     class UserPreferenceFragment : PreferenceFragmentCompat() {
+
+        private lateinit var mListener: OnSharedPreferenceChangeListener
+        private lateinit var mUserNamePreference: Preference
+
         override fun onCreatePreferences(p0: Bundle?, p1: String?) {
-
-              // Load the preferences from an XML resource     
-              addPreferencesFromResource(R.xml.user_prefs)
-
-
+            // Load the preferences from an XML resource
+            addPreferencesFromResource(R.xml.user_prefs)
         }
-
-        private var mListener: OnSharedPreferenceChangeListener? = null
-        private var mUserNamePreference: Preference? = null
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
@@ -41,22 +39,21 @@ class ViewAndUpdatePreferencesActivity : AppCompatActivity() {
                 .findPreference(USERNAME)
 
             // Attach a listener to update summary when username changes
-            mListener = OnSharedPreferenceChangeListener { sharedPreferences, key ->
-                mUserNamePreference!!.summary = sharedPreferences.getString(
+            mListener = OnSharedPreferenceChangeListener { sharedPreferences, _ ->
+                mUserNamePreference.summary = sharedPreferences.getString(
                     USERNAME, "None Set"
                 )
             }
 
             // Get SharedPreferences object managed by the PreferenceManager for
             // this Fragment
-            val prefs = preferenceManager
-                .sharedPreferences
+            val prefs = preferenceManager.sharedPreferences
 
             // Register a listener on the SharedPreferences object
             prefs.registerOnSharedPreferenceChangeListener(mListener)
 
             // Invoke callback manually to display the current username
-            mListener!!.onSharedPreferenceChanged(prefs, USERNAME)
+            mListener.onSharedPreferenceChanged(prefs, USERNAME)
 
         }
     }

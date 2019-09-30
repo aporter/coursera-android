@@ -24,9 +24,7 @@ class ExternalFileWriteReadActivity : Activity() {
 
             val fileName = "painter.png"
             val outFile = File(
-                getExternalFilesDir(Environment.DIRECTORY_PICTURES),
-                fileName
-            )
+                getExternalFilesDir(Environment.DIRECTORY_PICTURES), fileName)
 
             if (!outFile.exists())
                 copyImageToMemory(outFile)

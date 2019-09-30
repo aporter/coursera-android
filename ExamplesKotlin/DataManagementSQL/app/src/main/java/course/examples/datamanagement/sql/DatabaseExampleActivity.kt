@@ -105,9 +105,7 @@ class DatabaseExampleActivity : ListActivity() {
 
     // Delete all records
     private fun clearAll() {
-
         mDbHelper.writableDatabase.delete(DatabaseOpenHelper.TABLE_NAME, null, null)
-
     }
 
     // Close database
