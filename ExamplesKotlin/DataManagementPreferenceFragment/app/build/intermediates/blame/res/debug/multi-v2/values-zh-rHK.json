@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/e1567367eeb68d692b5d7c70f20e9333/support-compat-28.0.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "2827",
+                        "endColumns": "100",
+                        "endOffsets": "2923"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/d8dbc48720ab367d16710d1d4900d452/appcompat-v7-28.0.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1110,1206,1302,1396,1492,1584,1676,1768,1846,1942,2038,2133,2230,2325,2423,2574,2668",
+                        "endColumns": "94,92,99,81,96,107,75,75,91,93,91,95,95,93,95,91,91,91,77,95,95,94,96,94,97,150,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1105,1201,1297,1391,1487,1579,1671,1763,1841,1937,2033,2128,2225,2320,2418,2569,2663,2741"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1110,1206,1302,1396,1492,1584,1676,1768,1846,1942,2038,2133,2230,2325,2423,2574,2749",
+                        "endColumns": "94,92,99,81,96,107,75,75,91,93,91,95,95,93,95,91,91,91,77,95,95,94,96,94,97,150,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1105,1201,1297,1391,1487,1579,1671,1763,1841,1937,2033,2128,2225,2320,2418,2569,2663,2822"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/84cc9fb758ce245d315e134f80158531/preference-v7-28.0.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,186,354,433",
+                        "endColumns": "80,167,78,75",
+                        "endOffsets": "181,349,428,504"
+                    },
+                    "to": {
+                        "startLines": "29,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2668,2928,3096,3175",
+                        "endColumns": "80,167,78,75",
+                        "endOffsets": "2744,3091,3170,3246"
+                    }
+                }
+            ]
+        }
+    ]
+}

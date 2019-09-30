@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/d8dbc48720ab367d16710d1d4900d452/appcompat-v7-28.0.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,1000,1093,1189,1283,1384,1477,1572,1667,1758,1849,1936,2043,2155,2257,2365,2472,2582,2744,2844",
+                        "endColumns": "119,105,106,88,100,117,82,79,90,92,95,93,100,92,94,94,90,90,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,995,1088,1184,1278,1379,1472,1567,1662,1753,1844,1931,2038,2150,2252,2360,2467,2577,2739,2839,2924"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,1000,1093,1189,1283,1384,1477,1572,1667,1758,1849,1936,2043,2155,2257,2365,2472,2582,2744,2931",
+                        "endColumns": "119,105,106,88,100,117,82,79,90,92,95,93,100,92,94,94,90,90,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,995,1088,1184,1278,1379,1472,1567,1662,1753,1844,1931,2038,2150,2252,2360,2467,2577,2739,2839,3011"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/84cc9fb758ce245d315e134f80158531/preference-v7-28.0.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,192,361,448",
+                        "endColumns": "86,168,86,80",
+                        "endOffsets": "187,356,443,524"
+                    },
+                    "to": {
+                        "startLines": "29,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2844,3117,3286,3373",
+                        "endColumns": "86,168,86,80",
+                        "endOffsets": "2926,3281,3368,3449"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/e1567367eeb68d692b5d7c70f20e9333/support-compat-28.0.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "3016",
+                        "endColumns": "100",
+                        "endOffsets": "3112"
+                    }
+                }
+            ]
+        }
+    ]
+}

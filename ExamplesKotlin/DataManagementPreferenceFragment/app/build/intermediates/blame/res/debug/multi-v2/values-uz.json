@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "map": [
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/84cc9fb758ce245d315e134f80158531/preference-v7-28.0.0/res/values-uz/values-uz.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,198,367,454",
+                        "endColumns": "92,168,86,78",
+                        "endOffsets": "193,362,449,528"
+                    },
+                    "to": {
+                        "startLines": "29,32,33,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2805,3083,3252,3339",
+                        "endColumns": "92,168,86,78",
+                        "endOffsets": "2893,3247,3334,3413"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/e1567367eeb68d692b5d7c70f20e9333/support-compat-28.0.0/res/values-uz/values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "2982",
+                        "endColumns": "100",
+                        "endOffsets": "3078"
+                    }
+                },
+                {
+                    "source": "/Users/aporter/.gradle/caches/transforms-2/files-2.1/d8dbc48720ab367d16710d1d4900d452/appcompat-v7-28.0.0/res/values-uz/values-uz.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,314,428,514,614,730,810,889,980,1073,1169,1263,1358,1451,1546,1641,1732,1824,1908,2017,2124,2225,2333,2438,2545,2706,2805",
+                        "endColumns": "104,103,113,85,99,115,79,78,90,92,95,93,94,92,94,94,90,91,83,108,106,100,107,104,106,160,98,83",
+                        "endOffsets": "205,309,423,509,609,725,805,884,975,1068,1164,1258,1353,1446,1541,1636,1727,1819,1903,2012,2119,2220,2328,2433,2540,2701,2800,2884"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,314,428,514,614,730,810,889,980,1073,1169,1263,1358,1451,1546,1641,1732,1824,1908,2017,2124,2225,2333,2438,2545,2706,2898",
+                        "endColumns": "104,103,113,85,99,115,79,78,90,92,95,93,94,92,94,94,90,91,83,108,106,100,107,104,106,160,98,83",
+                        "endOffsets": "205,309,423,509,609,725,805,884,975,1068,1164,1258,1353,1446,1541,1636,1727,1819,1903,2012,2119,2220,2328,2433,2540,2701,2800,2977"
+                    }
+                }
+            ]
+        }
+    ]
+}

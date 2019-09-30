@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.datamanagement.fileinternal" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml
+8
+9    <application
+9-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:6:5-21:19
+10        android:allowBackup="false"
+10-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:7:9-36
+11        android:debuggable="true"
+12        android:icon="@mipmap/ic_launcher"
+12-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:8:9-43
+13        android:label="@string/app_name"
+13-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:9:9-41
+14        android:testOnly="true"
+15        android:theme="@style/MaterialTheme" >
+15-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:10:9-45
+16        <activity
+16-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:12:9-19:20
+17            android:name="course.examples.datamanagement.fileinternal.InternalFileWriteReadActivity"
+17-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:13:13-58
+18            android:label="@string/app_name" >
+18-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:14:13-45
+19            <intent-filter>
+19-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:15:13-18:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:16:17-69
+20-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:16:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:17:17-77
+22-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileInternalMemory/app/src/main/AndroidManifest.xml:17:27-74
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>

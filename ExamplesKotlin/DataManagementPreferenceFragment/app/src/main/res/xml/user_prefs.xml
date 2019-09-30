@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.EditTextPreference
+        android:dialogMessage="@string/enter_user_name_string"
+        android:dialogTitle="@string/change_user_name_string"
+        android:key="uname"
+        android:negativeButtonText="@string/cancel_string"
+        android:positiveButtonText="@string/submit_string"
+        android:title="User Name" />
+</android.support.v7.preference.PreferenceScreen>

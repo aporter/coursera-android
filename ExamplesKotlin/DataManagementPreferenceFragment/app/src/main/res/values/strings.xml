@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DataManagementPreferenceFragment</string>
+    <string name="view_username_string">User Name</string>
+    <string name="enter_user_name_string">Enter Your User Name</string>
+    <string name="change_user_name_string">Change User Name</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="submit_string">Submit</string>
+</resources>

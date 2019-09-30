@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.datamanagement.preferencefragment" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml
+8
+9    <application
+9-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:6:5-22:19
+10        android:allowBackup="false"
+10-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:7:9-36
+11        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+11-->[com.android.support:support-compat:28.0.0] /Users/aporter/.gradle/caches/transforms-2/files-2.1/e1567367eeb68d692b5d7c70f20e9333/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+12        android:debuggable="true"
+13        android:icon="@mipmap/ic_launcher"
+13-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:8:9-43
+14        android:label="@string/app_name"
+14-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:9:9-41
+15        android:testOnly="true"
+16        android:theme="@style/MaterialTheme" >
+16-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:10:9-45
+17        <activity
+17-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:11:9-19:20
+18            android:name="course.examples.datamanagement.preferencefragment.PreferencesActivityExample"
+18-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:12:13-104
+19            android:label="@string/app_name" >
+19-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:13:13-45
+20            <intent-filter>
+20-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:14:13-18:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:15:17-69
+21-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:15:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:17:17-77
+23-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:17:27-74
+24            </intent-filter>
+25        </activity>
+26        <activity android:name="course.examples.datamanagement.preferencefragment.ViewAndUpdatePreferencesActivity" >
+26-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:20:9-21:20
+26-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementPreferenceFragment/app/src/main/AndroidManifest.xml:20:19-116
+27        </activity>
+28    </application>
+29
+30</manifest>

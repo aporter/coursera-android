@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.datamanagement.fileexternal" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+9-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:5:5-81
+9-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:5:22-78
+10
+11    <application
+11-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:7:5-21:19
+12        android:allowBackup="false"
+12-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:8:9-36
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:9:9-43
+15        android:label="@string/app_name"
+15-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:10:9-41
+16        android:testOnly="true"
+17        android:theme="@style/MaterialTheme" >
+17-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:11:9-45
+18        <activity
+18-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:12:9-20:20
+19            android:name="course.examples.datamanagement.fileexternal.ExternalFileWriteReadActivity"
+19-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:13:13-58
+20            android:label="@string/app_name" >
+20-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:14:13-45
+21            <intent-filter>
+21-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:15:13-19:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:16:17-69
+22-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:16:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:18:17-77
+24-->/Users/aporter/AndroidStudioProjects/CMSC436KotlinSampleCode/DataManagementFileExternalMemory/app/src/main/AndroidManifest.xml:18:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>

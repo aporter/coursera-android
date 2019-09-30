@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent">#536DFE</color>
+    <color name="divider" ns1:keep="@color/divider">#BDBDBD</color>
+    <color name="icons" ns1:keep="@color/icons">#FFFFFF</color>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light" ns1:keep="@color/primary_light">#FFCCBC</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <dimen name="activity_margin" ns1:keep="@dimen/activity_margin">16dp</dimen>
+    <string name="app_name">DataManagementFileInternalMemory</string>
+    <style name="MaterialTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:editTextColor">@color/secondary_text</item>
+        <item name="android:colorButtonNormal">@color/primary</item>
+    </style>
+</resources>
