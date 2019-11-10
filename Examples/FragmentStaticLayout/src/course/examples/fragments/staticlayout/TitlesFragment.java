@@ -56,7 +56,7 @@ public class TitlesFragment extends ListFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		Log.i(TAG, getClass().getSimpleName() + ":entered onCreate()");
+		Log.i(TAG, getClass().getSimpleName() + ":entered onCreateView()");
 		return super.onCreateView(inflater, container, savedInstanceState);
 	}
 
