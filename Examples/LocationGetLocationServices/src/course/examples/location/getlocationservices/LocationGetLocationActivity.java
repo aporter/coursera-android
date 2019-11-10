@@ -19,15 +19,15 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesClient;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.GooglePlayServicesUtil;
-import com.google.android.gms.location.LocationClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
 
 public class LocationGetLocationActivity extends Activity implements
-		GooglePlayServicesClient.ConnectionCallbacks,
-		GooglePlayServicesClient.OnConnectionFailedListener, LocationListener {
+		GoogleApiClient.ConnectionCallbacks,
+		GoogleApiClient.OnConnectionFailedListener, LocationListener {
 
 	private static final long ONE_MIN = 1000 * 60;
 	private static final long TWO_MIN = ONE_MIN * 2;
@@ -55,7 +55,7 @@ public class LocationGetLocationActivity extends Activity implements
 	private final String TAG = "LocationGetLocationActivity";
 
 	private boolean mFirstUpdate = true;
-	private LocationClient mLocationClient;
+	private GoogleApiClient mGoogleApiClient = null;
 	private Location mCurrentLocation;
 
 	@Override
@@ -73,7 +73,11 @@ public class LocationGetLocationActivity extends Activity implements
 		mLngView = (TextView) findViewById(R.id.lng_view);
 
 		// Create new Location Client. This class will handle callbacks
-		mLocationClient = new LocationClient(this, this, this);
+		mGoogleApiClient = new GoogleApiClient.Builder(this)
+				.addApi(LocationServices.API)
+				.addConnectionCallbacks(this)
+				.addOnConnectionFailedListener(this)
+				.build();
 
 		// Create and define the LocationRequest
 		mLocationRequest = LocationRequest.create();
@@ -94,17 +98,13 @@ public class LocationGetLocationActivity extends Activity implements
 		super.onStart();
 
 		// Connect to LocationServices
-		mLocationClient.connect();
+		mGoogleApiClient.connect();
 	}
 
 	@Override
 	protected void onStop() {
 
-		// Stop updates
-		mLocationClient.removeLocationUpdates(this);
-
-		// Disconnect from LocationServices
-		mLocationClient.disconnect();
+		mGoogleApiClient.disconnect();
 
 		super.onStop();
 	}
@@ -130,7 +130,7 @@ public class LocationGetLocationActivity extends Activity implements
 			updateDisplay(location);
 
 			if (mBestReading.getAccuracy() < MIN_ACCURACY)
-				mLocationClient.removeLocationUpdates(this);
+				LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
 
 		}
 	}
@@ -161,22 +161,28 @@ public class LocationGetLocationActivity extends Activity implements
 					|| mBestReading.getTime() < System.currentTimeMillis()
 							- TWO_MIN) {
 
-				mLocationClient.requestLocationUpdates(mLocationRequest, this);
+				LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
 				
 				// Schedule a runnable to unregister location listeners
-				Executors.newScheduledThreadPool(1).schedule(new Runnable() {
+				// TODO: fix passing listener into FusedLocationApi.removeLocationUpdates
+				/*Executors.newScheduledThreadPool(1).schedule(new Runnable() {
 
 					@Override
 					public void run() {
 
-						mLocationClient.removeLocationUpdates(LocationGetLocationActivity.this);
+						LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
 
 					}
-				}, MEASURE_TIME, TimeUnit.MILLISECONDS);
+				}, MEASURE_TIME, TimeUnit.MILLISECONDS);*/
 			}
 
 			}
 		}
+
+	@Override
+	public void onConnectionSuspended(int cause) {
+		//TODO
+	}
 
 	// Get the last known location from all providers
 	// return best reading is as accurate as minAccuracy and
@@ -189,7 +195,7 @@ public class LocationGetLocationActivity extends Activity implements
 		long bestTime = Long.MIN_VALUE;
 
 		// Get the best most recent location currently available
-		mCurrentLocation = mLocationClient.getLastLocation();
+		mCurrentLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
 
 		if (mCurrentLocation != null) {
 
@@ -213,13 +219,6 @@ public class LocationGetLocationActivity extends Activity implements
 		}
 	}
 
-
-	@Override
-	public void onDisconnected() {
-
-		Log.i(TAG, "Disconnected. Try again later.");
-
-	}
 
 	@Override
 	public void onConnectionFailed(ConnectionResult connectionResult) {
