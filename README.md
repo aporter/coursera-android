@@ -1,4 +1,4 @@
-coursera-android
+Coursera-Android
 ================
 
-Source Code for Android Course Example Applications
+Source Code for Android Course Example Applications.
