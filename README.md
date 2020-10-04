@@ -4,7 +4,7 @@ coursera-android
 Source Code for Android Course Example Applications , currently moving to Kotlin.
 
 FEATURES -
-  1. Course Certificate Geeration
+  1. Course Certificate Generation
   2. Simple and Fluid UI
   3. Ratings for every course
 
